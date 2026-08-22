@@ -3,8 +3,8 @@
 Chosen 2026-08-22. These are operating rules, not suggestions. Follow them on anything customer-facing.
 Full reasoning and the gap analysis live in `tools/brand-foundation.html`.
 
-**Scope note:** this file covers the verbal brand only. Colors, fonts and logo are deliberately not
-decided yet.
+**Scope note:** verbal identity is approved. The visual direction is also approved: **Ticket & Thread**
+is the baseline. Final logo, typography, production color values and application rules remain in development.
 
 ---
 
@@ -210,3 +210,41 @@ following quarter, not revenue for this one.
 
 Use it on every brand post, including the documentation of the two events above. Consistency is the whole
 point of a primary tag: it is how the body of work becomes findable as one body of work.
+
+---
+
+## 13. Visual identity baseline — Ticket & Thread
+
+**APPROVED 2026-08-22:** Moodboard 5, **Ticket & Thread**, is the standard for all visual identity work.
+
+**Approved reference:** [Days Like These — Approved Visual Baseline: Ticket & Thread](https://drive.google.com/file/d/1SwG1286eNTXAG-PRF3N0V_KUJ18SCH5B/view?usp=drivesdk)
+
+The core idea is that meaningful occasions leave artifacts. The identity uses those artifacts—tickets,
+tags, stitched labels, fabric, ribbon, handwritten dates and numbered editions—to connect birthdays,
+concerts, Christmas and everyday moments in one contemporary keepsake system.
+
+### Baseline cues
+
+- **Palette direction:** warm ivory, rich black, oxblood, cobalt, marigold and muted blush.
+- **Typography direction:** a characterful condensed display face balanced by editorial serif and
+  practical sans-serif typography.
+- **Material language:** black cotton, natural woven labels, tactile paper, perforation, stitching,
+  ribbon and layered tags.
+- **Image language:** warm direct-flash documentary photography showing real family energy across adult
+  and child occasions.
+- **Layout language:** clean editorial grids, bold color blocking, small date and edition details, and
+  strong contrast for social visibility.
+- **System behavior:** the same identity must work across apparel, favor bags, packaging, marketplace
+  listings and social content.
+
+### Guardrails
+
+- The approved moodboard is a **direction**, not a finished logo or production-ready identity kit.
+- Do not treat generated wordmarks, exact typefaces, sampled color values or mock applications on the
+  board as final assets.
+- Do not let “ticket” become a concert-only motif. Tickets and tags represent occasions generally.
+- Avoid generic Cricut craft, rock-merch clichés, grunge overload, children-only styling and copied
+  entertainment marks.
+- Final logo, typefaces, accessible color values and application rules require separate design,
+  real-world testing and explicit approval.
+
