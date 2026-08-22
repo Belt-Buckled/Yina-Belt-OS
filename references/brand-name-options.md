@@ -68,3 +68,72 @@ Built on the actual discovery: one buyer, two occasions, buying for her kid and 
 
 **None of these have been checked for availability.** They are creative options only. Availability and
 trademark screening is the next step, and it is the step that kills most first-choice names.
+
+---
+
+# Round 2 — built on contemporary nostalgia
+
+Added 2026-08-22, after the positioning landed. **Round 2 supersedes Round 1.** Round 1 was built on
+product coverage. It is technically correct and emotionally empty. Keep it only as a fallback.
+
+## What the name has to carry now
+
+The customer is a millennial mom. She bought a concert shirt for an artist she loved when she was young,
+and a birthday shirt for her toddler, from the same maker. Two eras, one order. The name should hold
+**then and now at the same time**, without picking a side and without naming a product.
+
+## Direction E — Two eras, one thing
+
+The duality stated directly. Strongest fit to the actual insight.
+
+| Name | Why it works | Watch out |
+|---|---|---|
+| **Both Eras** | Says the whole positioning in two words. Her era, her kid's era, same order. Modern, clean, very sayable. | "Eras" is culturally loaded right now (Eras Tour). May read as trend-chasing, may age. |
+| **Then & Theirs** | Her *then*, their *now*. Compresses the entire insight into three syllables and a pun that rewards a second read. | Needs one beat to land. Easy to mishear as "Then and There's." |
+| **My Era, Their Era** | Unmistakable. Explains itself with zero setup. | Long. Awkward as a handle. |
+
+## Direction F — Record-store nostalgia
+
+The concert shirt is the origin story, so the vocabulary of music and reissues fits natively. Also gives
+a ready-made visual language: liner notes, track lists, tour dates, pressing plants.
+
+| Name | Why it works | Watch out |
+|---|---|---|
+| **The Reissue** | A reissue is *an old favorite, pressed again for today*. That is contemporary nostalgia, literally, and "pressed" is also what she physically does. Covers apparel, favors and decor without naming any of them. | Slightly cool and adult. Needs warmth in the visual identity. |
+| **Side B** | B-sides are the deep cuts real fans know. Flatters the customer. Also reads as *her side and their side*. | Short names are hard to own in search. |
+| **Encore** | You go back to what you loved, years later, on purpose. Exactly the concert-shirt behavior. | Common word, likely crowded. |
+| **Liner Notes** | The part of the record that told you who made it, by hand. Says craft and says nostalgia at once. | More sophisticated than the buyer may need. |
+
+## Direction G — Nostalgia plus the press
+
+Marries the feeling to the physical craft. Most literal, least ambiguous.
+
+| Name | Why it works | Watch out |
+|---|---|---|
+| **Nostalgia Press** | Says the feeling and the method in two words. Zero explanation required. Extends to any product. | On the nose. Less room to grow into something surprising. |
+| **Warm Press** | Carried over from Round 1, and it survives the reframe. The heat press, and the feeling of warmth toward a memory. | Does not signal nostalgia on its own. Identity has to do that work. |
+
+## Direction H — The words you still know
+
+Emotional, not clever. Aimed straight at the feeling of hearing your song again while your kid is in the
+back seat.
+
+| Name | Why it works | Watch out |
+|---|---|---|
+| **Still Know the Words** | The most emotionally accurate name on this list. Every millennial parent understands it instantly. | Long. Hard as a handle. Better as a tagline than a name. |
+| **Back Seat Encore** | Her music, her kid in the car. Very specific, very ownable. | Narrow. Reads apparel-and-music, weaker for favors. |
+
+## Recommended three, Round 2
+
+1. **The Reissue** — best single expression of contemporary nostalgia, and "pressed again" is literally
+   her craft. Covers every product line. Strongest long-term equity.
+2. **Then & Theirs** — the buyer insight compressed. Rewards a second read, works for apparel and favors
+   equally, and no one else will have it.
+3. **Both Eras** — clearest and most immediately understood. The safe modern pick, with trend risk.
+
+**Tagline candidate regardless of which name wins:** *Still know the words.*
+
+## Availability check, still not done
+
+Nothing here has been screened. Check IG handle, Facebook page, Etsy shop, domain, and USPTO in apparel
+and party goods classes before committing to any of them.
