@@ -327,3 +327,18 @@ sizes and production exports remain required.
 **Approved assets:** [complete package](https://drive.google.com/file/d/16k7nZ0ykty13x1WMckNev1xboyQiJFIA/view?usp=drivesdk) and [system guide](https://drive.google.com/file/d/1w3voN4BoBUu5BwpQkkPmKACOHuNkMr8c/view?usp=drivesdk).
 
 **Owner:** Yina Belt.
+
+
+---
+
+## 2026-08-22 — Social identity kit established
+
+**Decision:** Days Like These will use the approved social template family for `@daysliketheseshop`: two profile avatars, edition and memory posts, product and event-recap posts, announcement and behind-the-scenes Stories, product and event Reel/TikTok covers, product Story cards and three watermark treatments. Rules are recorded in [`context/social-identity-kit.md`](../context/social-identity-kit.md).
+
+**Why:** The kit turns the logo, Editorial Ticket typography, production palette and Ticket & Thread graphic language into a repeatable social system without making every post look identical.
+
+**Guardrails:** Keep essential vertical content inside the safe zone; keep cover headlines under seven words when possible; use no more than two supporting graphic elements; use real edition numbers and dates; and keep watermarks between 55–80% opacity with sufficient contrast.
+
+**Approved assets:** [complete kit](https://drive.google.com/file/d/1S-WG5V5BPKgkoVYa9GyDNvuIOP0T1Dm3/view?usp=drivesdk) and [overview](https://drive.google.com/file/d/1cxgq-yBrVGTy-G8PnZmkRsZ-4neviH4b/view?usp=drivesdk).
+
+**Owner:** Yina Belt.
