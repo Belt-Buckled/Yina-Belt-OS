@@ -21,9 +21,11 @@ The lockup pairs a condensed sans-serif treatment for **DAYS LIKE** with a high-
 
 ## Guardrails
 
-The attached boards establish the approved concept and application direction. They are visual references, not production master files. Before manufacturing or final digital deployment, recreate the wordmark as clean vector artwork, confirm font licensing or use custom-drawn letterforms, define exact color values, establish clear-space and minimum-size rules, and prepare one-color/reversed exports.
+The original comparison boards establish the approved concept and application direction. The responsive production package now supplies outlined SVG masters, transparent PNG exports, print-ready PDFs, exact color tokens, clear-space rules and minimum-size guidance.
 
-Do not substitute Option 3 — The Maker Label. Do not treat generated mockup lettering as final printer-ready artwork.
+Before manufacturing, require a vendor proof at the intended physical size. Embroidery must be sampled on the actual fabric and machine because thread weight, fill and open counters vary by production method.
+
+Do not substitute Option 3 — The Maker Label. Do not stretch, skew, rotate or rearrange the approved configurations.
 
 ## Approved reference assets
 
@@ -37,3 +39,32 @@ Stored in Google Drive under `Yina Belt / 02 — Brand Assets / Logos`:
 ## Relationship to prior decisions
 
 This selection advances the approved **Ticket & Thread** baseline into a defined wordmark direction. The visual system remains grounded in contemporary nostalgia, tactile keepsake materials, bold editorial composition, and the brand's two-eras positioning.
+
+
+## Production logo family
+
+Completed on 2026-08-22. Stored in Google Drive under `Yina Belt / 02 — Brand Assets / Logos`:
+
+- [Complete production package — SVG, PNG, PDF, source and checksums](https://drive.google.com/file/d/1ij6CIJBZesfvY8Ad7k20QgAOYuSy9sIO/view?usp=drivesdk)
+- [Responsive logo system guide — PDF](https://drive.google.com/file/d/1SE2P2vSxIE0tWVSP_ZpLRucre3OTUrWl/view?usp=drivesdk)
+- [Responsive logo system guide — PNG](https://drive.google.com/file/d/18kJHB8DlxGxFDzTlhVVQcUFVxol3V0tj/view?usp=drivesdk)
+
+The package contains four configurations: primary horizontal, primary stacked, compact circle and reinforced small-scale. Black, oxblood, cobalt and white/reversed treatments are included where applicable. All distributed SVGs use outlined letterforms and do not depend on an installed font.
+
+### Production palette
+
+- Warm Ivory: `#F5EFE4`
+- Rich Black: `#111111`
+- Oxblood: `#7A1E22`
+- Cobalt: `#163F8C`
+- Marigold accent: `#D89A2B`
+- Muted Blush accent: `#E6B3B0`
+
+### Minimum sizes
+
+- Horizontal: 32 mm print / 160 px digital
+- Stacked: 24 mm print / 120 px digital
+- Compact circle: 48 px digital
+- Small-scale / micro: 18 mm print / 96 px digital; embroidery proof required
+
+Clear space is 1X on all sides, where X equals the cap height of “DAYS LIKE.”
