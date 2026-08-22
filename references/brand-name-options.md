@@ -239,3 +239,118 @@ today, and **pressed is literally the craft.**
 No availability or trademark screening has been done on any name in any round. **Days Like These** and
 **Made to Keep** are common phrases and are the most likely to be taken. **The Reissue** and
 **Then & Theirs** are the most likely to be free.
+
+---
+
+# Round 4 — ten live candidates
+
+Added 2026-08-22. **Round 4 supersedes all previous rounds.**
+
+## Rejected, do not resurface
+
+- **The Reissue** — rejected by Yina. Do not propose it again, and do not propose variants of it.
+- **The record-store direction as a whole** (Side B, Encore, Liner Notes) — it produced The Reissue and
+  leans on artist references, which is the licensing exposure logged in `decisions/log.md`. Retired.
+
+## The ten
+
+Scored against the six tests from Round 3: Lines, Eras, Feeling, Say, Own, Grow.
+
+| # | Name | Lines | Eras | Feeling | Say | Own | Grow | Total |
+|:--:|---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| 1 | **Days Like These** | 5 | 5 | 5 | 5 | 3 | 4 | **27** |
+| 2 | **Sentimental Goods** | 5 | 4 | 5 | 4 | 5 | 4 | **27** |
+| 3 | **Remember This** | 5 | 5 | 5 | 5 | 3 | 4 | **27** |
+| 4 | **Made to Keep** | 5 | 4 | 5 | 5 | 3 | 4 | **26** |
+| 5 | **Little Big Days** | 4 | 4 | 5 | 5 | 4 | 4 | **26** |
+| 6 | **On Purpose** | 5 | 3 | 4 | 5 | 3 | 4 | **24** |
+| 7 | **Took the Time** | 5 | 3 | 5 | 4 | 4 | 3 | **24** |
+| 8 | **Grown & Growing** | 4 | 5 | 4 | 4 | 4 | 3 | **24** |
+| 9 | **One of One** | 5 | 3 | 3 | 4 | 4 | 4 | **23** |
+| 10 | **Fussed Over** | 5 | 2 | 4 | 4 | 5 | 3 | **23** |
+
+---
+
+### 1. Days Like These — 27
+
+Simultaneously past and present. You say it about a memory and about a day you are living. Contemporary
+nostalgia in three words without using the word. Works for a birthday, a concert, Christmas, an ordinary
+Tuesday.
+**Risk:** common phrase. Handles and search will be a fight.
+**Pairs with:** *Still know the words.*
+
+### 2. Sentimental Goods — 27
+
+Names a category that did not exist and then owns it. It is literally what she sells: goods that carry
+sentiment. Shirts, favors, decor and digital files are all sentimental goods.
+Also the most honest description of the maker, straight from the character note: sentimental underneath
+all that competence.
+**Risk:** slightly cool and retail-shop in tone. Needs warmth in the identity.
+**Strength:** the most ownable name on this list. Nobody is going to be sitting on it.
+
+### 3. Remember This — 27
+
+Two readings at once, and both are the brand. *"Remember this?"* is the nostalgia trigger, the sound of
+someone holding up a thing from your era. *"Remember this."* is what you say about a day you want to keep.
+Her era and her kid's day, one phrase, two meanings.
+**Risk:** common words, so search is hard.
+**Pairs with:** *Made for the day. Kept after.*
+
+### 4. Made to Keep — 26
+
+A promise and a feeling together. Not disposable, built to last, and a keepsake you hold onto after the
+day ends. Answers print-on-demand directly. Never dates, never borrows a trademark.
+**Risk:** does not signal the two-eras idea on its own.
+**Pairs with:** *A ridiculous amount of thought.*
+
+### 5. Little Big Days — 26
+
+A kid's birthday is a little day that is enormous to the people in it. Names the exact emotional size of
+the occasion. Warm, rhythmic, immediately understood by any parent.
+**Risk:** "Little" pulls toward kids, which weakens the adult side of the same buyer.
+**Strength:** the friendliest name here. Easiest to love on first hearing.
+
+### 6. On Purpose — 24
+
+Nothing here is accidental. Every detail was chosen. It is a quiet flex about care and it works as a
+sign-off on anything.
+**Risk:** abstract. Needs the identity to supply the warmth and the subject.
+
+### 7. Took the Time — 24
+
+What a custom gift actually communicates: somebody took the time. That is the entire value proposition of
+handmade over bought, stated in three words.
+**Risk:** past tense makes it slightly awkward as a shop name.
+
+### 8. Grown & Growing — 24
+
+Her and her kid in one phrase. She is grown, they are growing, both are being dressed by the same hands.
+Holds the two eras cleanly.
+**Risk:** reads apparel-first, weaker for favors and decor.
+
+### 9. One of One — 23
+
+Every piece is made once, for one person. It is literally true, it separates her from print-on-demand and
+from reselling, and it borrows credibility from how collectors talk.
+**Risk:** streetwear-coded and a little cold for a mom audience.
+
+### 10. Fussed Over — 23
+
+What she does to every piece, and what the recipient feels. The character note in two words.
+**Risk:** carries no era signal at all. Charming but narrow.
+
+## The real shortlist
+
+Three tied at 27, and they split cleanly by strategy:
+
+- **Sentimental Goods** if the priority is owning something nobody else has.
+- **Remember This** if the priority is the two-eras feeling.
+- **Days Like These** if the priority is warmth and instant likeability.
+
+**Little Big Days** is the pick if the business is going to lean kids and parties over adult apparel.
+
+## Still not checked
+
+No availability or trademark screening yet on any of these. Best bets to be free: **Sentimental Goods**,
+**Fussed Over**, **Little Big Days**. Most likely taken: **Days Like These**, **Remember This**,
+**Made to Keep**, **On Purpose**.

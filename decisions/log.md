@@ -101,3 +101,16 @@ the two-eras contrast. Names and designs should evoke an era rather than reprodu
 keeps the licensing exposure logged above from becoming the whole business model.
 
 **Owner:** Yina Belt.
+
+---
+
+## 2026-08-22 — The Reissue rejected, record-store direction retired
+
+**Decision:** "The Reissue" is rejected as a brand name and will not be proposed again, including variants.
+The wider record-store naming direction that produced it (Side B, Encore, Liner Notes) is retired with it.
+
+**Why:** Yina does not like it. That is sufficient. Secondary reason worth keeping: the direction leans on
+artist and music references, which pulls toward reproducing other people's marks rather than evoking an
+era, and that is the licensing exposure already logged.
+
+**Owner:** Yina Belt.
