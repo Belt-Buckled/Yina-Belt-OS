@@ -1,0 +1,81 @@
+<!doctype html><html><head><meta charset='utf-8'><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Archivo:wght@400;600;800&family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400;500;600&family=Caveat:wght@400;600&family=Karla:wght@400;500;600;700&display=swap"><style>
+*{box-sizing:border-box}
+body{margin:0;width:1024px;font-family:Karla,system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.board{width:1024px;padding:52px 46px 44px;display:flex;flex-direction:column}
+.bhead{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}
+.bnum{font-family:Jost,sans-serif;font-weight:300;font-size:27px;letter-spacing:.06em;margin-bottom:2px}
+.bname{margin:0;line-height:.92;text-transform:uppercase}
+.btop{font-family:Jost,sans-serif;font-weight:500;font-size:13px;letter-spacing:.28em;text-transform:uppercase;white-space:nowrap;padding-top:13px}
+.thesis{margin:16px 0 26px;max-width:64ch;font-size:15px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:11px}
+.cell{border-radius:3px;display:flex;align-items:center;justify-content:center;padding:20px;min-height:150px;overflow:hidden;position:relative}
+.s3{grid-column:span 3}.s4{grid-column:span 4}.s5{grid-column:span 5}.s6{grid-column:span 6}.s7{grid-column:span 7}.s8{grid-column:span 8}
+.t2{min-height:224px}.t3{min-height:290px}
+.brief{width:100%;height:100%;min-height:150px;border:1.5px dashed rgba(0,0,0,.3);border-radius:3px;display:flex;flex-direction:column;justify-content:center;gap:7px;padding:22px 24px}
+.brief .k{font-family:Jost,sans-serif;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;opacity:.6}
+.brief h3{margin:0;font-size:20px;line-height:1.18}
+.brief p{margin:0;font-size:13px;opacity:.75;line-height:1.5}
+.swatches{display:grid;gap:11px;margin-top:30px}
+.sw{height:74px;border-radius:3px;position:relative}
+.sw b{position:absolute;left:0;right:0;bottom:-20px;font-family:Jost,sans-serif;font-size:9px;font-weight:400;letter-spacing:.14em;text-transform:uppercase;text-align:center}
+.foot{margin-top:40px;font-family:Jost,sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;display:flex;justify-content:space-between}
+
+body{background:#16150F;color:#F7F2E4}
+.bname{font-family:Archivo,sans-serif;font-weight:800;font-size:88px;letter-spacing:-.035em}
+.bnum,.btop{color:#8A8379}
+.thesis{color:#BBB3A0}
+.c-a{background:#201E16}.c-b{background:#F7F2E4;color:#16150F}.c-c{background:#E0431F}.c-d{background:#2B2920}
+.brief{border-color:rgba(247,242,228,.35)}
+.swatches{grid-template-columns:repeat(5,1fr)}
+.sw b{color:#8A8379}
+.bigtype{font-family:Archivo,sans-serif;font-weight:800;font-size:62px;line-height:.85;letter-spacing:-.04em;text-transform:uppercase;text-align:center}
+.bigtype em{font-style:normal;color:#E0431F}
+.handbill{width:100%;height:100%;background:#F7F2E4;color:#16150F;padding:22px 20px;display:flex;flex-direction:column;justify-content:space-between;border-radius:2px}
+.handbill .hb1{font-family:Archivo,sans-serif;font-weight:800;font-size:31px;line-height:.9;letter-spacing:-.035em;text-transform:uppercase}
+.handbill .hb2{font-family:Jost,sans-serif;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;border-top:2px solid #16150F;padding-top:8px;line-height:1.9}
+.stencil{font-family:Archivo,sans-serif;font-weight:800;font-size:74px;letter-spacing:-.02em;color:#E0431F;line-height:1}
+.tape{background:#E0431F;color:#F7F2E4;padding:10px 0;width:124%;transform:rotate(-3deg);overflow:hidden;text-align:center}
+.tape span{font-family:Archivo,sans-serif;font-weight:800;font-size:12px;letter-spacing:.16em;text-transform:uppercase;white-space:nowrap}
+.chip2{border:2px solid #F7F2E4;padding:11px 17px;font-family:Jost,sans-serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase}
+.neck2{width:168px;height:110px;background:#2B2920;border-radius:6px 6px 3px 3px;position:relative}
+.neck2::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:60px;height:15px;border-radius:0 0 32px 32px;border:3px solid rgba(247,242,228,.14);border-top:none}
+.neck2 .lab{position:absolute;top:24px;left:50%;transform:translateX(-50%);background:#E0431F;color:#F7F2E4;padding:4px 9px;font-family:Archivo,sans-serif;font-weight:800;font-size:6.5px;letter-spacing:.14em;text-transform:uppercase}
+.foot{color:#57544A}
+</style></head><body>
+<div class="board">
+  <div class="bhead">
+    <div><div class="bnum">02 &mdash;</div><h2 class="bname">Marquee</h2></div>
+    <div class="btop">Days Like These</div>
+  </div>
+  <p class="thesis">Nostalgia lives in the <b style="color:#F7F2E4">signage</b>. Event handbills, marquee boards, gaffer tape, stencil numbers. Loud, graphic, unmistakable at any size.</p>
+  <div class="grid">
+    <div class="cell c-a s5 t3"><div class="bigtype">Days<br>Like<br><em>These</em></div></div>
+    <div class="cell s4 t3" style="padding:0"><div class="handbill">
+      <div class="hb1">One<br>Night<br>Only</div>
+      <div class="hb2">07 &middot; 13 &middot; 26<br>Made by hand</div></div></div>
+    <div class="cell c-d s3 t3"><div class="stencil">06</div></div>
+
+    <div class="cell c-a s4 t2"><div class="tape"><span>Days Like These &middot; Days Like These &middot; Days Like These</span></div></div>
+    <div class="cell c-b s4 t2"><div style="font-family:Archivo,sans-serif;font-weight:800;font-size:22px;letter-spacing:-.025em;line-height:1.05;text-transform:uppercase;text-align:center">Made for<br>days like<br>these</div></div>
+    <div class="cell c-a s4 t2"><div class="chip2">#dayslikethese</div></div>
+
+    <div class="cell s5 t2" style="padding:0"><div class="brief">
+      <div class="k">Hero &middot; shoot this</div><h3 style="font-family:Archivo,sans-serif;font-weight:800;letter-spacing:-.025em;text-transform:uppercase;font-size:23px">Flash on.<br>Faces close.</h3>
+      <p>Direct flash, high contrast, cropped tight. The party as it actually looks on a phone at night.</p></div></div>
+    <div class="cell c-d s4 t2"><div class="neck2"><div class="lab">Days Like These</div></div></div>
+    <div class="cell c-c s3 t2"><div style="font-family:Archivo,sans-serif;font-weight:800;font-size:46px;color:#16150F;letter-spacing:-.04em">'26</div></div>
+
+    <div class="cell c-b s4 t2"><div style="font-family:Archivo,sans-serif;font-weight:800;font-size:15px;letter-spacing:.02em;line-height:1.5;text-transform:uppercase;text-align:center">Favors<br>Decor<br>Apparel</div></div>
+    <div class="cell c-a s4 t2"><div style="font-family:Jost;font-size:11px;letter-spacing:.24em;text-transform:uppercase;text-align:center;line-height:2.4;color:#BBB3A0">Made<br>by hand<br>one at a time</div></div>
+    <div class="cell c-d s4 t2"><div class="stencil" style="font-size:44px;color:#F7F2E4">07/13</div></div>
+  </div>
+  <div class="swatches">
+    <div class="sw" style="background:#16150F;outline:1px solid #34322A"><b>Pitch</b></div>
+    <div class="sw" style="background:#F7F2E4"><b>Bright cream</b></div>
+    <div class="sw" style="background:#E0431F"><b>Vermilion</b></div>
+    <div class="sw" style="background:#2B2920"><b>Soot</b></div>
+    <div class="sw" style="background:#B5AE9B"><b>Dust</b></div>
+  </div>
+  <div class="foot"><span>Direction 02</span><span>Nothing committed</span></div>
+</div>
+</body></html>

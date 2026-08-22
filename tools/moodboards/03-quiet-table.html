@@ -1,0 +1,76 @@
+<!doctype html><html><head><meta charset='utf-8'><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Archivo:wght@400;600;800&family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400;500;600&family=Caveat:wght@400;600&family=Karla:wght@400;500;600;700&display=swap"><style>
+*{box-sizing:border-box}
+body{margin:0;width:1024px;font-family:Karla,system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.board{width:1024px;padding:52px 46px 44px;display:flex;flex-direction:column}
+.bhead{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}
+.bnum{font-family:Jost,sans-serif;font-weight:300;font-size:27px;letter-spacing:.06em;margin-bottom:2px}
+.bname{margin:0;line-height:.92;text-transform:uppercase}
+.btop{font-family:Jost,sans-serif;font-weight:500;font-size:13px;letter-spacing:.28em;text-transform:uppercase;white-space:nowrap;padding-top:13px}
+.thesis{margin:16px 0 26px;max-width:64ch;font-size:15px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:11px}
+.cell{border-radius:3px;display:flex;align-items:center;justify-content:center;padding:20px;min-height:150px;overflow:hidden;position:relative}
+.s3{grid-column:span 3}.s4{grid-column:span 4}.s5{grid-column:span 5}.s6{grid-column:span 6}.s7{grid-column:span 7}.s8{grid-column:span 8}
+.t2{min-height:224px}.t3{min-height:290px}
+.brief{width:100%;height:100%;min-height:150px;border:1.5px dashed rgba(0,0,0,.3);border-radius:3px;display:flex;flex-direction:column;justify-content:center;gap:7px;padding:22px 24px}
+.brief .k{font-family:Jost,sans-serif;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;opacity:.6}
+.brief h3{margin:0;font-size:20px;line-height:1.18}
+.brief p{margin:0;font-size:13px;opacity:.75;line-height:1.5}
+.swatches{display:grid;gap:11px;margin-top:30px}
+.sw{height:74px;border-radius:3px;position:relative}
+.sw b{position:absolute;left:0;right:0;bottom:-20px;font-family:Jost,sans-serif;font-size:9px;font-weight:400;letter-spacing:.14em;text-transform:uppercase;text-align:center}
+.foot{margin-top:40px;font-family:Jost,sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;display:flex;justify-content:space-between}
+
+body{background:#F0EDE6;color:#3A3A31}
+.bname{font-family:"Cormorant Garamond",serif;font-weight:300;font-size:82px;letter-spacing:.02em}
+.bnum,.btop{color:#8A8379}
+.thesis{color:#6B6B5D}
+.c-a{background:#E3DED2}.c-b{background:#F7F5EF}.c-c{background:#4A4A38}.c-d{background:#C9C4B4}
+.swatches{grid-template-columns:repeat(5,1fr)}
+.quiet{font-family:"Cormorant Garamond",serif;font-weight:300;font-size:46px;line-height:1.1;text-align:center}
+.tinymark{font-family:Jost,sans-serif;font-weight:400;font-size:9px;letter-spacing:.34em;text-transform:uppercase;color:#6B6B5D}
+.card3{width:100%;max-width:214px;background:#F7F5EF;padding:30px 22px;text-align:center;box-shadow:0 16px 28px -22px rgba(58,58,49,.6)}
+.card3 .l1{font-family:"Cormorant Garamond",serif;font-weight:300;font-size:28px;line-height:1.15;margin-bottom:16px}
+.rule3{width:22px;height:1px;background:#4A4A38;margin:0 auto 13px;opacity:.5}
+.foldtag{width:120px;background:#F7F5EF;padding:20px 12px;text-align:center;box-shadow:0 12px 22px -18px rgba(58,58,49,.7)}
+.foldtag .d{font-family:"Cormorant Garamond",serif;font-size:22px;margin-top:8px}
+.olive{background:#4A4A38;color:#F0EDE6;width:100%;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px}
+.foot{color:#8A8379}
+</style></head><body>
+<div class="board">
+  <div class="bhead">
+    <div><div class="bnum">03 &mdash;</div><h2 class="bname">Quiet<br>Table</h2></div>
+    <div class="btop">Days Like These</div>
+  </div>
+  <p class="thesis">Nostalgia lives in the <b>restraint</b>. Almost no graphics. A small mark, a lot of space, one olive tone. The photography carries everything and the brand nearly disappears.</p>
+  <div class="grid">
+    <div class="cell c-b s7 t3"><div class="quiet">Made for<br>days like these</div></div>
+    <div class="cell c-c s5 t3"><div class="olive"><div>
+      <div class="tinymark" style="color:#C9C4B4">Days Like These</div>
+      <div style="font-family:"Cormorant Garamond",Georgia,serif;font-weight:300;font-size:42px;margin-top:12px">15 . 06 . 26</div></div></div></div>
+
+    <div class="cell c-a s5 t2"><div class="card3">
+      <div class="l1">Thank you for<br>celebrating<br>with us</div><div class="rule3"></div>
+      <div class="tinymark">Days Like These</div></div></div>
+    <div class="cell c-b s3 t2"><div class="foldtag"><div class="tinymark">Made for</div><div class="d">Aiden's 6th</div></div></div>
+    <div class="cell s4 t2" style="padding:0"><div class="brief" style="background:#F7F5EF">
+      <div class="k">Hero &middot; shoot this</div><h3 style="font-family:"Cormorant Garamond",Georgia,serif;font-weight:400;font-size:25px">Still life,<br>morning light.</h3>
+      <p>The table before anyone sits down. Soft daylight, one window, nothing styled to death.</p></div></div>
+
+    <div class="cell c-a s4 t2"><div class="tinymark" style="font-size:11px;letter-spacing:.42em;text-align:center">Days<br>Like<br>These</div></div>
+    <div class="cell c-b s4 t2"><div style="font-family:Caveat,cursive;font-size:26px;text-align:center;line-height:1.3;color:#4A4A38">Thank you for<br>letting me<br>make this</div></div>
+    <div class="cell c-d s4 t2"><div class="tinymark">Est. 2026</div></div>
+
+    <div class="cell c-c s4 t2"><div class="olive"><div class="tinymark" style="color:#C9C4B4;letter-spacing:.3em">Favors &middot; Decor<br>&middot;<br>Apparel</div></div></div>
+    <div class="cell c-b s4 t2"><div class="quiet" style="font-size:30px">Kept<br>after</div></div>
+    <div class="cell c-a s4 t2"><div class="foldtag" style="width:132px"><div class="tinymark">By hand</div><div class="d" style="font-size:19px">one at a time</div></div></div>
+  </div>
+  <div class="swatches">
+    <div class="sw" style="background:#E3DED2"><b>Oat</b></div>
+    <div class="sw" style="background:#F7F5EF"><b>Bone</b></div>
+    <div class="sw" style="background:#4A4A38"><b>Olive</b></div>
+    <div class="sw" style="background:#C9C4B4"><b>Ash</b></div>
+    <div class="sw" style="background:#8C8B76"><b>Sage grey</b></div>
+  </div>
+  <div class="foot"><span>Direction 03</span><span>Nothing committed</span></div>
+</div>
+</body></html>

@@ -1,0 +1,97 @@
+<!doctype html><html><head><meta charset='utf-8'><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Archivo:wght@400;600;800&family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400;500;600&family=Caveat:wght@400;600&family=Karla:wght@400;500;600;700&display=swap"><style>
+*{box-sizing:border-box}
+body{margin:0;width:1024px;font-family:Karla,system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.board{width:1024px;padding:52px 46px 44px;display:flex;flex-direction:column}
+.bhead{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}
+.bnum{font-family:Jost,sans-serif;font-weight:300;font-size:27px;letter-spacing:.06em;margin-bottom:2px}
+.bname{margin:0;line-height:.92;text-transform:uppercase}
+.btop{font-family:Jost,sans-serif;font-weight:500;font-size:13px;letter-spacing:.28em;text-transform:uppercase;white-space:nowrap;padding-top:13px}
+.thesis{margin:16px 0 26px;max-width:64ch;font-size:15px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:11px}
+.cell{border-radius:3px;display:flex;align-items:center;justify-content:center;padding:20px;min-height:150px;overflow:hidden;position:relative}
+.s3{grid-column:span 3}.s4{grid-column:span 4}.s5{grid-column:span 5}.s6{grid-column:span 6}.s7{grid-column:span 7}.s8{grid-column:span 8}
+.t2{min-height:224px}.t3{min-height:290px}
+.brief{width:100%;height:100%;min-height:150px;border:1.5px dashed rgba(0,0,0,.3);border-radius:3px;display:flex;flex-direction:column;justify-content:center;gap:7px;padding:22px 24px}
+.brief .k{font-family:Jost,sans-serif;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;opacity:.6}
+.brief h3{margin:0;font-size:20px;line-height:1.18}
+.brief p{margin:0;font-size:13px;opacity:.75;line-height:1.5}
+.swatches{display:grid;gap:11px;margin-top:30px}
+.sw{height:74px;border-radius:3px;position:relative}
+.sw b{position:absolute;left:0;right:0;bottom:-20px;font-family:Jost,sans-serif;font-size:9px;font-weight:400;letter-spacing:.14em;text-transform:uppercase;text-align:center}
+.foot{margin-top:40px;font-family:Jost,sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;display:flex;justify-content:space-between}
+
+body{background:#F4F1EA;color:#332B26}
+.bname{font-family:"Bodoni Moda",Didot,serif;font-weight:400;font-size:76px;letter-spacing:.005em}
+.c-a{background:#E8DFCD}.c-b{background:#F9F7F1}.c-c{background:#332B26}.c-d{background:#7E97B8}
+.swatches{grid-template-columns:repeat(6,1fr)}
+.deckle{width:168px;background:#FBF9F4;padding:34px 14px;text-align:center;box-shadow:0 14px 26px -18px rgba(51,43,38,.7);clip-path:polygon(2% 0,98% 1%,100% 4%,99% 96%,97% 100%,3% 99%,0 96%,1% 4%)}
+.emboss{font-family:Jost,sans-serif;font-weight:500;font-size:11px;letter-spacing:.32em;line-height:2.5;color:rgba(51,43,38,.32);text-shadow:0 1px 0 #fff}
+.woven{background:#F2EFE7;color:#332B26;padding:9px 20px;border-radius:2px;transform:rotate(-6deg);position:relative;box-shadow:0 8px 18px -9px #000}
+.woven::after{content:"";position:absolute;inset:3px;border:1px dashed rgba(51,43,38,.35)}
+.woven span{font-family:Jost,sans-serif;font-weight:500;font-size:12px;letter-spacing:.2em;text-transform:uppercase}
+.ticket{width:196px;background:#A8443A;color:#F2EFE7;padding:18px 16px 20px;border-radius:2px;position:relative;box-shadow:0 14px 26px -18px rgba(51,43,38,.9)}
+.ticket .tk{font-family:Jost,sans-serif;font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;opacity:.85}
+.ticket .tv{font-family:Jost,sans-serif;font-size:21px;letter-spacing:.1em;margin:3px 0 12px}
+.ticket .row{border-bottom:1px dashed rgba(242,239,231,.5);padding-bottom:5px;margin-bottom:10px}
+.ticket .serial{position:absolute;right:16px;bottom:15px;writing-mode:vertical-rl;font-family:Jost,sans-serif;font-size:9px;letter-spacing:.22em;opacity:.8}
+.stamp{width:126px;height:126px;border-radius:50%;border:1.5px solid #332B26;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;opacity:.85;text-align:center}
+.stamp span{font-family:Jost,sans-serif;font-size:9px;letter-spacing:.21em;text-transform:uppercase;line-height:1.5}
+.stamp .bar{width:25px;height:1px;background:#332B26}
+.hand1{font-family:Caveat,cursive;font-size:36px;border-bottom:1.5px solid #332B26;padding-bottom:6px;line-height:1}
+.ribbons{display:flex;flex-direction:column;gap:8px;width:100%;transform:rotate(-4deg)}
+.ribbon{background:#F2EFE7;padding:6px 0;overflow:hidden;box-shadow:0 3px 9px -5px rgba(51,43,38,.6)}
+.ribbon span{font-family:Jost,sans-serif;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#A8443A;white-space:nowrap}
+.embroid{text-align:center;font-family:Jost,sans-serif;font-weight:600;font-size:22px;letter-spacing:.16em;text-transform:uppercase;line-height:1.6;color:#E0A02A;text-shadow:0 1px 0 rgba(51,43,38,.25)}
+.embroid .star{display:block;color:#A8443A;font-size:17px;margin-top:8px}
+.bag{width:150px;background:#F2EFE7;border-radius:5px 5px 9px 9px;padding:28px 15px 22px;text-align:center;position:relative;box-shadow:0 14px 26px -18px rgba(51,43,38,.85)}
+.bag::before{content:"";position:absolute;top:10px;left:12px;right:12px;height:2px;background:rgba(51,43,38,.22);border-radius:2px}
+.bag p{margin:0;font-family:Jost,sans-serif;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#A8443A;line-height:2}
+.bag .heart{color:#E0A02A;font-size:15px;margin-top:6px}
+.tee{width:172px;height:112px;background:#332B26;border-radius:6px 6px 3px 3px;position:relative}
+.tee::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:62px;height:16px;border-radius:0 0 32px 32px;border:3px solid rgba(242,239,231,.14);border-top:none}
+.tee .lab{position:absolute;top:25px;left:50%;transform:translateX(-50%);background:#F2EFE7;color:#332B26;padding:4px 9px;font-family:Jost,sans-serif;font-size:6.5px;letter-spacing:.18em;text-transform:uppercase}
+.foot{color:rgba(51,43,38,.45)}
+</style></head><body>
+<div class="board">
+  <div class="bhead">
+    <div><div class="bnum">01 &mdash;</div><h2 class="bname">Warm<br>Archive</h2></div>
+    <div class="btop">Days Like These</div>
+  </div>
+  <p class="thesis">Nostalgia lives in the <b>materials</b>. Deckle paper, woven labels, printed ribbon, a ticket stub, a rubber stamp. The brand feels like something already kept in a box.</p>
+  <div class="grid">
+    <div class="cell c-a s5 t3"><div class="deckle"><div class="emboss">Days<br>Like<br>These</div></div></div>
+    <div class="cell s7 t3" style="padding:0"><div class="brief" style="background:#F9F7F1">
+      <div class="k">Hero &middot; shoot this</div><h3 style="font-family:'Bodoni Moda',serif;font-weight:400;font-size:26px">The moment,<br>not the merchandise.</h3>
+      <p>Candles lit, hands mid-clap, three generations in one frame. Warm indoor light, no flash. The product is present but never the subject.</p></div></div>
+
+    <div class="cell c-c s4 t2"><div class="woven"><span>Days Like These</span></div></div>
+    <div class="cell c-a s4 t2"><div class="ticket">
+      <div class="row"><div class="tk">Date</div><div class="tv">07 / 13</div></div>
+      <div class="row"><div class="tk">Occasion</div></div>
+      <div class="row" style="border:none"><div class="tk">Made for</div></div>
+      <div class="serial">230713</div></div></div>
+    <div class="cell c-b s4 t2"><div class="hand1">June 15, '26</div></div>
+
+    <div class="cell c-b s3 t2"><div class="stamp"><span>Made by hand</span><div class="bar"></div><span>With care</span></div></div>
+    <div class="cell c-a s5 t2"><div class="ribbons">
+      <div class="ribbon"><span>&nbsp;Days Like These &middot; Days Like These &middot; Days Like These&nbsp;</span></div>
+      <div class="ribbon"><span>&nbsp;Days Like These &middot; Days Like These &middot; Days Like These&nbsp;</span></div>
+      <div class="ribbon"><span>&nbsp;Days Like These &middot; Days Like These &middot; Days Like These&nbsp;</span></div></div></div>
+    <div class="cell c-b s4 t2"><div class="tee"><div class="lab">Days Like These</div></div></div>
+
+    <div class="cell c-b s4 t2"><div class="embroid">Made<br>With Care<span class="star">&#10033;</span></div></div>
+    <div class="cell c-a s4 t2"><div class="bag"><p>Thank you<br>for celebrating<br>with us</p><div class="heart">&#9829;</div></div></div>
+    <div class="cell c-d s4 t2"><div style="background:#F2EFE7;padding:13px 10px;text-align:center;transform:rotate(3deg);box-shadow:0 8px 16px -9px rgba(0,0,0,.6)">
+      <span style="font-family:Jost;font-weight:500;font-size:10px;letter-spacing:.2em;text-transform:uppercase;line-height:1.95;color:#332B26">Days<br>Like<br>These</span></div></div>
+  </div>
+  <div class="swatches">
+    <div class="sw" style="background:#E8DFCD"><b>Sand</b></div>
+    <div class="sw" style="background:#F2EFE7"><b>Linen</b></div>
+    <div class="sw" style="background:#332B26"><b>Ink</b></div>
+    <div class="sw" style="background:#A8443A"><b>Brick</b></div>
+    <div class="sw" style="background:#E0A02A"><b>Marigold</b></div>
+    <div class="sw" style="background:#7E97B8"><b>Slate</b></div>
+  </div>
+  <div class="foot"><span>Direction 01</span><span>Nothing committed</span></div>
+</div>
+</body></html>
