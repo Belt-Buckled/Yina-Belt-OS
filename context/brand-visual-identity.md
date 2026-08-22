@@ -73,3 +73,13 @@ Clear space is 1X on all sides, where X equals the cap height of “DAYS LIKE.�
 ## Exact-master correction — 2026-08-23
 
 A no-drift rule is now in force. Packaging production files use pixel-exact alpha extractions from the approved Option 4 Drive reference. Color changes may be applied through the approved palette, but the silhouette, internal spacing, stacking and aspect ratio must remain unchanged. The corrected packaging package is stored in Drive Templates: [production ZIP](https://drive.google.com/file/d/1Oa6QLGSwrkU8L6V9e7OmqyVCtxwVdFQT/view?usp=drivesdk) and [overview proof](https://drive.google.com/file/d/1pfF_xvmJdBf0F8jDBBc5D3wvFiABrknJ/view?usp=drivesdk).
+
+
+## Exact responsive family — superseding release
+
+Released 2026-08-23. This is the active production family and supersedes every substitute-font reconstruction:
+
+- [Exact production package](https://drive.google.com/file/d/1wW_XYf7qgj4MUOocuJeek8Jn0oLqcoy7/view?usp=drivesdk)
+- [Exact responsive-system guide](https://drive.google.com/file/d/1q4l-VLE1FTK4UJW-eQTTtsGnVGByVsLS/view?usp=drivesdk)
+
+The approved horizontal and stacked lockups were extracted independently from the approved Drive reference. Compact avatars and small-scale applications reuse the approved stacked silhouette without redrawing or reinforced letterforms. Embedded SVG files contain the exact raster master; they are not designer-original vectors.
