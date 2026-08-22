@@ -1,6 +1,13 @@
 # About the Business
 
-**Brand name:** Not chosen yet. Naming it is a 90-day priority.
+**Brand name: DAYS LIKE THESE.** Chosen 2026-08-22.
+
+The phrase is simultaneously past and present. You say it about a memory and about a day you are living,
+which is contemporary nostalgia without using the word. It covers apparel, favors, decor and digital
+files without naming a product, so the business can widen without a rename.
+
+It was chosen knowing its weaknesses: it is vague to a stranger, forgettable when spoken, and the exact
+`.com` is held. Those are handled by rules, not by hoping. See `references/brand-days-like-these.md`.
 
 ## The offer
 

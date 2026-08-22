@@ -8,8 +8,9 @@ That is 12 full weeks plus a 4-day Week 13 (Mon 2026-11-16 through the Friday de
 **The posting math:** 3 posts per week x 12 full weeks = 36 posts, plus 2 in the short Week 13 = **38 posts**,
 not 39. Week 1 runs 2026-08-24 to 2026-08-30. Week 12 ends 2026-11-15.
 
-1. **Pick the brand name.** One decision, one deliverable. Sequenced first because priorities 2 and 3
-   are both partially blocked without it.
+1. ~~**Pick the brand name.**~~ **DONE 2026-08-22 — the brand is DAYS LIKE THESE.** Chosen over
+   Grown & Growing after a ten-scenario head-to-head. Rationale and the gap-closing rules live in
+   `references/brand-days-like-these.md`.
 2. **$1,000 in gross sales by 2026-11-20.** Gross, not profit. This is the number that decides whether
    the business is real. It cannot be measured today, because no sale gets recorded anywhere.
 3. **Post about the brand 3x per week, every week.** 39 posts across the window. Measured by posts

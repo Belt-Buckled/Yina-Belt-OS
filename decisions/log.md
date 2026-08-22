@@ -114,3 +114,32 @@ artist and music references, which pulls toward reproducing other people's marks
 era, and that is the licensing exposure already logged.
 
 **Owner:** Yina Belt.
+
+---
+
+## 2026-08-22 — Brand name chosen: DAYS LIKE THESE
+
+**Decision:** The brand is **Days Like These**. Priority 1 of the 90-day window is complete, six days early.
+
+**Why:** It won a ten-scenario head-to-head against Grown & Growing, 6 to 4. The score mattered less than
+the pattern underneath it: Grown & Growing won every scenario about the business as it exists today
+(apparel, mom and kid, word of mouth), and Days Like These won every scenario about the business as
+planned (favors, decor, Christmas, occasions, five years out). Choosing it is a deliberate bet on the
+plan over the proof.
+
+Three deciding factors: Christmas and party favors are both in the plan and Grown & Growing is mute on
+both; Days Like These has weaknesses that a tagline and a lockup can fix, while Grown & Growing has a
+ceiling at kids' apparel that nothing can fix; and *made by hand for days like these* is a hang tag, an
+ad and a closing line already.
+
+**The bet, stated plainly:** 100% of revenue to date is apparel and 0% is favors. If the kids' party this
+quarter produces no favor sales, Grown & Growing was the better answer.
+
+**Known weaknesses accepted, and how they are handled:** vague to a stranger, forgettable spoken, and the
+exact `.com` is registered. Each has a rule in `references/brand-days-like-these.md`. The name is never
+used bare in a cold context.
+
+**Alternatives considered:** Grown & Growing (runner-up), Mom Made, The Thought That Counts, and sixteen
+others across five rounds.
+
+**Owner:** Yina Belt.
