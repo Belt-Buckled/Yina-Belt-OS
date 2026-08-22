@@ -11,7 +11,21 @@ This is the source-of-truth file for your AIOS. Fill it in by typing, voice-past
 Identity, offer, ICP. One paragraph each is fine.
 
 ```
-[Your answer here]
+**Name:** Yina Belt. **Brand name:** TBD — not chosen yet.
+
+**What I sell:** Custom-crafted items. Specifically custom design *application* onto physical products — not reselling, not dropshipping. I design, then apply the design to the item.
+
+**Product lines, by proof:**
+- **Custom apparel — PAID.** Kids' birthday shirts (two shirts, one order) and an adult concert shirt.
+- **Party favors and decor — NOT SOLD YET.** Emerging venture. Made personally for her own kids' parties.
+  Next party is the documentation and social-proof test.
+- **Digital PNG / transfer files — under consideration.**
+
+**Who I sell to:** Moms of young kids. **Critically: this is one buyer with multiple occasions, not two
+markets.** The customer who bought the adult concert shirt is the same customer who bought the custom
+kids' birthday shirts. She buys for her child and for herself. Every paid order so far traces to family.
+
+**Explicitly out of scope:** Reselling. That's a different business.
 ```
 
 ---
@@ -21,11 +35,54 @@ Identity, offer, ICP. One paragraph each is fine.
 An email, a LinkedIn post, a DM, a doc — anything that sounds like you when you're not trying. **Paste verbatim.** Do not type these mid-conversation with Claude — chat-shaped samples are worse than no samples (voice contamination).
 
 ```
-[Sample 1 — paste raw]
+**Sample 1 — raw turns from her own ChatGPT thread, "Custom Concert Shirt" project (verbatim, unedited).**
+Not written for an audience. This is how she talks when she is working a problem.
+
+Is 14x18.43 too big for the back image
+
+The front print is 14"x14", is that ok or should I make it larger
+
+Is there a way to politely ask for more money? ... We didn't really talk cost ... I ended up overspending.
+
+Here's my costs... doesn't even include time and labor.
+
+I was thinking maybe I could offer it to someone who wants to cut it.
+
+I don't think I was taking into consideration ... the sides of the shirt are gonna be taken up by the human body. I just don't want it to look small.
+
+Do I need to wash the Gildan 5000 shirts first? I don't want to lol
+
+I'm netting a hundred dollar loss on this ... but I have some inventory.
+
+I want to ... sell. Put a video together ... and figure out how I want to sell. Transfers? Put them on blanks? Colors customizable?
+
+I want to put pics on FB Marketplace ... but I only have the plus sized shirts I made.
+
+Did I really design this? Some stuff I just bought ... I had inspiration, like a template.
+
+I kind of want to mention knocking out this project ... clearing my projects because it's almost time ... Christmas tree ... teaser for the Christmas party.
 ```
 
 ```
-[Sample 2 — paste raw]
+**Sample 2 — a personal relationship message. WITHHELD FROM THIS REPO by request of the AIOS.**
+
+The raw text was provided and read during intake, but it is intimate correspondence involving another
+person, and this repo is pushed to GitHub. Storing it verbatim here would publish it. Yina can paste it
+back in at any time if she wants it kept.
+
+Register notes captured from it (no verbatim text):
+- Long, unbroken, run-on sentences when the subject is emotional. Very different rhythm from Sample 1.
+- Leads by naming the other person's experience before her own. "I hear what you're saying about what
+  happens for you too."
+- Repairs rather than argues. Names the shared problem, not the opponent.
+- Softens with an emoji at the close rather than a hard stop.
+- Zero jargon. Zero bullet points. Plain, direct, warm.
+
+**House vocabulary — use this framing by default.**
+**Signal vs. noise.** Stated explicitly during intake as the operating lens for this business: focus on
+the signals that actually drive value, and name the noise as noise. Expect it to come up constantly.
+When surfacing anything — metrics, inbound, content performance, spending — separate the signal from
+the noise rather than reporting a flat list.
 ```
 
 ---
@@ -35,9 +92,9 @@ An email, a LinkedIn post, a DM, a doc — anything that sounds like you when yo
 Quarterly priorities. Not yearly aspirations. Things that, if not done by July, would make you say "I wasted Q2."
 
 ```
-1. [Priority 1]
-2. [Priority 2]
-3. [Priority 3]
+1. **$1,000 in sales by 2026-11-20** (90 days from 2026-08-22). Gross sales, not profit. This is the number that decides whether the business is real.
+2. **Post about the brand 3x per week**, every week, for the full 90 days. That is 39 posts. Measured by posts published, not by reach or follower count.
+3. **Pick the brand name.** One deliverable, one decision, done. Priorities 1 and 2 are both partially blocked until this lands, so it goes first.
 ```
 
 ---
@@ -47,7 +104,26 @@ Quarterly priorities. Not yearly aspirations. Things that, if not done by July, 
 Multiple answers OK. Stripe? Skool? GoHighLevel? QuickBooks? A spreadsheet?
 
 ```
-[Your answer here]
+**Tracked where:** Nowhere. It's a receipts pile. No ledger, no spreadsheet, no accounting tool.
+
+**Channel plan (deliberate, risk-based):**
+
+| Channel | Status | What sells there | Fulfillment |
+|---|---|---|---|
+| Facebook Marketplace | Confirmed, in use | Finished shirts, incl. concert/fan-art designs | Local pickup only to date. Open to shipping. |
+| Etsy | Possible, not started | **PNG / digital transfer files only.** Explicitly NOT finished shirts. | Digital |
+| eBay | Undecided, leaning no | — | — |
+
+**The reason for the split:** licensing risk. Concert and artist-referencing designs stay on Facebook
+Marketplace only, to keep exposure contained. Etsy would carry the digital files, not the fan-art shirts.
+This is a stated, intentional constraint — not an accident of where she happens to have accounts.
+
+**Where the money actually lands:** Not yet pinned down. Depends on the platform. Local pickup to date
+implies cash or a peer-to-peer app, but the specific rail was not named. **OPEN ITEM — see gap below.**
+
+**Gap flagged during intake:** Priority 1 is "$1,000 in sales by 2026-11-20." There is currently no place
+where a sale gets recorded. A number you can't count is a number you can't hit. Simplest fix on Day 2:
+one sheet, five columns — date, item, channel, amount collected, cost of goods.
 ```
 
 ---
@@ -57,7 +133,24 @@ Multiple answers OK. Stripe? Skool? GoHighLevel? QuickBooks? A spreadsheet?
 Email (which one — Gmail / Outlook)? Slack? Teams? DMs (Skool / Discord / iMessage)? Phone?
 
 ```
-[Your answer here]
+**Team:** None. Solo operator.
+
+**Customers to date:** Family. They are the only *paid* customers so far. Those conversations happen by
+text or verbally, in person.
+
+**Inbound since posting the concert shirt reel:**
+- **Instagram** — inquiries came in as responses to the reel (comments and DMs). This is the content account.
+- **Facebook** — direct message.
+
+**So the real channels are:** iMessage/text, Instagram (reel replies + DM), Facebook Messenger DM,
+and in-person conversation.
+
+**Email:** **Gmail.** → Calendar is therefore **Google Calendar** (auto-inferred, confirmed in intake).
+
+**Signal worth keeping:** She posted one reel and got unsolicited inbound from two platforms, with no
+brand, no name, and no listing funnel. That is demand responding to content — which is the evidence
+behind Priority 2 (post 3x/week). The posting cadence isn't vanity work; it's the thing that already
+produced the only non-family interest this business has seen.
 ```
 
 ---
@@ -67,7 +160,20 @@ Email (which one — Gmail / Outlook)? Slack? Teams? DMs (Skool / Discord / iMes
 Granola? Otter? Fireflies? Google Drive? Notion? Dropbox? A folder on your desktop you keep meaning to organize?
 
 ```
-[Your answer here]
+**Assets live in three places, unconsolidated:**
+
+1. **Canva** — design work, product photos being sized for listings (she works listing images at 1080x1080 there).
+2. **Google Drive**
+3. **Desktop folders** — local machine.
+
+No single source of truth. No naming convention. Nothing that says which PNG is the final approved
+version of a design versus a working draft.
+
+**Noise flagged:** three storage locations for one solo operator is the classic setup where the final
+artwork gets lost and a design gets re-made from scratch. Since Gmail is confirmed, **Google Drive is the
+obvious consolidation target** — it's already in the stack and it's already the one that syncs.
+
+**Related open item from Q4:** receipts are a physical pile and are not in any of these three.
 ```
 
 ---
@@ -77,7 +183,26 @@ Granola? Otter? Fireflies? Google Drive? Notion? Dropbox? A folder on your deskt
 The single biggest time-suck or recurring drudgery. Plus where tasks/projects live (ClickUp / Asana / Linear / Notion / a notebook).
 
 ```
-[Your answer here]
+**Where work is tracked:** Nowhere. No task system, no project list, no board.
+
+**The task that eats the week — sourcing.** Comparing transfers and blanks across vendors, weighing unit
+cost against shipping cost to find the real landed price. There is **no preferred vendor yet**, so this
+comparison gets re-run from scratch every single project. Known vendors touched so far: Ninja Transfers,
+Jiffy (jiffyshirts), Gildan 5000 blanks.
+
+**Second time sink:** initial design. The first version of a design takes a long time.
+
+**Why sourcing is the automation candidate, not design:**
+- Sourcing is repeated, rule-based, and produces a comparable number (landed cost per unit). That is
+  exactly the shape of work that gets systematized.
+- Design is judgment work and it is the actual product. Automating it away would remove the thing being
+  sold. Speed it with templates and reusable assets, not by replacing the decision.
+- She already had the pricing failure this creates: a $100 net loss on the concert shirt project,
+  because cost was never established before the work was quoted. Sourcing and pricing are the same wound.
+
+**Carry to `/level-up` as `top_pain`:** a landed-cost vendor comparison sheet — blank + transfer + shipping,
+resolved to cost per finished unit, with a standing preferred vendor per item so the comparison stops
+being re-run every project. That number then sets the floor price, which protects Priority 1.
 ```
 
 ---
