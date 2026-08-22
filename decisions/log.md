@@ -83,3 +83,21 @@ number honest and avoids crediting the goal with work that predates it.
 unit-economics history behind the $100 loss.
 
 **Owner:** Yina Belt.
+
+---
+
+## 2026-08-22 — Brand positioning: contemporary nostalgia
+
+**Decision:** The brand is positioned on contemporary nostalgia, aimed at the millennial mom. Not on
+"custom apparel" and not on "kids' party goods."
+
+**Why:** It is what the one real customer actually did. She bought a concert shirt for an artist she loved
+when she was young, and a custom birthday shirt for her toddler. Her era and her kid's era, one buyer.
+The product lines look unrelated until you see that one feeling underneath them, and then they are
+obviously the same business.
+
+**What it implies:** apparel, party favors and decor are surfaces, not separate ventures. Content leans on
+the two-eras contrast. Names and designs should evoke an era rather than reproduce its trademarks, which
+keeps the licensing exposure logged above from becoming the whole business model.
+
+**Owner:** Yina Belt.

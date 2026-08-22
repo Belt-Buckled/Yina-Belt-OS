@@ -55,6 +55,12 @@ and proof for next quarter, not this quarter's revenue.
 **The known wound:** the first real project netted a $100 loss because cost was never settled before the
 work was quoted. Sourcing and pricing are the same problem. Landed cost per unit is the number that fixes it.
 
+**Brand positioning: contemporary nostalgia.** The customer is a millennial mom. Old enough to have her
+own era, young enough to still go out to it, raising a kid with completely different references. She buys
+a concert shirt for an artist she loved young, and a birthday shirt for her toddler, in the same breath.
+The brand is the thing she loved then and the thing her kid loves now, made by the same hands. Apparel,
+favors and decor are surfaces that feeling gets applied to. Evoke an era, do not reproduce its logos.
+
 ## Voice
 
 Match the register in `references/voice.md`. Casual but professional. Short sentences. No em dashes. Bullet points over paragraphs. Don't fake my voice on external content (listings, captions, posts, customer messages) without showing me a draft first.

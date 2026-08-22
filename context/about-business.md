@@ -33,6 +33,26 @@ themselves. Party favors and decor are a product-line bet on that same buyer, no
 **What is still genuinely unknown:** whether this repeats outside the family circle. Every paid order so
 far traces to people who already know her. The $1,000 by 2026-11-20 is the test of whether a stranger buys.
 
+## The feeling the brand has to carry
+
+**Contemporary nostalgia.** This is the positioning, and it came directly from reading the one real
+customer correctly.
+
+She bought a concert shirt for herself, for an artist she loved when she was young. In the same
+relationship she bought a custom birthday shirt for her toddler, who is living right now. Her past and
+her kid's present, one buyer, one order.
+
+**The customer is a millennial mom.** Old enough to have an era of her own. Young enough to still get out
+and go to the concert. Raising a kid whose references are completely different from the ones she grew up
+with, and enjoying both at once.
+
+So the brand is not "custom shirts." The brand is **the thing she loved then, and the thing her kid loves
+now, made by the same hands.** Apparel, favors and decor are all just surfaces that feeling gets applied to.
+
+**Design implication:** a nostalgia-led brand naturally reaches for other people's marks, since eras are
+made of artists, cartoons and logos. Evoking an era is free. Reproducing its logos is the licensing
+exposure already logged in `decisions/log.md`. The durable version of this brand evokes.
+
 ## Channels and licensing posture
 
 | Channel | Status | What sells there |
