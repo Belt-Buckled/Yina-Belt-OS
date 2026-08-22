@@ -42,6 +42,16 @@ Priority 3 needs 39 posts. There is already a back catalog and a forward calenda
 **Signal:** the posting cadence is not blocked on making new things. It is blocked on editing and
 publishing what already exists. That is a different, much smaller problem.
 
+## Counting rule: fresh start, no backfill
+
+The $1,000 counts **only sales made from Week 1 forward (2026-08-24 onward)**. Prior orders, the kids'
+birthday shirts and the concert shirt, are **not** backfilled into the tracker and do not count toward
+the target. They stay in `context/about-business.md` as proof and as unit-economics history, not as
+revenue against this goal.
+
+Decided deliberately: the target is a test of whether the business sells going forward, and a clean
+start line makes the number honest. The tracker starts empty.
+
 ## The unnamed dependency
 
 Priority 2 has no measurement surface. Before the number can be hit it has to be countable: one sheet,

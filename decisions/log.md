@@ -68,3 +68,18 @@ has been corrected across context/, CLAUDE.md and the intake.
 of this repeats outside the family circle.
 
 **Owner:** Yina Belt.
+
+---
+
+## 2026-08-22 — No backfill: the $1,000 counts forward only
+
+**Decision:** The sales tracker starts empty. Only sales made from Week 1 (2026-08-24) forward count
+toward the $1,000 target. The prior kids' birthday shirt order and the concert shirt are not backfilled.
+
+**Why:** The target is a test of whether the business sells going forward. A clean start line keeps the
+number honest and avoids crediting the goal with work that predates it.
+
+**Where the old orders live instead:** `context/about-business.md`, as proof of paid demand and as the
+unit-economics history behind the $100 loss.
+
+**Owner:** Yina Belt.

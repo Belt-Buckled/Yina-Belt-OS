@@ -44,7 +44,8 @@ sold. The upcoming party is the documentation and social-proof test.
 **The real unknown:** whether a stranger buys. Every paid order so far came from people who already know her.
 
 **This quarter, Week 1 starts Monday 2026-08-24, deadline Friday 2026-11-20:** pick the brand name, $1,000 in gross sales, post 3x per week.
-Full detail in `context/priorities.md`.
+Full detail in `context/priorities.md`. The $1,000 counts sales from 2026-08-24 forward only. No
+backfilling of prior orders. The tracker starts empty and the start line stays clean.
 
 **Content is not starting from zero.** There is archive footage from last year's Christmas party, general
 crafting footage, and the concert shirt project. Upcoming: a kids' party inside the window, and Christmas
