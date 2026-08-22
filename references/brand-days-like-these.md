@@ -138,7 +138,7 @@ and a digital file, which is exactly the point.
 | Length | Copy |
 |---|---|
 | Three words | Made by hand. |
-| One line | **REJECTED — see below. Awaiting replacement.** |
+| One line | Handmade favors, decor and custom apparel. **Approved 2026-08-22.** |
 | Instagram bio | Days Like These<br>Favors, decor and custom apparel.<br>Made by hand, one at a time.<br>DM to order. |
 | Spoken | "I make custom shirts and party stuff. Birthdays, concerts, holidays. All by hand." **Approved.** |
 | Hang tag | Made by hand for days like these. **Approved.** |
@@ -151,7 +151,7 @@ Say none of these, ever:
 
 - **Not "merch."** Merch is bought. This is made.
 - **Not "print on demand."** A machine did not decide anything here.
-- **Not "cute."** Cute is small. Milestones are not small.
+- **Not "cute."** Confirmed banned 2026-08-22. Cute is small. Milestones are not small.
 - **Not exclusively kids.** The same buyer buys for her kid and for herself. Copy that speaks only to
   toddler parties cuts half the customer.
 - **Not reselling.** Out of scope, permanently.
@@ -178,23 +178,35 @@ a person would say out loud.
 
 ---
 
-## 11. Days Like These is also the party planner
+## 11. The first documented Days Like These events
 
-Decided 2026-08-22. This is a scope expansion, recorded deliberately.
+Decided 2026-08-22. **This is not a new service line and not added scope.**
 
-For **Aiden's upcoming birthday** and for **Christmas**, Days Like These is the party planner, not just
-the supplier of goods. The planning itself is the brand's work and gets documented as such.
+**Aiden's birthday** and **Christmas** are Yina's own family events. She would be planning and making for
+them either way. What changed is not the workload, it is that the work now gets **documented under the
+brand** instead of disappearing into a camera roll.
 
 **These are the first documented Days Like These events.**
 
 - Content lives on the Days Like These page.
 - Personal pages tag Days Like These while documenting.
-- A hashtag exists. **OPEN ITEM: the hashtag has not been written down here yet.**
+- **Primary hashtag: `#dayslikethese`** — use it on every post from the first one.
 - A photographer is involved. **OPEN ITEM: name not confirmed, possibly Leah.**
 
-**Why this matters strategically:** the favors and decor line has never sold anything. Planning and
-documenting two real events is how that line gets its first proof, and it is the reason favors and decor
-now lead the descriptor rather than trailing it.
+**Why it matters:** the favors and decor line has never sold anything, so it has no proof. These two
+events are how it gets some. That is also why favors and decor lead the descriptor now.
+
+**Party planning is NOT being offered as a service.** If demand for it appears after the documentation
+goes out, that is a separate decision to make then, with its own pricing.
 
 **Timing, unchanged:** Christmas lands after the 2026-11-20 deadline. It builds proof and audience for the
 following quarter, not revenue for this one.
+
+---
+
+## 12. Hashtag
+
+**Primary: `#dayslikethese`**
+
+Use it on every brand post, including the documentation of the two events above. Consistency is the whole
+point of a primary tag: it is how the body of work becomes findable as one body of work.

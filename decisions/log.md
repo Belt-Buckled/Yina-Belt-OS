@@ -181,3 +181,24 @@ both the mom living it and her older child who sees it in her and buys gifts for
 **Also decided:** handle is `@shopdayslikethese`, identical across Instagram, Facebook and Etsy.
 
 **Owner:** Yina Belt.
+
+---
+
+## 2026-08-22 — Correction: the two events are not added scope
+
+**Correction to the entry above.** Party planning for Aiden's birthday and Christmas was recorded as a
+scope expansion and as a service. Both framings were wrong.
+
+These are Yina's own family events. She would be planning and making for them regardless. The only thing
+that changed is that the work gets documented under the brand instead of going undocumented. There is no
+added workload, and party planning is **not** being offered as a service to customers.
+
+If demand for planning appears after the documentation goes out, that is a separate decision with its own
+pricing.
+
+**Also decided:**
+- One-liner approved: **"Handmade favors, decor and custom apparel."**
+- **"Cute" stays banned.** Confirmed, not an open question.
+- **Primary hashtag: `#dayslikethese`**, on every brand post from the first one.
+
+**Owner:** Yina Belt.
