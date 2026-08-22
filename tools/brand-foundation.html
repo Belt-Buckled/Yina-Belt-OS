@@ -1,0 +1,345 @@
+<title>Days Like These Brand Foundation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#F1F0EC; --panel:#FFFFFF; --panel-2:#F7F6F2; --line:#DEDBD3; --line-2:#C4BFB4;
+  --text:#191817; --muted:#5D5A52; --faint:#8B867B;
+  --ink:#2E4756; --ink-soft:#E7EDF1; --ink-deep:#1F323E;
+  --fix:#1F6B4E; --fix-soft:#E3F1EA;
+  --gap:#9A4A20; --gap-soft:#F8E9E1;
+  --shadow:0 1px 2px rgba(25,24,23,.05), 0 10px 28px -14px rgba(25,24,23,.20);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#131211; --panel:#1C1B19; --panel-2:#222120; --line:#302E2B; --line-2:#433F3A;
+    --text:#EFEDE8; --muted:#A9A398; --faint:#7B756A;
+    --ink:#8FB6CA; --ink-soft:#1B2A33; --ink-deep:#B4D3E3;
+    --fix:#54C295; --fix-soft:#122A21;
+    --gap:#E0885A; --gap-soft:#2E1D13;
+    --shadow:0 1px 2px rgba(0,0,0,.5), 0 14px 34px -18px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#131211; --panel:#1C1B19; --panel-2:#222120; --line:#302E2B; --line-2:#433F3A;
+  --text:#EFEDE8; --muted:#A9A398; --faint:#7B756A;
+  --ink:#8FB6CA; --ink-soft:#1B2A33; --ink-deep:#B4D3E3;
+  --fix:#54C295; --fix-soft:#122A21;
+  --gap:#E0885A; --gap-soft:#2E1D13;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 14px 34px -18px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Karla,system-ui,-apple-system,sans-serif;font-size:15.5px;line-height:1.62}
+.wrap{max-width:960px;margin:0 auto;padding:36px 20px 90px;display:flex;flex-direction:column;gap:38px}
+h1,h2,h3,h4{font-family:Fraunces,Georgia,serif;margin:0;text-wrap:balance}
+h1{font-size:clamp(32px,6vw,54px);font-weight:700;line-height:1;letter-spacing:-.025em}
+h2{font-size:clamp(21px,3vw,27px);font-weight:600;letter-spacing:-.012em}
+h3{font-size:18px;font-weight:600}
+h4{font-size:15px;font-weight:600}
+p{margin:0}
+.label{font-size:11px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:var(--faint)}
+.lede{color:var(--muted);max-width:65ch;font-size:17px}
+section{display:flex;flex-direction:column;gap:16px}
+.sechead{display:flex;flex-direction:column;gap:6px;border-bottom:2px solid var(--text);padding-bottom:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 22px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px}
+.stack{display:flex;flex-direction:column;gap:14px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.note{font-size:13.5px;color:var(--muted)}
+
+/* hero name block */
+.hero{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:34px 28px;text-align:center;display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow)}
+.wordmark{font-family:Fraunces,serif;font-weight:600;font-size:clamp(26px,5.6vw,44px);letter-spacing:.1em;text-transform:uppercase;line-height:1.1}
+.descriptor{color:var(--muted);font-size:16px}
+.taghero{font-family:Fraunces,serif;font-style:italic;font-size:clamp(17px,2.6vw,21px);color:var(--ink-deep)}
+
+/* gap rows */
+.gaprow{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow)}
+.gaprow > .top{padding:14px 18px;background:var(--gap-soft);border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;justify-content:space-between}
+.gaprow > .top h3{color:var(--gap);font-size:16px}
+.gaprow > .top .why{font-size:13px;color:var(--muted)}
+.gapbody{display:grid;grid-template-columns:1fr 1fr}
+.gapbody > div{padding:16px 18px;display:flex;flex-direction:column;gap:8px}
+.gapbody > div + div{border-left:1px solid var(--line);background:var(--fix-soft)}
+.tagline-chip{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 9px;border-radius:99px;width:fit-content}
+.chip-gap{color:var(--gap);background:var(--panel)}
+.chip-fix{color:var(--fix);background:var(--panel)}
+
+.sample{font-family:Fraunces,serif;font-size:16px;line-height:1.45;padding:12px 14px;border-radius:8px;background:var(--panel-2);border-left:3px solid var(--ink)}
+.sample.bad{border-left-color:var(--gap);text-decoration:line-through;text-decoration-color:var(--gap);opacity:.75}
+.sample.good{border-left-color:var(--fix)}
+
+table{width:100%;border-collapse:collapse;font-size:14.5px}
+.tablewrap{overflow-x:auto}
+th{text-align:left;font-family:Karla;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);padding:9px 12px;border-bottom:1px solid var(--line-2);white-space:nowrap}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td.k{font-weight:600;white-space:nowrap}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;background:var(--panel-2);padding:1px 6px;border-radius:5px;border:1px solid var(--line)}
+.formula{font-family:ui-monospace,monospace;font-size:14px;background:var(--ink-soft);color:var(--ink-deep);padding:14px 16px;border-radius:9px;line-height:1.7}
+ul{margin:0;padding-left:19px;display:flex;flex-direction:column;gap:6px}
+li strong{font-weight:700}
+.never li{color:var(--muted)} .never li b{color:var(--text)}
+.collections{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+.coll{border:1px solid var(--line);border-radius:10px;padding:13px 15px;background:var(--panel-2)}
+.coll .c1{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--faint)}
+.coll .c2{font-family:Fraunces,serif;font-weight:600;font-size:19px;color:var(--ink-deep)}
+.coll .c3{font-size:13px;color:var(--muted);margin-top:4px}
+footer{border-top:1px solid var(--line);padding-top:18px;font-size:13px;color:var(--faint);display:flex;flex-direction:column;gap:8px}
+@media (max-width:720px){ .two,.gapbody{grid-template-columns:1fr} .gapbody > div + div{border-left:none;border-top:1px solid var(--line)} }
+</style>
+
+<div class="wrap">
+
+  <header class="stack">
+    <div class="label">Brand foundation &middot; decided 2026-08-22 &middot; verbal identity only</div>
+    <h1>Days Like These</h1>
+    <p class="lede">The name is chosen. This document does the part that matters more: it takes the four
+    places the name lost in the head-to-head and turns each one into a rule, so the weaknesses are handled
+    by system instead of by hope.</p>
+  </header>
+
+  <div class="hero">
+    <div class="label">The lockup</div>
+    <div class="wordmark">Days Like These</div>
+    <div class="descriptor">Custom shirts, favors and decor. Made by hand, one at a time.</div>
+    <div class="taghero">Made for days like these.</div>
+  </div>
+
+  <section>
+    <div class="sechead">
+      <div class="label">Why this name</div>
+      <h2>It holds two eras in three words.</h2>
+    </div>
+    <div class="card">
+      <p>You say <em>days like these</em> about a memory. You also say it about a day you are living right
+      now. That is contemporary nostalgia without ever using the word, and it is the same doubleness that
+      shows up in the one real customer: a concert shirt for an artist she loved young, and a birthday
+      shirt for her toddler, from the same hands.</p>
+      <p>It also covers apparel, favors, decor and digital files without naming any of them, which means
+      the business can widen without a rename. Renaming after you have customers is expensive.</p>
+      <p class="note"><strong>The bet being made, stated plainly:</strong> 100% of revenue so far is apparel
+      and 0% is favors. This name was chosen for the business described in the plan, not the business
+      proven on the receipts. If the kids' party this quarter produces no favor sales, Grown &amp; Growing
+      was the better answer.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sechead">
+      <div class="label">The work</div>
+      <h2>Four losses, four rules.</h2>
+      <p class="note">Left side is where the name failed. Right side is what makes it stop failing.</p>
+    </div>
+
+    <div class="stack">
+
+      <div class="gaprow">
+        <div class="top">
+          <h3>Loss 1 &middot; The kids' birthday listing</h3>
+          <span class="why">Brand-first titles made an upcoming party sound wistful</span>
+        </div>
+        <div class="gapbody">
+          <div>
+            <span class="tagline-chip chip-gap">The problem</span>
+            <div class="sample bad">Days Like These &mdash; Custom Birthday Shirt, 5T</div>
+            <p class="note">Leading with the brand points a nostalgic phrase at a party that has not
+            happened yet. It reads like a memorial instead of an invitation.</p>
+          </div>
+          <div>
+            <span class="tagline-chip chip-fix">The rule &mdash; product first, brand last</span>
+            <div class="sample good">Custom Birthday Shirt, 5T, Any Name | Days Like These</div>
+            <p class="note">Nobody is searching for the brand yet. Put what they typed first and sign it at
+            the end. The tense fix does the rest: <strong>made for</strong> days like these points forward,
+            at the day coming up.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gaprow">
+        <div class="top">
+          <h3>Loss 2 &middot; Said out loud at a party</h3>
+          <span class="why">Three common words, easy to forget, hard to search later</span>
+        </div>
+        <div class="gapbody">
+          <div>
+            <span class="tagline-chip chip-gap">The problem</span>
+            <div class="sample bad">"She has a shop, it's called Days Like These." &mdash; "...Days like what?"</div>
+            <p class="note">Word of mouth in a mom circle is currently the whole distribution channel, so
+            the sentence a customer repeats matters more than any ad.</p>
+          </div>
+          <div>
+            <span class="tagline-chip chip-fix">The rule &mdash; the handoff line</span>
+            <div class="sample good">"It's called Days Like These. She makes custom shirts and party stuff."</div>
+            <p class="note">Fifteen words. Name plus category, no jargon. Say it this way every single time
+            so it gets repeated this way. Recovery line when someone mishears:
+            <strong>"Days Like These, like the phrase."</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gaprow">
+        <div class="top">
+          <h3>Loss 3 &middot; The Instagram bio</h3>
+          <span class="why">The name explained nothing in the first two seconds</span>
+        </div>
+        <div class="gapbody">
+          <div>
+            <span class="tagline-chip chip-gap">The problem</span>
+            <div class="sample bad">Days Like These</div>
+            <p class="note">A mom scrolling gives you two seconds. A bare abstract name spends both of them
+            without telling her anything.</p>
+          </div>
+          <div>
+            <span class="tagline-chip chip-fix">The rule &mdash; the lockup</span>
+            <div class="sample good">Days Like These<br>Custom shirts, favors and decor.<br>Made by hand, one at a time. Your day, your way.<br>DM to order.</div>
+            <p class="note">The name never appears bare where a stranger might meet it. The descriptor
+            always travels with it. Bare name is allowed only where the audience already knows her: a hang
+            tag on a delivered order, a repeat customer's DM, a reply in her own comments.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gaprow">
+        <div class="top">
+          <h3>Loss 4 &middot; The cold stranger</h3>
+          <span class="why">Could be a candle shop, a podcast, a photographer, a coffee roaster</span>
+        </div>
+        <div class="gapbody">
+          <div>
+            <span class="tagline-chip chip-gap">The problem</span>
+            <div class="sample bad">Days Like These &mdash; ?</div>
+            <p class="note">The quarter's entire test is whether a stranger buys. Being unreadable to a
+            stranger is the most expensive weakness on the list.</p>
+          </div>
+          <div>
+            <span class="tagline-chip chip-fix">The rule &mdash; collections are occasions</span>
+            <div class="sample good">Days Like These &middot; Birthdays</div>
+            <p class="note">Organize the catalog by <em>the day</em>, not the product. The name stops being
+            abstract the moment it is followed by an occasion, and a stranger instantly knows what this is.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="sechead">
+      <div class="label">Structure</div>
+      <h2>Collections are occasions, not product types.</h2>
+      <p class="note">This is the structural fix. A birthday collection holds a shirt, a favor bag, a banner
+      and a digital file, which is exactly the point: one day, every surface.</p>
+    </div>
+    <div class="collections">
+      <div class="coll"><div class="c1">Days Like These</div><div class="c2">Birthdays</div><div class="c3">Shirts, favors, decor, files. The proven line.</div></div>
+      <div class="coll"><div class="c1">Days Like These</div><div class="c2">Concerts</div><div class="c3">Adult apparel. Evoke the era, never the logo.</div></div>
+      <div class="coll"><div class="c1">Days Like These</div><div class="c2">Christmas</div><div class="c3">Decor and gifts. Builds after the deadline.</div></div>
+      <div class="coll"><div class="c1">Days Like These</div><div class="c2">Everyday</div><div class="c3">The days nobody planned that count anyway.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sechead">
+      <div class="label">Language</div>
+      <h2>Taglines, by job.</h2>
+    </div>
+    <div class="card">
+      <div class="tablewrap"><table>
+        <tr><th>Line</th><th>Where it goes</th><th>Why</th></tr>
+        <tr><td class="k"><em>Made for days like these.</em></td><td>Default, everywhere</td><td>Present and future tense. Points at the day coming up, still true years later.</td></tr>
+        <tr><td class="k"><em>Still know the words.</em></td><td>Nostalgia and adult content</td><td>Concert shirts, throwback posts. Instant recognition for a millennial mom.</td></tr>
+        <tr><td class="k"><em>A ridiculous amount of thought.</em></td><td>Process and behind the scenes</td><td>Sourcing, pressing, the fourth revision nobody asked for. The real differentiator.</td></tr>
+        <tr><td class="k"><em>Made by hand for days like these.</em></td><td>The hang tag</td><td>Long form of the primary. The name finishes the sentence.</td></tr>
+      </table></div>
+      <p class="note">Never stack two taglines in one place.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sechead">
+      <div class="label">Language</div>
+      <h2>The messaging ladder.</h2>
+      <p class="note">Same brand, five lengths. Pick by the space you have.</p>
+    </div>
+    <div class="card">
+      <div class="tablewrap"><table>
+        <tr><th>Length</th><th>Copy</th></tr>
+        <tr><td class="k">Three words</td><td>Made by hand.</td></tr>
+        <tr><td class="k">One line</td><td>Custom shirts, favors and decor for the days worth keeping.</td></tr>
+        <tr><td class="k">Spoken</td><td>"I make custom shirts and party stuff. Birthdays, concerts, holidays. All by hand."</td></tr>
+        <tr><td class="k">Bio</td><td>Days Like These &middot; Custom shirts, favors and decor. Made by hand, one at a time. DM to order.</td></tr>
+        <tr><td class="k">Hang tag</td><td>Made by hand for days like these.</td></tr>
+      </table></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sechead">
+      <div class="label">Listings</div>
+      <h2>The title formula.</h2>
+    </div>
+    <div class="card">
+      <div class="formula">[Product] + [key detail] + | Days Like These</div>
+      <ul>
+        <li><code>Custom Birthday Shirt, 5T, Any Name | Days Like These</code></li>
+        <li><code>Party Favor Bags, Set of 12, Personalized | Days Like These</code></li>
+        <li><code>Custom Concert Tee, Adult 3X | Days Like These</code></li>
+      </ul>
+      <p class="note">Brand-first titles are for channels where the audience already follows her. On
+      Marketplace and Etsy, a stranger is searching for a product, not for you.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sechead">
+      <div class="label">Housekeeping</div>
+      <h2>Handles and domain.</h2>
+    </div>
+    <div class="two">
+      <div class="card">
+        <h4>Domain</h4>
+        <p class="note"><code>dayslikethese.com</code> is registered and does not resolve to anything.
+        Do not wait on it.</p>
+        <p class="note"><strong>Verified available:</strong> <code>dayslikethesegoods.com</code>,
+        <code>dayslikethesestudio.com</code></p>
+      </div>
+      <div class="card">
+        <h4>Handles, in preference order</h4>
+        <ul class="note">
+          <li><code>@dayslikethese</code></li>
+          <li><code>@dayslikethese.co</code></li>
+          <li><code>@shopdayslikethese</code></li>
+          <li><code>@dayslikethesegoods</code></li>
+        </ul>
+        <p class="note"><strong>Rule:</strong> identical handle on Instagram, Facebook and Etsy.
+        Consistency beats getting the perfect one.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sechead">
+      <div class="label">Guardrails</div>
+      <h2>What this brand never says.</h2>
+    </div>
+    <div class="card">
+      <ul class="never">
+        <li><b>Not "merch."</b> Merch is bought. This is made.</li>
+        <li><b>Not "print on demand."</b> A machine did not decide anything here.</li>
+        <li><b>Not "cute."</b> Cute is small. Milestones are not small.</li>
+        <li><b>Not kids-only.</b> The same buyer buys for her kid and for herself. Copy that speaks only to toddler parties cuts half the customer.</li>
+        <li><b>Not reselling.</b> Out of scope, permanently.</li>
+        <li><b>Not an artist's logo.</b> The brand evokes an era. It does not reproduce one's trademarks.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Deliberately not decided yet:</strong> colors, typefaces, logo. The colors and type on this
+    page are document styling, not brand identity. Visual identity comes after the words are settled.</p>
+    <p><strong>Still open:</strong> no USPTO clearance has been run. Search class 25 (apparel) and 16 / 28
+    (paper and party goods) at tmsearch.uspto.gov before printing anything permanent.</p>
+    <p>Rules mirrored in <code>references/brand-days-like-these.md</code> so the AIOS follows them on every
+    draft. Decision recorded in <code>decisions/log.md</code>.</p>
+  </footer>
+
+</div>
