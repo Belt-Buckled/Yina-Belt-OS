@@ -21,11 +21,16 @@
 
 ## Editing
 
-Source SVG files retain editable text. Install League Gothic, Bodoni Moda and Instrument Sans before editing. Outlined SVG files are vendor-safe but their template copy is no longer editable as text.
+Source SVG files retain editable supporting text. Install League Gothic, Bodoni Moda and Instrument Sans before editing. The logo itself is an embedded pixel-exact extraction from the approved Option 4 Drive reference and must never be retyped, redrawn, traced, restacked, stretched or substituted with fonts.
 
 ## Production assets
 
-- [Complete social identity kit](https://drive.google.com/file/d/1S-WG5V5BPKgkoVYa9GyDNvuIOP0T1Dm3/view?usp=drivesdk)
-- [Social identity kit overview](https://drive.google.com/file/d/1cxgq-yBrVGTy-G8PnZmkRsZ-4neviH4b/view?usp=drivesdk)
+- [Exact-master social identity kit](https://drive.google.com/file/d/1iOPvNlUuB9OsbjOzOEBTft1Tx0LNiSQ2/view?usp=drivesdk)
+- [Exact-master social kit overview](https://drive.google.com/file/d/1vCVyrCBOyo460f6NPLBDB7ADwcaKNKaR/view?usp=drivesdk)
 
 The package contains editable SVG templates, outlined SVG masters, platform-sized PNG previews, transparent watermark SVG/PNG files and checksums.
+
+
+## Supersession notice — 2026-08-23
+
+This exact-master release supersedes the earlier social kit derived from reconstructed substitute-font vectors. Every logo placement now preserves the approved silhouette, internal spacing, stacking and aspect ratio. Palette recoloring is allowed only through the unchanged alpha silhouette.
