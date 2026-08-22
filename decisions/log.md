@@ -255,3 +255,30 @@ availability and alignment have not been reconfirmed.
 **Supersedes:** the handle line in “Copy rejected: ‘A ridiculous amount of thought’ and the one-liner.”
  
 **Owner:** Yina Belt.
+
+---
+
+## 2026-08-22 — Option 4 “Two Eras” approved as the Days Like These wordmark
+
+**Decision:** Option 4, **Two Eras**, is the approved Days Like These wordmark and the standard for future
+brand applications. It combines condensed sans-serif lettering for “DAYS LIKE” with a high-contrast
+editorial serif for “THESE,” primarily in a stacked lockup. The full application context is recorded in
+[`context/brand-visual-identity.md`](../context/brand-visual-identity.md).
+
+**Why:** The two-typeface construction turns the brand's positioning into a visible idea: the millennial
+mom's era and the new memories being created for her family. It also showed the stronger cross-medium
+system in the packaging, apparel and digital tests while remaining aligned with the approved Ticket &
+Thread baseline.
+
+**Approved references:** [wordmark system](https://drive.google.com/file/d/1HMddC1vxwXjN7-n5RbrGiwARCZFDFWri/view?usp=drivesdk),
+[packaging](https://drive.google.com/file/d/1gJe8nUP-BA3ilWH4-JmK_MZVjwrcCWot/view?usp=drivesdk),
+[apparel](https://drive.google.com/file/d/1hU2WOuaHvuRGg3TWzQcWYaQQ_h6TSLs7/view?usp=drivesdk), and
+[digital platforms](https://drive.google.com/file/d/16XTkBLCS9pSGIZ4-6TOj5CbQrO7p_cGf/view?usp=drivesdk).
+
+**Guardrail:** these boards approve the concept and application direction, not printer-ready master files.
+Vector recreation, font licensing or custom lettering, exact color specifications, clear space, minimum
+sizes and production exports remain required.
+
+**Alternative considered:** Option 3 — The Maker Label.
+
+**Owner:** Yina Belt.
