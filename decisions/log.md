@@ -202,3 +202,31 @@ pricing.
 - **Primary hashtag: `#dayslikethese`**, on every brand post from the first one.
 
 **Owner:** Yina Belt.
+
+---
+
+## 2026-08-22 — Visual identity baseline approved: Ticket & Thread
+
+**Decision:** Moodboard 5, **Ticket & Thread**, is the approved visual baseline for Days Like These.
+All visual identity work starts from this direction. The approved board is stored in Google Drive:
+[Days Like These — Approved Visual Baseline: Ticket & Thread](https://drive.google.com/file/d/1SwG1286eNTXAG-PRF3N0V_KUJ18SCH5B/view?usp=drivesdk).
+
+**Why:** Ticket & Thread produced the most ownable system rather than only a mood: meaningful days leave
+artifacts, and the brand turns those artifacts into a contemporary identity. Tickets, tags, stitched
+labels, fabric, ribbon, handwritten dates and numbered editions connect birthdays, concerts, Christmas
+and everyday moments without making the brand kids-only or nostalgia-only. Its stronger contrast also
+works across apparel, favors, packaging and social content.
+
+**Baseline cues:** warm ivory, rich black, oxblood, cobalt, marigold and muted blush; condensed display
+type balanced by editorial and utility typography; tactile material details; direct-flash family imagery;
+and bold, clean editorial grids.
+
+**Guardrail:** the moodboard is an approved direction, not a finished identity kit. Its generated
+wordmarks, exact fonts, color values and mock applications are references, not final assets. Logo,
+typography, production palette and application rules still require design, testing and explicit approval.
+
+**Alternatives considered:** Warm Archive, Colorful Memory, Quiet Heirloom, Family Album and The Occasion
+Edit.
+
+**Owner:** Yina Belt.
+
