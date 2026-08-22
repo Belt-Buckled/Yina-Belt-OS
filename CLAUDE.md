@@ -46,6 +46,11 @@ sold. The upcoming party is the documentation and social-proof test.
 **This quarter, 2026-08-22 to 2026-11-20:** pick the brand name, $1,000 in gross sales, post 3x per week.
 Full detail in `context/priorities.md`.
 
+**Content is not starting from zero.** There is archive footage from last year's Christmas party, general
+crafting footage, and the concert shirt project. Upcoming: a kids' party inside the window, and Christmas
+party prep that straddles it. The Christmas event itself lands after the deadline, so it builds audience
+and proof for next quarter, not this quarter's revenue.
+
 **The known wound:** the first real project netted a $100 loss because cost was never settled before the
 work was quoted. Sourcing and pricing are the same problem. Landed cost per unit is the number that fixes it.
 
