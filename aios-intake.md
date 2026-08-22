@@ -29,11 +29,48 @@ Identity, offer, ICP. One paragraph each is fine.
 An email, a LinkedIn post, a DM, a doc — anything that sounds like you when you're not trying. **Paste verbatim.** Do not type these mid-conversation with Claude — chat-shaped samples are worse than no samples (voice contamination).
 
 ```
-[Sample 1 — paste raw]
+**Sample 1 — raw turns from her own ChatGPT thread, "Custom Concert Shirt" project (verbatim, unedited).**
+Not written for an audience. This is how she talks when she is working a problem.
+
+Is 14x18.43 too big for the back image
+
+The front print is 14"x14", is that ok or should I make it larger
+
+Is there a way to politely ask for more money? ... We didn't really talk cost ... I ended up overspending.
+
+Here's my costs... doesn't even include time and labor.
+
+I was thinking maybe I could offer it to someone who wants to cut it.
+
+I don't think I was taking into consideration ... the sides of the shirt are gonna be taken up by the human body. I just don't want it to look small.
+
+Do I need to wash the Gildan 5000 shirts first? I don't want to lol
+
+I'm netting a hundred dollar loss on this ... but I have some inventory.
+
+I want to ... sell. Put a video together ... and figure out how I want to sell. Transfers? Put them on blanks? Colors customizable?
+
+I want to put pics on FB Marketplace ... but I only have the plus sized shirts I made.
+
+Did I really design this? Some stuff I just bought ... I had inspiration, like a template.
+
+I kind of want to mention knocking out this project ... clearing my projects because it's almost time ... Christmas tree ... teaser for the Christmas party.
 ```
 
 ```
-[Sample 2 — paste raw]
+**Sample 2 — a personal relationship message. WITHHELD FROM THIS REPO by request of the AIOS.**
+
+The raw text was provided and read during intake, but it is intimate correspondence involving another
+person, and this repo is pushed to GitHub. Storing it verbatim here would publish it. Yina can paste it
+back in at any time if she wants it kept.
+
+Register notes captured from it (no verbatim text):
+- Long, unbroken, run-on sentences when the subject is emotional. Very different rhythm from Sample 1.
+- Leads by naming the other person's experience before her own. "I hear what you're saying about what
+  happens for you too."
+- Repairs rather than argues. Names the shared problem, not the opponent.
+- Softens with an emoji at the close rather than a hard stop.
+- Zero jargon. Zero bullet points. Plain, direct, warm.
 ```
 
 ---
