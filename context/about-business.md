@@ -13,15 +13,25 @@ garment.
 
 ## Who it is for
 
-Stated target: moms of young kids, buying party favors and party decor for kids' parties.
+**One buyer, multiple occasions.** This is the correction that matters most: the customer who bought the
+custom concert shirt is the *same customer* who bought custom shirts for her kid's birthday. She is a mom
+who buys for her child and for herself. The "kids' party market" and the "adult concert apparel market"
+are not two markets. They are two occasions in one person's year.
 
-Actual demand so far has come from somewhere else. The one finished project was a custom concert shirt
-for adults, and the only unsolicited inbound this business has ever received came from posting that reel.
-Paid customers to date are family.
+**What is proven and paid:**
+- Custom kids' birthday shirts. Two shirts, one order, paid.
+- Custom adult concert shirt. Front and back, 3X and 5X, paid.
+- Both to the same buyer, out of a close circle that so far is family.
 
-**Open tension, deliberately unresolved:** the stated ICP and the proven demand are not the same market.
-Both are live. The 90-day sales number will settle which one is real. Do not quietly collapse one into
-the other.
+**What is not yet sold at all:** party favors and party decor. This is an *emerging venture*. Yina makes
+these for her own kids' parties personally. Nothing has been sold. The next party is the test: document
+the build, use it as social proof, and see whether demand appears.
+
+**So the ICP reads:** moms of young kids who buy custom apparel for their children, and who also buy for
+themselves. Party favors and decor are a product-line bet on that same buyer, not a different audience.
+
+**What is still genuinely unknown:** whether this repeats outside the family circle. Every paid order so
+far traces to people who already know her. The $1,000 by 2026-11-20 is the test of whether a stranger buys.
 
 ## Channels and licensing posture
 

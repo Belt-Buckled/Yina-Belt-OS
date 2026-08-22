@@ -15,6 +15,16 @@ One reel already produced unsolicited inbound from two platforms, with no brand 
 funnel. Posting is the only activity that has ever generated non-family interest, so priority 3 is the
 engine behind priority 2. Priority 1 unblocks both.
 
+## Content already has a subject
+
+There is a kids' party coming up. Yina is making the favors and decor for it herself. Documenting that
+build is content for priority 3 and it is the only proof that will exist for the party-favor line, since
+nothing in that line has ever been sold. One event, two jobs: posts for the cadence, social proof for a
+product that has no customers yet.
+
+The other content asset already in hand: the concert shirt project, which produced unsolicited inbound
+from two platforms with no brand attached.
+
 ## The unnamed dependency
 
 Priority 2 has no measurement surface. Before the number can be hit it has to be countable: one sheet,

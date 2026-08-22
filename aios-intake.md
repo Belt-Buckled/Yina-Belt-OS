@@ -15,9 +15,15 @@ Identity, offer, ICP. One paragraph each is fine.
 
 **What I sell:** Custom-crafted items. Specifically custom design *application* onto physical products — not reselling, not dropshipping. I design, then apply the design to the item.
 
-**Primary product focus:** Party favors and party decor for kids' parties.
+**Product lines, by proof:**
+- **Custom apparel — PAID.** Kids' birthday shirts (two shirts, one order) and an adult concert shirt.
+- **Party favors and decor — NOT SOLD YET.** Emerging venture. Made personally for her own kids' parties.
+  Next party is the documentation and social-proof test.
+- **Digital PNG / transfer files — under consideration.**
 
-**Who I sell to:** Moms of young kids — the person planning and buying for the party.
+**Who I sell to:** Moms of young kids. **Critically: this is one buyer with multiple occasions, not two
+markets.** The customer who bought the adult concert shirt is the same customer who bought the custom
+kids' birthday shirts. She buys for her child and for herself. Every paid order so far traces to family.
 
 **Explicitly out of scope:** Reselling. That's a different business.
 ```

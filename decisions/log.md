@@ -51,3 +51,20 @@ brand" when the brand is unnamed, and listings have no consistent identity to se
 market picks between the kids' party favor ICP and the adult concert apparel demand.
 
 **Owner:** Yina Belt.
+
+---
+
+## 2026-08-22 — ICP corrected: one buyer, multiple occasions
+
+**Decision:** Stop describing the kids' party market and the adult concert apparel market as two separate
+markets. They are one buyer with two occasions.
+
+**Why:** The customer who bought the adult concert shirt is the same customer who bought custom shirts for
+her kid's birthday. She is a mom who buys for her child and for herself. An earlier version of the intake
+recorded these as competing markets to be settled by the 90-day sales number. That framing was wrong and
+has been corrected across context/, CLAUDE.md and the intake.
+
+**What is actually unproven:** the party favor and decor line, which has never been sold, and whether any
+of this repeats outside the family circle.
+
+**Owner:** Yina Belt.

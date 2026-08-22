@@ -33,10 +33,15 @@ Today the product is apparel: DTF transfers pressed onto blanks. One full projec
 concert shirt, front and back, 3X and 5X, one piece outsourced. Secondary product under consideration is
 the digital file itself, the PNG or transfer rather than the finished garment.
 
-**Stated ICP:** moms of young kids buying party favors and decor for kids' parties.
-**Proven demand:** adults, from one concert shirt reel. Paid customers to date are family.
-These are two different markets and both are live. The 90-day sales number settles which one is real.
-Do not quietly collapse one into the other.
+**ICP:** moms of young kids who buy custom apparel for their kids and for themselves. This is one buyer,
+not two. The customer who bought the adult concert shirt is the same customer who bought the custom kids'
+birthday shirts. Do not describe these as separate markets.
+
+**Proven and paid:** custom kids' birthday shirts, and the adult concert shirt. Both to the same buyer,
+within a circle that so far is family.
+**Unproven:** party favors and decor. Emerging venture, made personally for her own kids' parties, never
+sold. The upcoming party is the documentation and social-proof test.
+**The real unknown:** whether a stranger buys. Every paid order so far came from people who already know her.
 
 **This quarter, 2026-08-22 to 2026-11-20:** pick the brand name, $1,000 in gross sales, post 3x per week.
 Full detail in `context/priorities.md`.
