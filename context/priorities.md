@@ -1,6 +1,12 @@
 # 90-Day Priorities
 
-Window: 2026-08-22 to 2026-11-20.
+Window: **Week 1 starts Monday 2026-08-24.** Deadline is Friday 2026-11-20.
+
+That is 12 full weeks plus a 4-day Week 13 (Mon 2026-11-16 through the Friday deadline). Today,
+2026-08-22, is a Saturday. This weekend is not Week 1. It is prep.
+
+**The posting math:** 3 posts per week x 12 full weeks = 36 posts, plus 2 in the short Week 13 = **38 posts**,
+not 39. Week 1 runs 2026-08-24 to 2026-08-30. Week 12 ends 2026-11-15.
 
 1. **Pick the brand name.** One decision, one deliverable. Sequenced first because priorities 2 and 3
    are both partially blocked without it.

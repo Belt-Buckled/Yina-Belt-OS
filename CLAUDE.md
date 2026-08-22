@@ -43,7 +43,7 @@ within a circle that so far is family.
 sold. The upcoming party is the documentation and social-proof test.
 **The real unknown:** whether a stranger buys. Every paid order so far came from people who already know her.
 
-**This quarter, 2026-08-22 to 2026-11-20:** pick the brand name, $1,000 in gross sales, post 3x per week.
+**This quarter, Week 1 starts Monday 2026-08-24, deadline Friday 2026-11-20:** pick the brand name, $1,000 in gross sales, post 3x per week.
 Full detail in `context/priorities.md`.
 
 **Content is not starting from zero.** There is archive footage from last year's Christmas party, general
