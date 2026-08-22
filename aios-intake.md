@@ -80,9 +80,9 @@ Register notes captured from it (no verbatim text):
 Quarterly priorities. Not yearly aspirations. Things that, if not done by July, would make you say "I wasted Q2."
 
 ```
-1. [Priority 1]
-2. [Priority 2]
-3. [Priority 3]
+1. **$1,000 in sales by 2026-11-20** (90 days from 2026-08-22). Gross sales, not profit. This is the number that decides whether the business is real.
+2. **Post about the brand 3x per week**, every week, for the full 90 days. That is 39 posts. Measured by posts published, not by reach or follower count.
+3. **Pick the brand name.** One deliverable, one decision, done. Priorities 1 and 2 are both partially blocked until this lands, so it goes first.
 ```
 
 ---
