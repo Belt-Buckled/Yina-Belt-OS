@@ -71,6 +71,12 @@ Register notes captured from it (no verbatim text):
 - Repairs rather than argues. Names the shared problem, not the opponent.
 - Softens with an emoji at the close rather than a hard stop.
 - Zero jargon. Zero bullet points. Plain, direct, warm.
+
+**House vocabulary — use this framing by default.**
+**Signal vs. noise.** Stated explicitly during intake as the operating lens for this business: focus on
+the signals that actually drive value, and name the noise as noise. Expect it to come up constantly.
+When surfacing anything — metrics, inbound, content performance, spending — separate the signal from
+the noise rather than reporting a flat list.
 ```
 
 ---
@@ -133,8 +139,7 @@ text or verbally, in person.
 **So the real channels are:** iMessage/text, Instagram (reel replies + DM), Facebook Messenger DM,
 and in-person conversation.
 
-**Email:** Not named during intake. **OPEN ITEM.** Needed to infer the calendar (Gmail → Google Calendar,
-Outlook → Outlook Calendar) and to have any address to put on a listing or an invoice.
+**Email:** **Gmail.** → Calendar is therefore **Google Calendar** (auto-inferred, confirmed in intake).
 
 **Signal worth keeping:** She posted one reel and got unsolicited inbound from two platforms, with no
 brand, no name, and no listing funnel. That is demand responding to content — which is the evidence
@@ -149,7 +154,20 @@ produced the only non-family interest this business has seen.
 Granola? Otter? Fireflies? Google Drive? Notion? Dropbox? A folder on your desktop you keep meaning to organize?
 
 ```
-[Your answer here]
+**Assets live in three places, unconsolidated:**
+
+1. **Canva** — design work, product photos being sized for listings (she works listing images at 1080x1080 there).
+2. **Google Drive**
+3. **Desktop folders** — local machine.
+
+No single source of truth. No naming convention. Nothing that says which PNG is the final approved
+version of a design versus a working draft.
+
+**Noise flagged:** three storage locations for one solo operator is the classic setup where the final
+artwork gets lost and a design gets re-made from scratch. Since Gmail is confirmed, **Google Drive is the
+obvious consolidation target** — it's already in the stack and it's already the one that syncs.
+
+**Related open item from Q4:** receipts are a physical pile and are not in any of these three.
 ```
 
 ---
