@@ -92,7 +92,26 @@ Quarterly priorities. Not yearly aspirations. Things that, if not done by July, 
 Multiple answers OK. Stripe? Skool? GoHighLevel? QuickBooks? A spreadsheet?
 
 ```
-[Your answer here]
+**Tracked where:** Nowhere. It's a receipts pile. No ledger, no spreadsheet, no accounting tool.
+
+**Channel plan (deliberate, risk-based):**
+
+| Channel | Status | What sells there | Fulfillment |
+|---|---|---|---|
+| Facebook Marketplace | Confirmed, in use | Finished shirts, incl. concert/fan-art designs | Local pickup only to date. Open to shipping. |
+| Etsy | Possible, not started | **PNG / digital transfer files only.** Explicitly NOT finished shirts. | Digital |
+| eBay | Undecided, leaning no | — | — |
+
+**The reason for the split:** licensing risk. Concert and artist-referencing designs stay on Facebook
+Marketplace only, to keep exposure contained. Etsy would carry the digital files, not the fan-art shirts.
+This is a stated, intentional constraint — not an accident of where she happens to have accounts.
+
+**Where the money actually lands:** Not yet pinned down. Depends on the platform. Local pickup to date
+implies cash or a peer-to-peer app, but the specific rail was not named. **OPEN ITEM — see gap below.**
+
+**Gap flagged during intake:** Priority 1 is "$1,000 in sales by 2026-11-20." There is currently no place
+where a sale gets recorded. A number you can't count is a number you can't hit. Simplest fix on Day 2:
+one sheet, five columns — date, item, channel, amount collected, cost of goods.
 ```
 
 ---
