@@ -282,3 +282,18 @@ sizes and production exports remain required.
 **Alternative considered:** Option 3 — The Maker Label.
 
 **Owner:** Yina Belt.
+
+
+---
+
+## 2026-08-22 — Typography system approved: Editorial Ticket
+
+**Decision:** Option 1, **Editorial Ticket**, is the approved Days Like These typography system: **League Gothic** for display and ticket-style utility copy, **Bodoni Moda** for editorial and keepsake moments, and **Instrument Sans** for body copy, product information and digital interface text. The operational rules are recorded in [`context/typography-system.md`](../context/typography-system.md).
+
+**Why:** It extends the Ticket & Thread baseline and the Two Eras wordmark without competing with the logo. League Gothic supplies the bold artifact/ticket voice, Bodoni Moda carries the emotional keepsake voice, and Instrument Sans keeps everyday information clear and contemporary. The combination works across packaging, social, pricing, labels and longer copy.
+
+**Approved reference:** [typography comparison board](https://drive.google.com/file/d/1s1qs6Y-w-0jV_JLFMJREHq889wCKSzsI/view?usp=drivesdk).
+
+**Alternatives considered:** Warm Archive, Playful Heirloom and Clean Keepsake.
+
+**Owner:** Yina Belt.
