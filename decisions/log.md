@@ -297,3 +297,18 @@ sizes and production exports remain required.
 **Alternatives considered:** Warm Archive, Playful Heirloom and Clean Keepsake.
 
 **Owner:** Yina Belt.
+
+
+---
+
+## 2026-08-22 — Production color system finalized
+
+**Decision:** The Ticket & Thread palette is now the production Days Like These color system: Warm Ivory `#F5EFE4`, Rich Black `#111111`, Oxblood `#7A1E22`, Cobalt `#163F8C`, Marigold `#D89A2B` and Muted Blush `#E6B3B0`. Warm Ivory and Rich Black are the foundation; Oxblood and Cobalt are core brand colors; Marigold and Muted Blush are accents only. Full rules are in [`context/color-system.md`](../context/color-system.md).
+
+**Why:** This preserves the approved moodboard and wordmark palette while turning it into a repeatable system for print, digital, apparel and packaging. Every approved normal-text digital pairing passes WCAG AAA contrast.
+
+**Production rule:** CMYK values are starting conversions and must be proofed. Pantone, foil and embroidery matches must be selected from physical vendor swatches rather than assigned from screen values.
+
+**Approved assets:** [complete package](https://drive.google.com/file/d/1sDpIYFj3NcOiL11VcbpZgAzT6LOQOmFN/view?usp=drivesdk) and [production guide](https://drive.google.com/file/d/1VtaHtqsjQ82RfLUyLSdxLZSrC_b3K3vN/view?usp=drivesdk).
+
+**Owner:** Yina Belt.
