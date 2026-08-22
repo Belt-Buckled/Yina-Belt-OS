@@ -1,0 +1,289 @@
+<title>Days Like These Palette</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;600;700&family=Jost:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap">
+<style>
+/* page chrome — deliberately NOT the brand. theme-aware. */
+:root{
+  --bg:#EFEEEB; --panel:#FFFFFF; --panel-2:#F6F5F2; --line:#DDDAD3; --line-2:#C2BEB5;
+  --text:#1A1917; --muted:#5E5A53; --faint:#8C877C;
+  --mark:#2F4B55; --mark-soft:#E6EDEF;
+  --shadow:0 1px 2px rgba(26,25,23,.05), 0 12px 30px -16px rgba(26,25,23,.22);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#121110; --panel:#1B1A18; --panel-2:#222120; --line:#2F2D2A; --line-2:#433F3A;
+    --text:#EFEDE8; --muted:#A8A298; --faint:#7C766B;
+    --mark:#8FB2BE; --mark-soft:#1A2A30;
+    --shadow:0 1px 2px rgba(0,0,0,.5), 0 16px 36px -20px rgba(0,0,0,.85);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121110; --panel:#1B1A18; --panel-2:#222120; --line:#2F2D2A; --line-2:#433F3A;
+  --text:#EFEDE8; --muted:#A8A298; --faint:#7C766B;
+  --mark:#8FB2BE; --mark-soft:#1A2A30;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 16px 36px -20px rgba(0,0,0,.85);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Karla,system-ui,sans-serif;font-size:15.5px;line-height:1.62}
+.wrap{max-width:1060px;margin:0 auto;padding:36px 20px 90px;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;margin:0;text-wrap:balance}
+h1{font-size:clamp(30px,5.6vw,50px);font-weight:700;line-height:1.02;letter-spacing:-.025em}
+h2{font-size:clamp(20px,3vw,26px);font-weight:600;letter-spacing:-.012em}
+h3{font-size:17px;font-weight:600}
+p{margin:0}
+.label{font-size:11px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:var(--faint)}
+.lede{color:var(--muted);max-width:66ch;font-size:17px}
+.note{font-size:13.5px;color:var(--muted)}
+section{display:flex;flex-direction:column;gap:18px}
+.sechead{display:flex;flex-direction:column;gap:6px;border-bottom:2px solid var(--text);padding-bottom:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 22px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px}
+
+/* ---------- BRAND SPECIMENS: fixed colors on purpose ---------- */
+/* These are brand values, not theme values. They must look identical
+   to every viewer, so they are literals and never change with theme. */
+.stage{background:#E4E1DA;border-radius:14px;padding:26px 18px;display:flex;flex-wrap:wrap;gap:22px;justify-content:center}
+.tagwrap{display:flex;flex-direction:column;gap:9px;align-items:center}
+.tag{
+  width:186px;background:#F2EDE4;color:#1C1917;border-radius:5px;
+  padding:20px 18px 18px;display:flex;flex-direction:column;gap:0;align-items:center;
+  box-shadow:0 1px 1px rgba(0,0,0,.12), 0 10px 22px -12px rgba(0,0,0,.45);
+  position:relative;
+}
+.punch{width:13px;height:13px;border-radius:50%;background:#E4E1DA;box-shadow:inset 0 1px 2px rgba(0,0,0,.35);margin-bottom:14px}
+.tag .wm{font-family:Jost,sans-serif;font-weight:500;font-size:12.5px;letter-spacing:.26em;text-transform:uppercase;text-align:center;line-height:1.5}
+.tag .rule{width:34px;height:1px;background:#1C1917;opacity:.35;margin:11px 0}
+.tag .datelbl{font-family:Jost,sans-serif;font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;opacity:.55;margin-bottom:5px}
+.tag .date{font-family:Jost,sans-serif;font-weight:400;font-size:22px;letter-spacing:.08em;line-height:1}
+.tag .foot{font-family:Karla,sans-serif;font-size:9.5px;line-height:1.45;text-align:center;opacity:.72;margin-top:15px}
+.tag .hand{font-family:Caveat,cursive;font-size:17px;margin-top:10px;line-height:1}
+.swatchline{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);font-family:ui-monospace,monospace}
+.dot{width:12px;height:12px;border-radius:3px;border:1px solid rgba(0,0,0,.18)}
+.pick{font-family:Karla;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--mark);background:var(--mark-soft);padding:3px 9px;border-radius:99px}
+.tagwrap .name{font-family:Fraunces,serif;font-weight:600;font-size:15px;color:var(--text)}
+
+/* palette swatches */
+.pal{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:12px}
+.sw{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);cursor:pointer;text-align:left;font:inherit;padding:0;color:inherit}
+.sw .chip{height:76px;display:block}
+.sw .meta{padding:11px 13px;display:flex;flex-direction:column;gap:2px}
+.sw .n{font-weight:700;font-size:14px}
+.sw .h{font-family:ui-monospace,monospace;font-size:12.5px;color:var(--muted)}
+.sw .u{font-size:12px;color:var(--faint);line-height:1.4}
+.sw:focus-visible{outline:2px solid var(--mark);outline-offset:2px}
+.copied{color:var(--mark) !important;font-weight:700}
+
+/* applications */
+.apps{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.app{background:#E4E1DA;border-radius:12px;padding:20px;display:flex;flex-direction:column;gap:11px;align-items:center;justify-content:center;min-height:168px}
+.app.dark{background:#1C1917}
+.appcap{font-size:12px;color:var(--faint);text-align:center}
+.neck{background:#F2EDE4;color:#1C1917;padding:9px 15px;border-radius:2px;text-align:center;width:150px}
+.neck .wm{font-family:Jost,sans-serif;font-weight:500;font-size:9.5px;letter-spacing:.24em;text-transform:uppercase}
+.neck .yr{font-family:Jost,sans-serif;font-size:8px;letter-spacing:.18em;margin-top:3px;color:#A83F38}
+.favor{background:#F2EDE4;color:#1C1917;width:112px;height:112px;border-radius:3px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:10px}
+.favor .wm{font-family:Jost,sans-serif;font-weight:500;font-size:8.5px;letter-spacing:.2em;text-transform:uppercase}
+.favor .hand{font-family:Caveat,cursive;font-size:19px;color:#A83F38;line-height:1}
+.mono-mark{width:104px;height:104px;border-radius:50%;background:#A83F38;color:#F2EDE4;display:flex;align-items:center;justify-content:center;text-align:center;font-family:Jost,sans-serif;font-weight:500;font-size:11px;letter-spacing:.16em;text-transform:uppercase;line-height:1.6;padding:14px}
+.storyedge{width:132px;height:150px;background:#F2EDE4;border:5px solid #A83F38;border-radius:4px;display:flex;align-items:flex-end;justify-content:center;padding:10px}
+.storyedge span{font-family:Jost,sans-serif;font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:#1C1917}
+.onblack{color:#F2EDE4;text-align:center}
+.onblack .wm{font-family:Jost,sans-serif;font-weight:500;font-size:11.5px;letter-spacing:.26em;text-transform:uppercase}
+.onblack .dt{font-family:Jost,sans-serif;font-size:15px;letter-spacing:.08em;color:#D9736B;margin-top:8px}
+
+table{width:100%;border-collapse:collapse;font-size:14.5px}
+.tablewrap{overflow-x:auto}
+th{text-align:left;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);padding:9px 12px;border-bottom:1px solid var(--line-2);white-space:nowrap}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td.k{font-weight:600;white-space:nowrap}
+ul{margin:0;padding-left:19px;display:flex;flex-direction:column;gap:6px}
+.yes li::marker{color:var(--mark)}
+footer{border-top:1px solid var(--line);padding-top:18px;font-size:13px;color:var(--faint);display:flex;flex-direction:column;gap:8px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+
+  <header style="display:flex;flex-direction:column;gap:12px">
+    <div class="label">Visual identity &middot; nothing committed yet</div>
+    <h1>Days Like These Palette</h1>
+    <p class="lede">Four accent candidates on the same hang tag, so they are compared in context rather than
+    as swatches. The tag itself is the concept: the name stays quiet, and <strong>the date does the
+    work.</strong></p>
+  </header>
+
+  <section>
+    <div class="sechead">
+      <div class="label">Compare</div>
+      <h2>Same tag. Four accents.</h2>
+      <p class="note">Identical paper, ink, type and layout. Only the accent changes.</p>
+    </div>
+
+    <div class="stage">
+      <div class="tagwrap">
+        <div class="tag">
+          <div class="punch"></div>
+          <div class="wm">Days Like These</div>
+          <div class="rule"></div>
+          <div class="datelbl">Made for</div>
+          <div class="date" style="color:#A83F38">11 &middot; 08 &middot; 26</div>
+          <div class="foot">Made by hand<br>for days like these.</div>
+          <div class="hand" style="color:#A83F38">Yina</div>
+        </div>
+        <div class="name">Faded cherry</div>
+        <div class="swatchline"><span class="dot" style="background:#A83F38"></span>#A83F38</div>
+        <span class="pick">Recommended</span>
+      </div>
+
+      <div class="tagwrap">
+        <div class="tag">
+          <div class="punch"></div>
+          <div class="wm">Days Like These</div>
+          <div class="rule"></div>
+          <div class="datelbl">Made for</div>
+          <div class="date" style="color:#A5741F">11 &middot; 08 &middot; 26</div>
+          <div class="foot">Made by hand<br>for days like these.</div>
+          <div class="hand" style="color:#A5741F">Yina</div>
+        </div>
+        <div class="name">Aged marigold</div>
+        <div class="swatchline"><span class="dot" style="background:#C08A2E"></span>#C08A2E</div>
+      </div>
+
+      <div class="tagwrap">
+        <div class="tag">
+          <div class="punch"></div>
+          <div class="wm">Days Like These</div>
+          <div class="rule"></div>
+          <div class="datelbl">Made for</div>
+          <div class="date" style="color:#1F3A5F">11 &middot; 08 &middot; 26</div>
+          <div class="foot">Made by hand<br>for days like these.</div>
+          <div class="hand" style="color:#1F3A5F">Yina</div>
+        </div>
+        <div class="name">Ink navy</div>
+        <div class="swatchline"><span class="dot" style="background:#1F3A5F"></span>#1F3A5F</div>
+      </div>
+
+      <div class="tagwrap">
+        <div class="tag">
+          <div class="punch"></div>
+          <div class="wm">Days Like These</div>
+          <div class="rule"></div>
+          <div class="datelbl">Made for</div>
+          <div class="date" style="color:#6B2D3C">11 &middot; 08 &middot; 26</div>
+          <div class="foot">Made by hand<br>for days like these.</div>
+          <div class="hand" style="color:#6B2D3C">Yina</div>
+        </div>
+        <div class="name">Oxblood plum</div>
+        <div class="swatchline"><span class="dot" style="background:#6B2D3C"></span>#6B2D3C</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>What to look for while comparing</h3>
+      <div class="tablewrap"><table>
+        <tr><th>Candidate</th><th>What it does well</th><th>Where it fails</th></tr>
+        <tr><td class="k">Faded cherry</td><td>Celebration without party-store brightness. Reads like a stamp or a ticket. Holds at tag size on cream and on black.</td><td>Goes loud fast if brightened. Must stay desaturated.</td></tr>
+        <tr><td class="k">Aged marigold</td><td>Warmest. Old photographs, birthday light.</td><td>Weakest legibility of the four. On cream paper at small sizes it starts to disappear.</td></tr>
+        <tr><td class="k">Ink navy</td><td>Quiet and adult. Never competes with anything.</td><td>Carries no celebration. The tag stops feeling like a gift.</td></tr>
+        <tr><td class="k">Oxblood plum</td><td>Grown, velvet, definitely not cute.</td><td>Tips moody. On a five-year-old's favor bag it reads solemn.</td></tr>
+      </table></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sechead">
+      <div class="label">If faded cherry wins</div>
+      <h2>The whole palette. Five values.</h2>
+      <p class="note">Click any swatch to copy the hex.</p>
+    </div>
+    <div class="pal">
+      <button class="sw" data-hex="#1C1917"><span class="chip" style="background:#1C1917"></span><span class="meta"><span class="n">Ink</span><span class="h">#1C1917</span><span class="u">All type. Warm near-black, never pure black.</span></span></button>
+      <button class="sw" data-hex="#F2EDE4"><span class="chip" style="background:#F2EDE4;border-bottom:1px solid #DDD8CE"></span><span class="meta"><span class="n">Paper</span><span class="h">#F2EDE4</span><span class="u">Tags, packaging, backgrounds.</span></span></button>
+      <button class="sw" data-hex="#A83F38"><span class="chip" style="background:#A83F38"></span><span class="meta"><span class="n">Faded cherry</span><span class="h">#A83F38</span><span class="u">The accent. Brand-only contexts.</span></span></button>
+      <button class="sw" data-hex="#7E2E29"><span class="chip" style="background:#7E2E29"></span><span class="meta"><span class="n">Cherry dark</span><span class="h">#7E2E29</span><span class="u">Small type and rules on paper.</span></span></button>
+      <button class="sw" data-hex="#F0DCD8"><span class="chip" style="background:#F0DCD8;border-bottom:1px solid #E2C9C4"></span><span class="meta"><span class="n">Cherry tint</span><span class="h">#F0DCD8</span><span class="u">Fills and quiet backgrounds.</span></span></button>
+    </div>
+    <p class="note">Five values is the entire system. Nothing gets added without something coming out.</p>
+  </section>
+
+  <section>
+    <div class="sechead">
+      <div class="label">In use</div>
+      <h2>Where the mark actually shows up.</h2>
+    </div>
+    <div class="apps">
+      <div class="app">
+        <div class="neck"><div class="wm">Days Like These</div><div class="yr">Est. 2026</div></div>
+        <div class="appcap">Neck label</div>
+      </div>
+      <div class="app">
+        <div class="favor"><div class="wm">Days Like These</div><div class="hand">Aiden's 6th</div></div>
+        <div class="appcap">Favor tag, handwritten</div>
+      </div>
+      <div class="app">
+        <div class="mono-mark">Days<br>Like<br>These</div>
+        <div class="appcap">Profile mark</div>
+      </div>
+      <div class="app">
+        <div class="storyedge"><span>#dayslikethese</span></div>
+        <div class="appcap">Story template</div>
+      </div>
+      <div class="app dark">
+        <div class="onblack"><div class="wm">Days Like These</div><div class="dt">11 &middot; 08 &middot; 26</div></div>
+        <div class="appcap" style="color:#8C877C">On a black garment tag</div>
+      </div>
+      <div class="app">
+        <div style="font-family:Caveat,cursive;font-size:27px;color:#1C1917;text-align:center;line-height:1.25">Thank you<br>for letting me<br>make this</div>
+        <div class="appcap">Enclosure card</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sechead">
+      <div class="label">The rules that keep it working</div>
+      <h2>The accent is disciplined, not decorative.</h2>
+    </div>
+    <div class="card">
+      <h3 style="color:var(--mark)">Allowed</h3>
+      <ul class="yes">
+        <li>The date stamp</li>
+        <li>Hang tag, favor tag, neck label, enclosure card</li>
+        <li>Packaging tape and stickers</li>
+        <li>Story and post template edges</li>
+        <li>The profile mark</li>
+      </ul>
+      <h3 style="margin-top:8px">Not allowed</h3>
+      <ul>
+        <li>Anywhere it sits on the same surface as a design you made for a customer</li>
+        <li>On the artwork itself, ever</li>
+        <li>As a background behind product photography</li>
+      </ul>
+      <p class="note" style="margin-top:6px"><strong>The reason:</strong> you make the color. The brand's job
+      is to be the quiet frame around whatever color the customer chose, and to lose that fight on purpose,
+      every time.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Two honest notes on this page.</strong> The handwriting is a placeholder font. The real version
+    uses <em>your</em> handwriting, scanned once, which is the part no competitor can copy. And the wordmark
+    here is set in Jost as a stand-in for the direction, not as a chosen typeface.</p>
+    <p>The page's own headings and background are document styling and are not part of the brand.</p>
+    <p><strong>Nothing here is committed.</strong> Say which accent and I will record the palette in
+    <code>references/brand-days-like-these.md</code> so every draft uses it.</p>
+  </footer>
+
+</div>
+
+<script>
+document.querySelectorAll('.sw').forEach(function(b){
+  b.addEventListener('click', function(){
+    var hex = b.dataset.hex, el = b.querySelector('.h'), was = el.textContent;
+    function done(msg){ el.textContent = msg; el.classList.add('copied');
+      setTimeout(function(){ el.textContent = was; el.classList.remove('copied'); }, 1200); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(hex).then(function(){ done('copied'); }).catch(function(){ done(hex); });
+    } else { done(hex); }
+  });
+});
+</script>
