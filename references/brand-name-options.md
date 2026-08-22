@@ -469,3 +469,64 @@ She does it the long way on purpose. Sourcing compared properly, details fussed 
 - **Most likely free:** Sentimental Goods, Not Store Bought, The Keeping Box, Fussed Over
 - **Most likely contested:** Days Like These, Remember This, Made to Keep, Big Feelings, Mom Made
 - **Known conflict:** Shoebox (Hallmark)
+
+---
+
+# Availability check — shortlist of four
+
+Run 2026-08-22. Shortlist chosen by Yina from Rounds 4 and 5:
+**Grown & Growing**, **Days Like These**, **Mom Made**, **The Thought That Counts**.
+
+## What was actually verified, and what was not
+
+| Check | Status | Method |
+|---|---|---|
+| `.com` registration | **Verified** | RDAP against Verisign, by HTTP status |
+| Live website on the domain | **Verified** | DNS resolution |
+| USPTO live/dead marks | **NOT verified** | No API access without a key. Web search is not authoritative for this. |
+| Instagram handle | **NOT verified** | Instagram blocks automated checks |
+| Etsy shop name | **NOT verified** | Etsy returns 403 to automated requests |
+
+**Do not treat this as a trademark clearance.** It is a domain check plus one useful negative finding.
+
+## Exact-match .com results
+
+| Name | `.com` | Live site? |
+|---|---|---|
+| Days Like These | `dayslikethese.com` — **registered** | No DNS record. Parked or dormant. |
+| Grown & Growing | `grownandgrowing.com` — **registered** | No DNS record. Parked or dormant. |
+| Mom Made | `mommade.com` — **registered** | No DNS record. Parked or dormant. |
+| The Thought That Counts | `thethoughtthatcounts.com` — **registered** | No DNS record. Parked or dormant. |
+
+**The useful finding:** all four exact-match domains are owned, but **none of them resolves to a website.**
+There is no active business operating on any of these four names at its own domain. That is a much better
+position than finding a live competitor, and it means the names are contested only by domain holders,
+not by trading businesses.
+
+## Available alternates, verified
+
+| Name | Available `.com` |
+|---|---|
+| Days Like These | `dayslikethesegoods.com`, `dayslikethesestudio.com` |
+| Grown & Growing | `grownandgrowingco.com`, `grownandgrowingshop.com` |
+| Mom Made | `mommadegoods.com` (note: `mommadeshop.com` is taken) |
+| The Thought That Counts | `thoughtthatcountsco.com`, `thethoughtthatcountsshop.com` |
+
+Also checked and free: **`thekeepingbox.com`**. Taken: `sentimentalgoods.com`.
+
+## One trademark data point found
+
+**"IT'S THE THOUGHT THAT COUNTS"** was a registered US mark (Serial 77841234, Reg. 3976375), filed 2009,
+registered 2011, and **cancelled in December 2021** under Section 8. It covered advertising, marketing and
+graphic design services, which is a different class from apparel and party goods.
+
+Read: that specific mark is dead and was never in her classes. It is not a blocker. It is also not
+clearance, since it says nothing about other live marks.
+
+## What Yina still has to do herself
+
+1. Search **tmsearch.uspto.gov** directly. It is free. Search each name in the apparel class (25) and the
+   party goods and paper class (16 / 28).
+2. Check the Instagram handle by typing it into the app.
+3. Check the Etsy shop name by trying to create it.
+4. Plain Google the name plus "shop" to catch local businesses that never registered anything.
