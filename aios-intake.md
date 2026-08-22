@@ -11,7 +11,15 @@ This is the source-of-truth file for your AIOS. Fill it in by typing, voice-past
 Identity, offer, ICP. One paragraph each is fine.
 
 ```
-[Your answer here]
+**Name:** Yina Belt. **Brand name:** TBD — not chosen yet.
+
+**What I sell:** Custom-crafted items. Specifically custom design *application* onto physical products — not reselling, not dropshipping. I design, then apply the design to the item.
+
+**Primary product focus:** Party favors and party decor for kids' parties.
+
+**Who I sell to:** Moms of young kids — the person planning and buying for the party.
+
+**Explicitly out of scope:** Reselling. That's a different business.
 ```
 
 ---
