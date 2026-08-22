@@ -1,0 +1,262 @@
+<title>Warm Archive</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Jost:wght@300;400;500;600&family=Caveat:wght@400;600&family=Karla:wght@400;500;600;700&display=swap">
+<style>
+/* Single-look by design: a mood board must read identically to everyone,
+   so every colour here is an explicit brand literal, not a theme token. */
+:root{
+  --sand:#E8DFCD; --linen:#F2EFE7; --page:#F4F1EA; --card:#FBF9F4;
+  --ink:#332B26; --brick:#A8443A; --marigold:#E0A02A; --slate:#7E97B8;
+  --hair:rgba(51,43,38,.14);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font-family:Karla,system-ui,sans-serif;font-size:15px;line-height:1.6}
+.board{max-width:1040px;margin:0 auto;padding:44px 26px 64px}
+
+/* header */
+.head{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:26px}
+.num{font-family:Jost,sans-serif;font-weight:300;font-size:26px;letter-spacing:.06em;margin-bottom:2px}
+.title{font-family:"Bodoni Moda",Didot,Georgia,serif;font-weight:400;font-size:clamp(44px,9vw,86px);line-height:.92;letter-spacing:.005em;text-transform:uppercase;margin:0}
+.brandtop{font-family:Jost,sans-serif;font-weight:500;font-size:13px;letter-spacing:.28em;text-transform:uppercase;white-space:nowrap;padding-top:12px}
+
+/* mosaic */
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:11px}
+.cell{border-radius:3px;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center;padding:20px;min-height:150px}
+.c-linen{background:var(--linen)} .c-sand{background:var(--sand)} .c-ink{background:var(--ink)}
+.c-card{background:var(--card)} .c-slate{background:var(--slate)}
+.span3{grid-column:span 3} .span4{grid-column:span 4} .span5{grid-column:span 5}
+.span6{grid-column:span 6} .span7{grid-column:span 7} .span8{grid-column:span 8}
+.tall{min-height:210px}
+
+/* 1. deckle-edge embossed card */
+.deckle{width:170px;background:var(--card);padding:34px 16px;text-align:center;
+  box-shadow:0 1px 0 rgba(51,43,38,.10), 0 14px 26px -18px rgba(51,43,38,.5);
+  clip-path:polygon(2% 0,98% 1%,100% 4%,99% 96%,97% 100%,3% 99%,0 96%,1% 4%);}
+.emboss{font-family:Jost,sans-serif;font-weight:500;font-size:11px;letter-spacing:.34em;line-height:2.4;
+  color:rgba(51,43,38,.30); text-shadow:0 1px 0 rgba(255,255,255,.95), 0 -1px 0 rgba(51,43,38,.10);}
+
+/* 2. shot brief tile */
+.brief{width:100%;height:100%;min-height:250px;border:1.5px dashed rgba(51,43,38,.30);border-radius:3px;
+  display:flex;flex-direction:column;justify-content:center;gap:9px;padding:24px 26px;background:var(--sand)}
+.brief .k{font-family:Jost,sans-serif;font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:rgba(51,43,38,.55)}
+.brief h3{font-family:"Bodoni Moda",serif;font-weight:400;font-size:23px;margin:0;line-height:1.15}
+.brief p{margin:0;font-size:13.5px;color:rgba(51,43,38,.72);max-width:40ch}
+.brief ul{margin:2px 0 0;padding-left:16px;font-size:12.5px;color:rgba(51,43,38,.66);line-height:1.55}
+
+/* 3. woven label on black */
+.woven{background:var(--linen);color:var(--ink);padding:9px 20px;border-radius:2px;transform:rotate(-6deg);
+  box-shadow:0 6px 16px -8px rgba(0,0,0,.8);position:relative}
+.woven::after{content:"";position:absolute;inset:3px;border:1px dashed rgba(51,43,38,.35);border-radius:1px}
+.woven span{font-family:Jost,sans-serif;font-weight:500;font-size:12px;letter-spacing:.2em;text-transform:uppercase}
+
+/* 4. ticket */
+.ticket{width:210px;background:var(--brick);color:var(--linen);padding:18px 16px 20px;border-radius:2px;position:relative;
+  box-shadow:0 12px 24px -16px rgba(51,43,38,.8)}
+.ticket::after{content:"";position:absolute;right:0;top:0;bottom:0;width:11px;
+  background:radial-gradient(circle at 0 50%, var(--sand) 5px, transparent 5.5px) 0 0/11px 15px repeat-y;}
+.ticket .tk{font-family:Jost,sans-serif;font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;opacity:.85}
+.ticket .tv{font-family:Jost,sans-serif;font-weight:400;font-size:21px;letter-spacing:.1em;margin:2px 0 12px}
+.ticket .row{border-bottom:1px dashed rgba(242,239,231,.5);padding-bottom:4px;margin-bottom:9px}
+.ticket .serial{position:absolute;right:20px;bottom:16px;writing-mode:vertical-rl;font-family:Jost,sans-serif;font-size:9px;letter-spacing:.22em;opacity:.8}
+.ticket .hole{position:absolute;bottom:-9px;left:50%;transform:translateX(-50%);width:18px;height:18px;border-radius:50%;background:var(--sand)}
+
+/* 5. handwritten date */
+.hand{font-family:Caveat,cursive;font-size:34px;line-height:1;border-bottom:1.5px solid var(--ink);padding-bottom:6px}
+
+/* 6. round stamp */
+.stamp{width:132px;height:132px;border-radius:50%;border:1.5px solid var(--ink);display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:7px;text-align:center;opacity:.85}
+.stamp span{font-family:Jost,sans-serif;font-size:9px;letter-spacing:.22em;text-transform:uppercase;line-height:1.5}
+.stamp .bar{width:26px;height:1px;background:var(--ink)}
+
+/* 7. ribbon */
+.ribbons{display:flex;flex-direction:column;gap:9px;width:100%;transform:rotate(-4deg)}
+.ribbon{background:var(--linen);padding:6px 0;overflow:hidden;box-shadow:0 3px 9px -5px rgba(51,43,38,.6)}
+.ribbon span{font-family:Jost,sans-serif;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--brick);white-space:nowrap}
+.ribbon.alt span{color:var(--ink)}
+
+/* 8. tee neck */
+.tee{width:180px;height:118px;background:var(--ink);border-radius:6px 6px 3px 3px;position:relative;box-shadow:0 12px 24px -18px #000}
+.tee::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:66px;height:17px;
+  border-radius:0 0 34px 34px;border:3px solid rgba(242,239,231,.13);border-top:none}
+.tee .lab{position:absolute;top:26px;left:50%;transform:translateX(-50%);background:var(--linen);color:var(--ink);
+  padding:4px 9px;border-radius:1px;font-family:Jost,sans-serif;font-size:6.5px;letter-spacing:.18em;text-transform:uppercase}
+
+/* 9. favor bag */
+.bag{width:150px;background:var(--linen);border-radius:5px 5px 9px 9px;padding:26px 15px 22px;text-align:center;position:relative;
+  box-shadow:0 12px 26px -18px rgba(51,43,38,.8)}
+.bag::before{content:"";position:absolute;top:9px;left:11px;right:11px;height:2px;background:rgba(51,43,38,.22);border-radius:2px}
+.bag p{font-family:Jost,sans-serif;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--brick);line-height:2}
+.bag .heart{color:var(--marigold);font-size:15px;margin-top:5px}
+.bag .tab{position:absolute;right:-5px;bottom:22px;background:var(--linen);padding:8px 3px;
+  font-family:Jost,sans-serif;font-size:5.5px;letter-spacing:.14em;writing-mode:vertical-rl;text-transform:uppercase;
+  box-shadow:1px 1px 4px -2px rgba(51,43,38,.6)}
+
+/* 10. embroidery */
+.embroid{text-align:center;font-family:Jost,sans-serif;font-weight:600;font-size:23px;letter-spacing:.16em;
+  text-transform:uppercase;line-height:1.6;color:var(--marigold);
+  text-shadow:0 1px 0 rgba(51,43,38,.22), 0 2px 1px rgba(255,255,255,.5)}
+.embroid .star{display:block;color:var(--brick);font-size:19px;margin-top:9px}
+
+/* 11. denim tab */
+.denimtab{background:var(--linen);color:var(--ink);padding:11px 9px;border-radius:2px;text-align:center;transform:rotate(3deg);
+  box-shadow:0 6px 14px -8px rgba(51,43,38,.9)}
+.denimtab span{font-family:Jost,sans-serif;font-weight:500;font-size:10px;letter-spacing:.2em;text-transform:uppercase;line-height:1.9}
+
+/* swatches */
+.swatches{display:grid;grid-template-columns:repeat(6,1fr);gap:11px;margin-top:11px}
+.sw{height:82px;border-radius:3px;position:relative}
+.sw b{position:absolute;left:0;right:0;bottom:-21px;font-family:Jost,sans-serif;font-size:9px;letter-spacing:.14em;
+  text-transform:uppercase;text-align:center;font-weight:400;color:rgba(51,43,38,.6)}
+.swrow{margin-bottom:34px}
+
+.foot{margin-top:52px;border-top:1px solid var(--hair);padding-top:18px;font-size:13px;color:rgba(51,43,38,.62);
+  display:flex;flex-direction:column;gap:9px;max-width:74ch}
+.foot b{color:var(--ink)}
+@media (max-width:820px){
+  .grid{grid-template-columns:repeat(6,1fr)}
+  .span3,.span4,.span5{grid-column:span 3} .span6,.span7,.span8{grid-column:span 6}
+  .swatches{grid-template-columns:repeat(3,1fr)}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="board">
+
+  <div class="head">
+    <div>
+      <div class="num">01 &mdash;</div>
+      <h1 class="title">Warm<br>Archive</h1>
+    </div>
+    <div class="brandtop">Days Like These</div>
+  </div>
+
+  <div class="grid">
+
+    <!-- embossed deckle card -->
+    <div class="cell c-sand span5 tall">
+      <div class="deckle"><div class="emboss">Days<br>Like<br>These</div></div>
+    </div>
+
+    <!-- shot brief -->
+    <div class="cell span7 tall" style="padding:0;background:transparent">
+      <div class="brief">
+        <div class="k">Hero image &middot; shoot this</div>
+        <h3>The moment, not the merchandise.</h3>
+        <p>Candles lit, hands mid-clap, three generations in one frame. Warm indoor light, no flash.
+        The product is in the shot but never the subject.</p>
+        <ul>
+          <li>Shoot slightly wide. Let the room in.</li>
+          <li>Faces over frosting. Reaction beats decoration.</li>
+          <li>One frame where the shirt or favor is visible but incidental.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- woven label on black -->
+    <div class="cell c-ink span4">
+      <div class="woven"><span>Days Like These</span></div>
+    </div>
+
+    <!-- ticket -->
+    <div class="cell c-sand span4 tall">
+      <div class="ticket">
+        <div class="row">
+          <div class="tk">Date</div>
+          <div class="tv">07 / 13</div>
+        </div>
+        <div class="row"><div class="tk">Occasion</div></div>
+        <div class="row"><div class="tk">Made for</div></div>
+        <div class="row" style="border:none"><div class="tk">By hand</div></div>
+        <div class="serial">230713</div>
+        <div class="hole"></div>
+      </div>
+    </div>
+
+    <!-- handwritten date -->
+    <div class="cell c-linen span4">
+      <div class="hand">June 15, '26</div>
+    </div>
+
+    <!-- stamp -->
+    <div class="cell c-card span4">
+      <div class="stamp">
+        <span>Made by hand</span>
+        <div class="bar"></div>
+        <span>With care</span>
+      </div>
+    </div>
+
+    <!-- ribbon -->
+    <div class="cell c-sand span4">
+      <div class="ribbons">
+        <div class="ribbon"><span>&nbsp;Days Like These &middot; Days Like These &middot; Days Like These&nbsp;</span></div>
+        <div class="ribbon alt"><span>&nbsp;Days Like These &middot; Days Like These &middot; Days Like These&nbsp;</span></div>
+        <div class="ribbon"><span>&nbsp;Days Like These &middot; Days Like These &middot; Days Like These&nbsp;</span></div>
+      </div>
+    </div>
+
+    <!-- tee -->
+    <div class="cell c-card span4">
+      <div class="tee"><div class="lab">Days Like These</div></div>
+    </div>
+
+    <!-- favor bag -->
+    <div class="cell c-sand span4 tall">
+      <div class="bag">
+        <p>Thank you<br>for celebrating<br>with us</p>
+        <div class="heart">&#9829;</div>
+        <div class="tab">Days Like These</div>
+      </div>
+    </div>
+
+    <!-- embroidery -->
+    <div class="cell c-linen span5">
+      <div class="embroid">Made<br>With<br>Care<span class="star">&#10033;</span></div>
+    </div>
+
+    <!-- denim tab -->
+    <div class="cell c-slate span3">
+      <div class="denimtab"><span>Days<br>Like<br>These</span></div>
+    </div>
+
+    <!-- second brief -->
+    <div class="cell span4" style="padding:0;background:transparent">
+      <div class="brief" style="min-height:150px;background:var(--card)">
+        <div class="k">Also shoot</div>
+        <h3 style="font-size:19px">Hands working.</h3>
+        <p style="font-size:12.5px">The press closing. Tying the favor bag. Writing the date on the tag.
+        Process is proof.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="swrow">
+    <div class="swatches">
+      <div class="sw" style="background:#E8DFCD"><b>Sand</b></div>
+      <div class="sw" style="background:#F2EFE7"><b>Linen</b></div>
+      <div class="sw" style="background:#332B26"><b>Ink</b></div>
+      <div class="sw" style="background:#A8443A"><b>Brick</b></div>
+      <div class="sw" style="background:#E0A02A"><b>Marigold</b></div>
+      <div class="sw" style="background:#7E97B8"><b>Slate</b></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <p><b>Every tile here is rendered in code, not photographed.</b> The two dashed tiles are shot briefs
+    rather than fake images, because a placeholder photo would only teach you to like a picture you cannot
+    reproduce. Those two are the shots to actually take at Aiden's party.</p>
+    <p><b>This palette is wider than the five values proposed earlier.</b> Six, not five, and it adds
+    marigold and a dusty slate blue. Brick sits almost exactly where faded cherry did, so the accent
+    instinct holds. Marigold and slate need a job or they will drift: <b>marigold</b> for embroidery,
+    foil and small warm marks, <b>slate</b> for denim and cool product surfaces only. Neither one gets
+    to be a background.</p>
+    <p><b>The ticket is the strongest idea on this board.</b> Date, occasion, made for, by hand, with a
+    serial number. It carries the date device, it works for a concert and a sixth birthday equally, and
+    it references the *form* of a ticket without reproducing any artist's or venue's marks. That keeps it
+    clear of the licensing line.</p>
+    <p><b>Nothing here is committed.</b> Typography is a stand-in: Bodoni Moda for the display and Jost for
+    the letterspaced marks.</p>
+  </div>
+
+</div>
