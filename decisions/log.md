@@ -312,3 +312,18 @@ sizes and production exports remain required.
 **Approved assets:** [complete package](https://drive.google.com/file/d/1sDpIYFj3NcOiL11VcbpZgAzT6LOQOmFN/view?usp=drivesdk) and [production guide](https://drive.google.com/file/d/1VtaHtqsjQ82RfLUyLSdxLZSrC_b3K3vN/view?usp=drivesdk).
 
 **Owner:** Yina Belt.
+
+
+---
+
+## 2026-08-22 — Ticket & Thread supporting graphic language finalized
+
+**Decision:** The approved supporting system consists of ticket frames, stitched borders and dividers, edition markers, date stamps, editorial label structures, ribbon/tape shapes and a controlled speckle texture. Rules and assets are recorded in [`context/supporting-graphic-language.md`](../context/supporting-graphic-language.md).
+
+**Why:** These components make Days Like These recognizable when the logo is absent while translating the Ticket & Thread baseline into repeatable packaging, social and apparel tools.
+
+**Guardrails:** Use no more than two supporting elements in one composition. Keep the hierarchy logo → message → information → graphic detail. Dates and edition numbers must be real. Avoid fake distressing, sepia effects, scrapbook clutter and literal sewing illustrations.
+
+**Approved assets:** [complete package](https://drive.google.com/file/d/16k7nZ0ykty13x1WMckNev1xboyQiJFIA/view?usp=drivesdk) and [system guide](https://drive.google.com/file/d/1w3voN4BoBUu5BwpQkkPmKACOHuNkMr8c/view?usp=drivesdk).
+
+**Owner:** Yina Belt.
