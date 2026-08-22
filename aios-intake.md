@@ -121,7 +121,25 @@ one sheet, five columns — date, item, channel, amount collected, cost of goods
 Email (which one — Gmail / Outlook)? Slack? Teams? DMs (Skool / Discord / iMessage)? Phone?
 
 ```
-[Your answer here]
+**Team:** None. Solo operator.
+
+**Customers to date:** Family. They are the only *paid* customers so far. Those conversations happen by
+text or verbally, in person.
+
+**Inbound since posting the concert shirt reel:**
+- **Instagram** — inquiries came in as responses to the reel (comments and DMs). This is the content account.
+- **Facebook** — direct message.
+
+**So the real channels are:** iMessage/text, Instagram (reel replies + DM), Facebook Messenger DM,
+and in-person conversation.
+
+**Email:** Not named during intake. **OPEN ITEM.** Needed to infer the calendar (Gmail → Google Calendar,
+Outlook → Outlook Calendar) and to have any address to put on a listing or an invoice.
+
+**Signal worth keeping:** She posted one reel and got unsolicited inbound from two platforms, with no
+brand, no name, and no listing funnel. That is demand responding to content — which is the evidence
+behind Priority 2 (post 3x/week). The posting cadence isn't vanity work; it's the thing that already
+produced the only non-family interest this business has seen.
 ```
 
 ---
