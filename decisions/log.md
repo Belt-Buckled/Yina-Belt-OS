@@ -230,3 +230,28 @@ Edit.
 
 **Owner:** Yina Belt.
 
+---
+ 
+## 2026-08-22 — Instagram handle corrected: @daysliketheseshop
+ 
+**Decision:** The primary Instagram handle is **`@daysliketheseshop`**. Claim it now and use it as the
+brand's public Instagram handle. If available, also secure **`@dayslikethesestudio`** for possible
+long-term use; it is a reserved expansion option, not the active handle. **`@shop_dayslikethese`**
+remains the fallback.
+ 
+**Why:** The previously recorded `@shopdayslikethese` is not available on Instagram.
+`@daysliketheseshop` is the cleanest straightforward option for launch. `@dayslikethesestudio`
+offers the strongest long-term umbrella for custom creative work, but feels more formal and is not the
+current focus.
+ 
+**Not selected:** leading or trailing underscore variants, which are harder to communicate and can look
+like backup accounts; category handles such as Favors or Decor, which narrow the brand; and
+`@daysliketheseevents`, which implies customer-facing event planning. Days Like These is documenting
+Yina's own family events but is not currently offering event planning as a service.
+ 
+**Scope correction:** This decision confirms the Instagram handle only. Facebook and Etsy handle
+availability and alignment have not been reconfirmed.
+ 
+**Supersedes:** the handle line in “Copy rejected: ‘A ridiculous amount of thought’ and the one-liner.”
+ 
+**Owner:** Yina Belt.
