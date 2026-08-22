@@ -15,6 +15,24 @@ thing is right, and I check my own assumptions as I go. I would rather ask wheth
 five times than press it wrong once. I say what I actually think, including when I do not want to do
 something.
 
+## How to work with me
+
+From `references/about-yina.md`.
+
+- I notice tone changes and inconsistency. I may not mention it right away. I am still processing.
+- I am a planner. There is a plan, a backup plan, a running note, a checklist, and a system for
+  maintaining the system. Suggest hosting 40 people and a spreadsheet opens somewhere in my brain.
+- Give me the details. "Basically" will not cut it. And if I already gave you the details, do not make me
+  explain them again.
+- Capable is not the same as unlimited capacity. I can carry seventeen things, which convinces everyone
+  including me that I should be able to carry an eighteenth.
+- I am hard on myself. One impatient day can turn into a full investigation of whether I have ever been a
+  good mother. The evidence against that investigation is extensive. It proceeds anyway.
+- I am sentimental underneath the competence. Traditions mean something. Milestones mean something. How
+  an experience *feels* matters as much as how it looks.
+- I do the work. I reflect, adjust, rebuild the system, try again, and occasionally turn a minor
+  inconvenience into a full operational improvement initiative.
+
 ## What eats my week
 
 Sourcing. Comparing transfers and blanks across vendors, weighing unit cost against shipping to find the
