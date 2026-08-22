@@ -143,3 +143,41 @@ used bare in a cold context.
 others across five rounds.
 
 **Owner:** Yina Belt.
+
+---
+
+## 2026-08-22 — Days Like These is the party planner for the first two documented events
+
+**Decision:** Days Like These is positioned as the **party planner** for Aiden's upcoming birthday and for
+Christmas, not merely the maker of the goods. Both events are documented as Days Like These events, on the
+Days Like These page, with personal pages tagging the brand.
+
+**Why:** The favors and decor line has never sold anything. Planning and documenting two real events is
+how it gets its first proof. It is also the work Yina most enjoys, which is why favors and decor now lead
+the brand descriptor ahead of apparel.
+
+**Open items:** the hashtag exists but has not been recorded; the photographer's name is not confirmed.
+
+**Watch:** apparel is 100% of revenue so far and favors are 0%. This decision points effort at the side
+with no revenue yet. That is intentional, and it is a bet.
+
+**Owner:** Yina Belt.
+
+---
+
+## 2026-08-22 — Copy rejected: "A ridiculous amount of thought" and the one-liner
+
+**Decision:** Both are dead. Do not re-propose either.
+
+- *"A ridiculous amount of thought."* Disliked. Replaced as the process and behind-the-scenes line by
+  **"Wait, what was I doing?"**
+- *"Custom shirts, favors and decor for the days worth keeping."* Rejected as clumsy: "sounds junky, the
+  verbiage doesn't flow right." It also led with shirts, which is now the wrong order.
+
+**On "Wait, what was I doing?":** it names a pattern the demographic already recognizes, and it reaches
+both the mom living it and her older child who sees it in her and buys gifts for her. Recorded as a
+**content pillar**, not a lockup tagline, because on a keepsake it would undercut the care the brand sells.
+
+**Also decided:** handle is `@shopdayslikethese`, identical across Instagram, Facebook and Etsy.
+
+**Owner:** Yina Belt.

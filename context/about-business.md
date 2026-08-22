@@ -60,6 +60,22 @@ now, made by the same hands.** Apparel, favors and decor are all just surfaces t
 made of artists, cartoons and logos. Evoking an era is free. Reproducing its logos is the licensing
 exposure already logged in `decisions/log.md`. The durable version of this brand evokes.
 
+## Days Like These is also the party planner
+
+Decided 2026-08-22. Scope expansion, recorded deliberately.
+
+For Aiden's upcoming birthday and for Christmas, Days Like These is the **party planner**, not only the
+supplier of goods. The planning is the brand's work and gets documented as the brand's work. These are the
+**first documented Days Like These events.**
+
+This is how the favors and decor line gets its first proof, since it has never sold anything. It is also
+why favors and decor now lead the brand descriptor and apparel follows: favors and decor are the work
+Yina most enjoys and the direction the business is being pointed.
+
+**Standing tension to watch:** apparel is 100% of revenue and 0% of enthusiasm order. Favors and decor are
+0% of revenue and where she wants to spend her time. Both facts are true. Do not let either one quietly
+win the argument.
+
 ## Channels and licensing posture
 
 | Channel | Status | What sells there |
