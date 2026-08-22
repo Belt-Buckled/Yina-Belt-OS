@@ -177,7 +177,26 @@ obvious consolidation target** — it's already in the stack and it's already th
 The single biggest time-suck or recurring drudgery. Plus where tasks/projects live (ClickUp / Asana / Linear / Notion / a notebook).
 
 ```
-[Your answer here]
+**Where work is tracked:** Nowhere. No task system, no project list, no board.
+
+**The task that eats the week — sourcing.** Comparing transfers and blanks across vendors, weighing unit
+cost against shipping cost to find the real landed price. There is **no preferred vendor yet**, so this
+comparison gets re-run from scratch every single project. Known vendors touched so far: Ninja Transfers,
+Jiffy (jiffyshirts), Gildan 5000 blanks.
+
+**Second time sink:** initial design. The first version of a design takes a long time.
+
+**Why sourcing is the automation candidate, not design:**
+- Sourcing is repeated, rule-based, and produces a comparable number (landed cost per unit). That is
+  exactly the shape of work that gets systematized.
+- Design is judgment work and it is the actual product. Automating it away would remove the thing being
+  sold. Speed it with templates and reusable assets, not by replacing the decision.
+- She already had the pricing failure this creates: a $100 net loss on the concert shirt project,
+  because cost was never established before the work was quoted. Sourcing and pricing are the same wound.
+
+**Carry to `/level-up` as `top_pain`:** a landed-cost vendor comparison sheet — blank + transfer + shipping,
+resolved to cost per finished unit, with a standing preferred vendor per item so the comparison stops
+being re-run every project. That number then sets the floor price, which protects Priority 1.
 ```
 
 ---
