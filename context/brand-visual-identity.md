@@ -21,7 +21,7 @@ The lockup pairs a condensed sans-serif treatment for **DAYS LIKE** with a high-
 
 ## Guardrails
 
-The original comparison boards establish the approved concept and application direction. The responsive production package now supplies outlined SVG masters, transparent PNG exports, print-ready PDFs, exact color tokens, clear-space rules and minimum-size guidance.
+The approved Drive file `days-like-these-option-4-wordmark-system.png` is the sole visual authority for logo geometry. Letterforms, spacing, stacking and proportions must be taken directly from that reference. Do not retype, redraw, trace, reconstruct with substitute fonts, or alter the lockup. Pixel-exact alpha extractions from the approved reference may be used until the original designer vector is supplied and visually verified against the Drive master.
 
 Before manufacturing, require a vendor proof at the intended physical size. Embroidery must be sampled on the actual fabric and machine because thread weight, fill and open counters vary by production method.
 
@@ -49,7 +49,7 @@ Completed on 2026-08-22. Stored in Google Drive under `Yina Belt / 02 — Brand 
 - [Responsive logo system guide — PDF](https://drive.google.com/file/d/1SE2P2vSxIE0tWVSP_ZpLRucre3OTUrWl/view?usp=drivesdk)
 - [Responsive logo system guide — PNG](https://drive.google.com/file/d/18kJHB8DlxGxFDzTlhVVQcUFVxol3V0tj/view?usp=drivesdk)
 
-The package contains four configurations: primary horizontal, primary stacked, compact circle and reinforced small-scale. Black, oxblood, cobalt and white/reversed treatments are included where applicable. All distributed SVGs use outlined letterforms and do not depend on an installed font.
+DEPRECATED FOR LOGO GEOMETRY: the earlier reconstructed responsive package does not supersede the approved Drive reference and must not be used as a visual master. Any asset derived from substitute typefaces must be replaced by the exact reference extraction or by an original designer-supplied vector that has been visually verified.
 
 ### Production palette
 
@@ -68,3 +68,8 @@ The package contains four configurations: primary horizontal, primary stacked, c
 - Small-scale / micro: 18 mm print / 96 px digital; embroidery proof required
 
 Clear space is 1X on all sides, where X equals the cap height of “DAYS LIKE.”
+
+
+## Exact-master correction — 2026-08-23
+
+A no-drift rule is now in force. Packaging production files use pixel-exact alpha extractions from the approved Option 4 Drive reference. Color changes may be applied through the approved palette, but the silhouette, internal spacing, stacking and aspect ratio must remain unchanged. The corrected packaging package is stored in Drive Templates: [production ZIP](https://drive.google.com/file/d/1Oa6QLGSwrkU8L6V9e7OmqyVCtxwVdFQT/view?usp=drivesdk) and [overview proof](https://drive.google.com/file/d/1pfF_xvmJdBf0F8jDBBc5D3wvFiABrknJ/view?usp=drivesdk).
