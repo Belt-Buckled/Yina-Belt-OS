@@ -354,3 +354,118 @@ Three tied at 27, and they split cleanly by strategy:
 No availability or trademark screening yet on any of these. Best bets to be free: **Sentimental Goods**,
 **Fussed Over**, **Little Big Days**. Most likely taken: **Days Like These**, **Remember This**,
 **Made to Keep**, **On Purpose**.
+
+---
+
+# Round 5 — ten more
+
+Added 2026-08-22. Round 5 is **additive**, not a replacement. Choose from Rounds 4 and 5 together.
+No record-store names, no Reissue variants.
+
+| # | Name | Lines | Eras | Feeling | Say | Own | Grow | Total |
+|:--:|---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| 11 | **The Keeping Box** | 5 | 5 | 5 | 4 | 4 | 5 | **28** |
+| 12 | **The Thought That Counts** | 5 | 3 | 5 | 5 | 4 | 4 | **26** |
+| 13 | **First of Many** | 4 | 3 | 5 | 5 | 4 | 4 | **25** |
+| 14 | **Not Store Bought** | 5 | 3 | 4 | 5 | 5 | 3 | **25** |
+| 15 | **Big Feelings** | 4 | 4 | 5 | 5 | 3 | 4 | **25** |
+| 16 | **Cotton & Confetti** | 4 | 3 | 4 | 5 | 4 | 5 | **25** |
+| 17 | **Shoebox** | 4 | 5 | 5 | 5 | 2 | 5 | **26 → see warning** |
+| 18 | **Mom Made** | 5 | 3 | 4 | 5 | 3 | 4 | **24** |
+| 19 | **Noticed** | 5 | 2 | 5 | 4 | 4 | 3 | **23** |
+| 20 | **The Long Way** | 5 | 3 | 4 | 4 | 4 | 3 | **23** |
+
+---
+
+### 11. The Keeping Box — 28
+
+The highest score across all twenty. A keeping box is where the things you cannot throw away live: the
+ticket stub, the hospital bracelet, the shirt from that night, the first birthday hat.
+
+- **Holds both eras structurally.** Her old keepsakes and her kid's new ones go in the same box. That is
+  the entire positioning as a physical object.
+- **Best visual system of any candidate.** A box, a lid, a label, tape, handwriting, tissue paper.
+  Packaging designs itself, and packaging is what makes a $40 shirt feel like a $40 shirt.
+- Covers apparel, favors, decor and digital files without naming a product.
+- **Risk:** three words, slightly long for a handle. "Keeping Box" alone may work.
+
+### 12. The Thought That Counts — 26
+
+The idiom everyone already knows for gifts, and it happens to be her literal differentiator. The character
+note says she puts a ridiculous amount of thought into making things special. This name says that out loud.
+- **Risk:** long. The short form "Thought That Counts" or "TTC" is awkward.
+- **Strength:** nobody has to be taught what it means.
+
+### 13. First of Many — 25
+
+A first birthday. A first order. A first customer outside the family. Optimistic and forward-leaning
+without losing the sentiment.
+- **Risk:** points at beginnings, so it fits birthdays better than concerts or Christmas.
+
+### 14. Not Store Bought — 25
+
+The clearest anti-positioning on either list. It names the competition (Target, Amazon, print-on-demand)
+and rejects it in three words. "Not store bought" is exactly what makes a gift mean something.
+- **Risk:** defined by what it is not, which limits how far it can grow.
+- **Strength:** almost certainly available, and instantly understood.
+
+### 15. Big Feelings — 25
+
+Doing two jobs at once. It is *the* gentle-parenting phrase for toddler emotions, so every millennial mom
+recognizes it instantly. It also just describes what the brand sells: things that carry big feelings.
+- **Risk:** trendy, tied to a parenting-discourse moment that will pass. Also pulls toward toddlers, away
+  from the adult side of the same buyer.
+
+### 16. Cotton & Confetti — 25
+
+Names both halves of the business by material rather than by product. Cotton is the apparel, confetti is
+the party. Pretty, rhythmic, very easy to build a palette around.
+- **Risk:** the "X & Y" construction is extremely common in the craft world, so it reads familiar.
+- **Strength:** the most immediately legible name here. Nobody has to ask what you sell.
+
+### 17. Shoebox — WARNING, likely blocked
+
+Conceptually excellent: the shoebox is where a generation kept photos, ticket stubs and concert tees. It
+would have scored 28.
+
+**Do not pursue without legal review.** *Shoebox* is a long-running Hallmark greeting card brand. That is
+an adjacent category — greeting cards, party goods, sentimental paper products — which is exactly where
+this business sits. This is the highest trademark risk on either list.
+
+Listed only so it is not re-proposed later by someone who has not checked.
+
+### 18. Mom Made — 24
+
+Literal and warm. A mom made this, and a mom is buying it. Says handmade and says the ICP in two words.
+- **Risk:** boxes her into mom-identity permanently, and there are a lot of "mom made" shops.
+
+### 19. Noticed — 23
+
+Doing double duty. The character note opens with "she notices everything," and a custom gift is how you
+make someone feel noticed.
+- **Risk:** abstract on its own. Carries no product, occasion or era signal.
+
+### 20. The Long Way — 23
+
+She does it the long way on purpose. Sourcing compared properly, details fussed over, nothing rushed.
+- **Risk:** could read as slow or inefficient rather than careful.
+
+---
+
+## Combined shortlist across all twenty
+
+| Rank | Name | Score | Pick it if |
+|:--:|---|:--:|---|
+| 1 | **The Keeping Box** | 28 | You want the strongest total package, and packaging as part of the product |
+| 2 | **Days Like These** | 27 | You want warmth and instant likeability |
+| 2 | **Sentimental Goods** | 27 | You want to own a category nobody else has claimed |
+| 2 | **Remember This** | 27 | You want the two-eras feeling carried by the name itself |
+| 5 | **The Thought That Counts** | 26 | You want zero explanation required |
+| 5 | **Made to Keep** | 26 | You want a quality promise built into the name |
+| 5 | **Little Big Days** | 26 | The business is going to lean kids and parties |
+
+## Availability, still unchecked
+
+- **Most likely free:** Sentimental Goods, Not Store Bought, The Keeping Box, Fussed Over
+- **Most likely contested:** Days Like These, Remember This, Made to Keep, Big Feelings, Mom Made
+- **Known conflict:** Shoebox (Hallmark)
