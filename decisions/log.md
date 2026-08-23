@@ -342,3 +342,25 @@ sizes and production exports remain required.
 **Approved assets:** [complete kit](https://drive.google.com/file/d/1S-WG5V5BPKgkoVYa9GyDNvuIOP0T1Dm3/view?usp=drivesdk) and [overview](https://drive.google.com/file/d/1cxgq-yBrVGTy-G8PnZmkRsZ-4neviH4b/view?usp=drivesdk).
 
 **Owner:** Yina Belt.
+
+
+---
+
+## 2026-08-22 — Apparel production standards established
+
+**Decision:** Days Like These will use the placement, scale, method, color and proof rules in
+[\`context/apparel-production-standards.md\`](../context/apparel-production-standards.md) for T-shirts,
+sweatshirts, hoodies, pajamas, caps, totes, inside-neck labels and woven patches.
+
+**Why:** The standard converts the approved Option 4 identity into repeatable vendor instructions across
+adult and youth garments while preventing production constraints from changing the logo.
+
+**Production gate:** approve one screen-print strike-off and one embroidery sew-out on actual garment fabric
+before the first run. If embroidery closes counters or loses fine serif detail, increase the mark size or
+use a woven patch. Do not redraw or reinforce the wordmark.
+
+**Approved assets:** [complete package](https://drive.google.com/file/d/1ylIrG61nJbdQPBWW8nK1tba7516NOl6b/view?usp=drivesdk),
+[production guide](https://drive.google.com/file/d/1kEe4BpZf-qOspjZ0rDnMmcH80CIfnHTF/view?usp=drivesdk), and
+[overview](https://drive.google.com/file/d/13_Tgba5y9OaxlaeRgPBsoh85NimvhU5q/view?usp=drivesdk).
+
+**Owner:** Yina Belt.
