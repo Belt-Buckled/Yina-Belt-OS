@@ -65,3 +65,13 @@ asset authority register, release notes and checksums.
 - Approve physical Pantone, thread and foil matches with vendors.
 - Approve the first screen-print strike-off and embroidery sew-out.
 - Confirm final packaging dielines with selected vendors.
+
+
+## First complete brand application
+
+**Aiden’s Fifth · Edition 001 — Level Five** is the first documented campaign using the complete system.
+It applies the exact logo master, Editorial Ticket typography, production palette, Ticket & Thread graphics,
+social templates, packaging touchpoints and apparel standards to one real family event.
+
+Use [the campaign context](campaign-aidens-fifth.md) for the proof set, event-relative rollout, capture list,
+privacy rules and conversion copy. Party planning is not part of the customer offer.
