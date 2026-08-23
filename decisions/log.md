@@ -349,7 +349,7 @@ sizes and production exports remain required.
 ## 2026-08-22 — Apparel production standards established
 
 **Decision:** Days Like These will use the placement, scale, method, color and proof rules in
-[\`context/apparel-production-standards.md\`](../context/apparel-production-standards.md) for T-shirts,
+[`context/apparel-production-standards.md`](../context/apparel-production-standards.md) for T-shirts,
 sweatshirts, hoodies, pajamas, caps, totes, inside-neck labels and woven patches.
 
 **Why:** The standard converts the approved Option 4 identity into repeatable vendor instructions across
