@@ -89,7 +89,7 @@ The approved horizontal and stacked lockups were extracted independently from th
 
 Release 1.0 was completed on 2026-08-22. The standard covers adult and youth placement sizes, screen print,
 heat transfer, embroidery and woven-label constraints, garment/color pairings, vendor proofing and wash-test
-release gates. See [\`context/apparel-production-standards.md\`](./apparel-production-standards.md).
+release gates. See [`context/apparel-production-standards.md`](./apparel-production-standards.md).
 
 Active assets: [complete package](https://drive.google.com/file/d/1ylIrG61nJbdQPBWW8nK1tba7516NOl6b/view?usp=drivesdk),
 [production guide](https://drive.google.com/file/d/1kEe4BpZf-qOspjZ0rDnMmcH80CIfnHTF/view?usp=drivesdk), and
