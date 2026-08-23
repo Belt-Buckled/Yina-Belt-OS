@@ -386,3 +386,28 @@ method cannot reproduce it, change the size, placement or method—not the logo.
 [overview](https://drive.google.com/file/d/1LX7iHcoZNoHlHMd99RdG4nb3IAUdh4jc/view?usp=drivesdk).
 
 **Owner:** Yina Belt.
+
+
+---
+
+## 2026-08-22 — Aiden’s Fifth established as Edition 001
+
+**Decision:** **Days Like These · Birthdays — Aiden’s Fifth** is the first documented campaign and the first
+complete application of the official brand system. Its creative label is **Edition 001 · Level Five**. The
+campaign record is in [`context/campaign-aidens-fifth.md`](../context/campaign-aidens-fifth.md).
+
+**Why:** The event is real work already happening and can establish the first complete favors-and-decor proof
+set while connecting apparel, favors and decor under one occasion-led story.
+
+**Scope boundary:** this documents Yina’s own family event. Party planning is not offered as a service. The
+customer-facing offer remains handmade favors, decor and custom apparel.
+
+**Release rule:** the content calendar remains event-relative until the real birthday date is confirmed.
+Never invent a date, edition number, result or customer claim. Protect the home address and unapproved guest
+children.
+
+**Approved assets:** [complete campaign package](https://drive.google.com/file/d/1HFCZRtTsTrUsHiy9vo58-5ZOvLtUWHcx/view?usp=drivesdk),
+[launch brief](https://drive.google.com/file/d/1FAbPF-nPDk-367sy6JFE_NxpTISiyJAI/view?usp=drivesdk), and
+[campaign folder](https://drive.google.com/drive/folders/1EB0Y_bhB82YtsZzLoB1VNTmWbiVWC4t0).
+
+**Owner:** Yina Belt.
