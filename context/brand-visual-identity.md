@@ -97,3 +97,14 @@ Active assets: [complete package](https://drive.google.com/file/d/1ylIrG61nJbdQP
 
 **Permanent manufacturing rule:** if the approved logo cannot be reproduced at the requested size, increase
 the size or change the production method. Do not alter the logo geometry.
+
+
+## Official consolidated brand guide
+
+Release 1.0 was completed in August 2026. It consolidates the verbal identity, exact logo system,
+typography, palette, graphic language, photography, social, packaging, apparel and production governance.
+See [`context/brand-guidelines.md`](./brand-guidelines.md).
+
+Active files: [brand-guidelines PDF](https://drive.google.com/file/d/1DJ_u-fdyP4bIFpQHb4rXI9NgyeEsplVK/view?usp=drivesdk),
+[complete package](https://drive.google.com/file/d/1lkcJQeUjhUSGdRHdZxcVPYQrret5JXg-/view?usp=drivesdk), and
+[overview](https://drive.google.com/file/d/1LX7iHcoZNoHlHMd99RdG4nb3IAUdh4jc/view?usp=drivesdk).
