@@ -364,3 +364,25 @@ use a woven patch. Do not redraw or reinforce the wordmark.
 [overview](https://drive.google.com/file/d/13_Tgba5y9OaxlaeRgPBsoh85NimvhU5q/view?usp=drivesdk).
 
 **Owner:** Yina Belt.
+
+
+---
+
+## 2026-08-22 — Official Days Like These brand guidelines released
+
+**Decision:** The 22-page official guide and its source-of-truth hierarchy are the consolidated operating
+standard for the Days Like These verbal and visual identity. The repository summary is in
+[`context/brand-guidelines.md`](../context/brand-guidelines.md).
+
+**Why:** The logo, typography, color, supporting graphics, social, packaging and apparel systems were approved
+separately. Consolidation gives future designers, vendors and content builders one entrypoint while retaining
+the application-specific production packages as the editable authorities.
+
+**Permanent rule:** the approved Option 4 Drive master remains the sole geometry authority. If a production
+method cannot reproduce it, change the size, placement or method—not the logo.
+
+**Approved assets:** [official PDF](https://drive.google.com/file/d/1DJ_u-fdyP4bIFpQHb4rXI9NgyeEsplVK/view?usp=drivesdk),
+[complete package](https://drive.google.com/file/d/1lkcJQeUjhUSGdRHdZxcVPYQrret5JXg-/view?usp=drivesdk), and
+[overview](https://drive.google.com/file/d/1LX7iHcoZNoHlHMd99RdG4nb3IAUdh4jc/view?usp=drivesdk).
+
+**Owner:** Yina Belt.
