@@ -83,3 +83,17 @@ Released 2026-08-23. This is the active production family and supersedes every s
 - [Exact responsive-system guide](https://drive.google.com/file/d/1q4l-VLE1FTK4UJW-eQTTtsGnVGByVsLS/view?usp=drivesdk)
 
 The approved horizontal and stacked lockups were extracted independently from the approved Drive reference. Compact avatars and small-scale applications reuse the approved stacked silhouette without redrawing or reinforced letterforms. Embedded SVG files contain the exact raster master; they are not designer-original vectors.
+
+
+## Apparel production standards
+
+Release 1.0 was completed on 2026-08-22. The standard covers adult and youth placement sizes, screen print,
+heat transfer, embroidery and woven-label constraints, garment/color pairings, vendor proofing and wash-test
+release gates. See [\`context/apparel-production-standards.md\`](./apparel-production-standards.md).
+
+Active assets: [complete package](https://drive.google.com/file/d/1ylIrG61nJbdQPBWW8nK1tba7516NOl6b/view?usp=drivesdk),
+[production guide](https://drive.google.com/file/d/1kEe4BpZf-qOspjZ0rDnMmcH80CIfnHTF/view?usp=drivesdk), and
+[overview](https://drive.google.com/file/d/13_Tgba5y9OaxlaeRgPBsoh85NimvhU5q/view?usp=drivesdk).
+
+**Permanent manufacturing rule:** if the approved logo cannot be reproduced at the requested size, increase
+the size or change the production method. Do not alter the logo geometry.
