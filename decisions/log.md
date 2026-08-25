@@ -462,3 +462,55 @@ at least once, before considering any advance in autonomy.
 **Owner:** Yina Belt.
 
 > *Adapted from The Three Ms of AI™. © 2026 Nate Herk. All rights reserved.*
+
+---
+
+## 2026-08-23 — Landed cost calculator revised: live lookups added, autonomy raised to L2
+
+**Decision:** Supersedes the autonomy call in the entry above. The calculator now does vendor price
+lookups instead of requiring every price to be typed in. Architecture split in two: an **AI-assisted
+lookup layer** that fetches live vendor prices into a cached price book (`vendors.json`), and a
+**deterministic math layer** (`landed_cost.py`) that reads the book and computes with no network and
+no AI. Autonomy moves **L1 → L2** for lookups only. The arithmetic stays deterministic and vendor
+selection stays with Yina.
+
+**Why the reversal:** the original L1 build required manual price entry, which did not remove the
+drudgery — it relocated it. The lookup *is* the time sink named in `about-me.md`. Scoping it out made
+the artifact miss its own target. Yina called this immediately.
+
+**What the lookup found, which manual comparison never would have:** Ninja Transfers prices DTF by
+area with quantity tiers, and gang sheets are dramatically cheaper per design than individual
+transfers. A $35.00 22"x24" gang sheet fits ~16 5"x5" designs at **$2.92/design**, against **$4.00**
+each for individual 5"x5" transfers. For scale: the concert shirt used **$32.63 of transfers for two
+shirts**; a $35.00 gang sheet costs about the same and fits roughly thirty small designs. Gang sheet
+selection is now the single largest saving the tool surfaces, and it is a pricing insight the
+business did not previously have.
+
+**Guardrails, because a wrong fetched price in a quote is the $100 loss with extra steps:**
+- Every price carries `source_url` and a `fetched` date. Every report line prints its provenance.
+- Prices older than 30 days trigger a loud staleness warning at the top of the report.
+  `--check-prices` reports staleness on its own.
+- A failed fetch leaves the old price with its old date and says so. Fabricating a number to fill a
+  gap is prohibited.
+- Conflicting sources are both recorded and flagged, never averaged or silently resolved. The
+  calculator takes the more conservative number, producing a higher cost and a safer floor.
+- Gang sheet fit uses conservative grid packing, so the tool overestimates cost rather than under.
+
+**Recorded caveat — Jiffy cannot be auto-refreshed.** `jiffyshirts.com` 301s to `jiffy.com`, old
+product URLs return 410, category pages exceed the fetcher's header limit, and pricing is cart-tiered
+so no stable page price exists. Jiffy entries are marked `auto_refreshable: false` and are seeded from
+receipts — currently the $9.91 two-pack of Gildan 5000 blacks from the concert shirt job. These must
+be updated by hand after each order. This is a real gap, not a solved problem.
+
+**Recorded caveat — Ninja's own sources disagree.** Their tier table says 250+ is 50% off; their cost
+page implies ~65%. Both are recorded in the price book with a CONFLICT note. Verify against a real
+cart before trusting any deep-tier quote.
+
+**Unchanged:** 2.5x multiplier, 10% waste allowance, the small-run warning under 6 units, and the
+standing caveat that 2.5x does not pay for labor separately.
+
+**Bike Method:** still Phase 1. Review every refreshed price before quoting from it.
+
+**Owner:** Yina Belt.
+
+> *Adapted from The Three Ms of AI™. © 2026 Nate Herk. All rights reserved.*

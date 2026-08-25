@@ -1,0 +1,85 @@
+{
+  "_comment": "Price book for the landed-cost skill. Refreshed by the lookup procedure in SKILL.md. Every entry carries source_url and fetched date. Never hand-edit a price without updating fetched.",
+  "refreshed": "2026-08-23",
+  "staleness_warn_days": 30,
+
+  "vendors": {
+    "ninja_transfers": {
+      "name": "Ninja Transfers",
+      "source_urls": [
+        "https://ninjatransfers.com/products/dtf-transfers",
+        "https://ninjatransfers.com/pages/how-much-does-dtf-printing-cost",
+        "https://ninjatransfers.com/products/premium-dtf-gang-sheets"
+      ],
+      "fetched": "2026-08-23",
+      "notes": "Free shipping advertised at 24hr. No minimums, no setup or art fees.",
+
+      "gang_sheets": [
+        {
+          "sku": "gang_22x24",
+          "label": "DTF gang sheet 22\" x 24\"",
+          "width_in": 22,
+          "height_in": 24,
+          "price": 35.00,
+          "fits_note": "~30 small designs or ~4 large",
+          "fetched": "2026-08-23"
+        },
+        {
+          "sku": "gang_22x120",
+          "label": "DTF gang sheet 22\" x 120\"",
+          "width_in": 22,
+          "height_in": 120,
+          "price": 92.00,
+          "fits_note": "~150 small designs or ~20 large",
+          "fetched": "2026-08-23"
+        },
+        {
+          "sku": "gang_large",
+          "label": "DTF gang sheet, large",
+          "width_in": 22,
+          "height_in": 240,
+          "price": 150.00,
+          "fits_note": "~300 small designs or ~40 large. Dimensions inferred from the quoted per-sq-in rate, NOT confirmed on a product page.",
+          "confidence": "low",
+          "fetched": "2026-08-23"
+        }
+      ],
+
+      "individual_transfers": {
+        "_comment": "Pre-printed single transfers. Priced by size, discounted by order quantity. Far more expensive per sq in than a gang sheet.",
+        "sizes": [
+          { "label": "2x2", "width_in": 2, "height_in": 2, "price_1_14": 2.00, "price_250_plus": 0.70 },
+          { "label": "5x5", "width_in": 5, "height_in": 5, "price_1_14": 4.00, "price_250_plus": 1.40 },
+          { "label": "11x11", "width_in": 11, "height_in": 11, "price_1_14": 10.00, "price_250_plus": 3.50 }
+        ],
+        "quantity_tiers": [
+          { "min": 1, "max": 14, "discount": 0.00 },
+          { "min": 15, "max": 49, "discount": 0.20 },
+          { "min": 50, "max": 99, "discount": 0.30 },
+          { "min": 100, "max": 249, "discount": 0.40 },
+          { "min": 250, "max": null, "discount": 0.50 }
+        ],
+        "CONFLICT": "Ninja's tier table says 250+ is 50% off, but their cost page quotes 2x2 dropping $2.00 -> $0.70, which is 65% off. The two published sources disagree. The calculator uses the tier table (the more conservative number, producing a HIGHER cost estimate and therefore a safer price floor). Verify against a real cart before trusting deep-tier quotes.",
+        "fetched": "2026-08-23"
+      }
+    },
+
+    "jiffy": {
+      "name": "Jiffy (formerly JiffyShirts)",
+      "source_urls": ["https://www.jiffy.com/brands/gildan/t-shirts"],
+      "fetched": "2026-08-23",
+      "notes": "jiffyshirts.com now 301s to jiffy.com. Prices are cart-tiered and are NOT reliably readable from a product page, so this vendor cannot be auto-refreshed. Entries here come from receipts and must be updated by hand after each order.",
+      "auto_refreshable": false,
+      "blanks": [
+        {
+          "sku": "gildan_5000_black",
+          "label": "Gildan 5000 heavy cotton tee, black",
+          "pack_price": 9.91,
+          "units_per_pack": 2,
+          "source": "receipt — concert shirt project, first completed job",
+          "fetched": "2026-08-23"
+        }
+      ]
+    }
+  }
+}

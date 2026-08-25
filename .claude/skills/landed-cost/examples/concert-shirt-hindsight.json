@@ -1,7 +1,7 @@
 {
   "project": "Concert shirt (hindsight — the $100 loss, re-run through the calculator)",
   "quantity": 2,
-  "waste_allowance": 0.10,
+  "waste_allowance": 0.1,
   "multiplier": 2.5,
   "options": [
     {
@@ -13,7 +13,7 @@
           "pack_price": 9.91,
           "units_per_pack": 2,
           "packs": 1,
-          "shipping": 0.00
+          "shipping": 0.0
         },
         {
           "label": "DTF transfers (front + back)",
@@ -21,12 +21,22 @@
           "pack_price": 32.63,
           "units_per_pack": 2,
           "packs": 1,
-          "shipping": 0.00
+          "shipping": 0.0
         }
       ],
       "flat_costs": [
-        { "label": "outsourced 5X print", "vendor": "print vendor", "amount": 0.00 }
+        {
+          "label": "outsourced 5X print",
+          "vendor": "print vendor",
+          "amount": 0.0
+        }
       ]
     }
-  ]
+  ],
+  "_design_note": "Design size below is an ASSUMPTION (11x11 front print, 2 shirts x front+back = 4 transfers). Correct it to the real dimensions and the counterfactual gets accurate.",
+  "design": {
+    "width_in": 11,
+    "height_in": 11,
+    "count": 4
+  }
 }
