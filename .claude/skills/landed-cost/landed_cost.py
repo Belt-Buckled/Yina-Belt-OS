@@ -159,6 +159,31 @@ def resolve_item(item, book):
                 "units": None,
                 "source": f"book · fetched {entry['fetched']}",
             }
+        # Size-aware blanks: {"sku": "gildan_5000", "sizes": {"3XL": 1, "5XL": 1}}
+        if "sizes" in item:
+            ladder = entry.get("sizes")
+            if not ladder:
+                raise KeyError(
+                    f"SKU '{item['sku']}' has no size ladder in the book. "
+                    f"Run refresh_prices.py, or use pack_price entry instead."
+                )
+            materials, units, breakdown = 0.0, 0, []
+            for size, count in item["sizes"].items():
+                if size not in ladder:
+                    have = ", ".join(sorted(ladder))
+                    raise KeyError(f"size '{size}' not priced for {item['sku']}. Have: {have}")
+                materials += ladder[size] * count
+                units += count
+                breakdown.append(f"{count}x{size}@${ladder[size]:.2f}")
+            return {
+                "label": f"{entry['label']} ({', '.join(breakdown)})",
+                "vendor": vendor_name,
+                "materials": materials,
+                "shipping": shipping,
+                "units": units,
+                "source": f"book · size-priced · fetched {entry['fetched']}",
+            }
+
         return {
             "label": entry["label"],
             "vendor": vendor_name,

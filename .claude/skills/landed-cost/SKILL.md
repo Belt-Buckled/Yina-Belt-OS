@@ -50,37 +50,60 @@ python3 .claude/skills/landed-cost/landed_cost.py --check-prices
 
 ## The lookup procedure
 
-Follow this when refreshing. It is the AI-assisted step.
+Run the fetcher. It is deterministic Python — it parses structured data, it does not guess.
 
-**1. Fetch each pinned URL** in `vendors.json` under `source_urls`, using WebFetch. Currently:
+```bash
+python3 .claude/skills/landed-cost/refresh_prices.py --dry-run   # show the diff, write nothing
+python3 .claude/skills/landed-cost/refresh_prices.py             # fetch and write
+```
 
-| Vendor | URL | What to extract |
+It prints **only what changed** — prices that moved, with old and new. Prices that held are noise and
+are collapsed to one line. Then it writes `vendors.json` with fresh `fetched` dates.
+
+### Where the prices come from
+
+| Vendor | Source | What it yields |
 |---|---|---|
-| Ninja Transfers | `ninjatransfers.com/products/dtf-transfers` | quantity discount tiers |
-| Ninja Transfers | `ninjatransfers.com/pages/how-much-does-dtf-printing-cost` | gang sheet sizes and prices, individual transfer prices by size |
-| Ninja Transfers | `ninjatransfers.com/products/premium-dtf-gang-sheets` | gang sheet SKUs and dimensions |
+| Ninja Transfers | Shopify `products.json` | full blank catalog, per-variant prices, stock counts |
+| Jiffy | product page DOM (`data-size` / `data-amount`) | the full size ladder per style |
 
-**2. Write every price you find into `vendors.json`**, updating that entry's `fetched` date and the
-top-level `refreshed` date. Never update a `fetched` date without actually re-reading the price.
+Both are structured data, not scraped prose. Ninja publishes a standard Shopify products endpoint.
+Jiffy embeds the size/price grid in `data-` attributes on the product page.
 
-**3. Show Yina a diff of what changed** — old price, new price, source URL. Prices that moved are the
-signal. Prices that held are noise. Do not bury a change in a wall of confirmations.
+**robots.txt is respected.** Jiffy disallows `/api`, `/cart`, `/checkout`, `/account` and similar —
+none of which this touches. Product pages are permitted. Do not point the fetcher at a disallowed
+path.
 
-**4. If a source disagrees with another source, record both and flag it.** Do not average them and do
-not silently pick one. There is a live example in the book: Ninja's tier table says 250+ is 50% off
-while their cost page implies ~65%. The calculator uses the more conservative number, which produces
-a higher cost and therefore a safer floor.
+### It never fabricates a price
 
-**5. If a fetch fails, say so and leave the old price with its old date.** A stale price that is
-labelled stale is safe. A fabricated price is not. Never invent a number to fill a gap.
+- A failed fetch leaves the existing entry **untouched, with its original date**, and reports the
+  failure. Stale-and-labelled is safe. Invented is not.
+- If a page is fetched but the expected structure is missing, the parser says the layout changed and
+  refuses to update that SKU rather than writing a wrong number.
+- Conflicting published sources are recorded and flagged, never averaged. Live example: Ninja's tier
+  table says 250+ is 50% off while their cost page implies ~65%. The calculator uses the
+  conservative number, producing a higher cost and a safer floor.
+- Exit code is non-zero when any source had a problem, so it fails loudly.
 
-### Vendors that cannot be auto-refreshed
+## Size-aware pricing — the thing that bit the concert shirt
 
-**Jiffy.** `jiffyshirts.com` now redirects to `jiffy.com`, old product URLs return 410, and category
-pages exceed the fetcher's header limit. Their prices are also cart-tiered, so no stable page price
-exists to read. Jiffy entries are marked `auto_refreshable: false` and come from **receipts**. Update
-them by hand after each order. The seeded Gildan 5000 price ($9.91 per two-pack) is from the concert
-shirt receipt.
+Blank cost is not flat across sizes. Live from Jiffy, Gildan G500:
+
+| Size | S | M / L / XL | 2XL | 3XL | 4XL / 5XL |
+|---|---|---|---|---|---|
+| Price | $1.86 | $2.79 | $5.38 | **$7.17** | **$7.50** |
+
+**A 5XL costs four times what a small costs.** The concert shirt was a 3X and a 5X — the two most
+expensive rows. Quoting one flat price per shirt regardless of size silently destroys margin on
+exactly the orders that feel like wins.
+
+Price a run by its real size mix:
+
+```json
+{ "sku": "gildan_5000", "sizes": { "3XL": 1, "5XL": 1 }, "shipping": 8.99 }
+```
+
+The report shows the per-size breakdown on the line, so you can see where the cost actually sits.
 
 ## The math it applies
 
@@ -136,31 +159,34 @@ hourly rate. More accurate, more typing.
 
 ## Input schema
 
-Line items take three forms:
+Line items take four forms:
 
 ```json
-{ "sku": "gildan_5000_black", "packs": 6, "shipping": 8.99 }
+{ "sku": "gildan_5000", "sizes": { "3XL": 1, "5XL": 1 }, "shipping": 8.99 }
+{ "sku": "gang_22x24", "packs": 1 }
 { "transfer_size": "5x5", "quantity": 12 }
 { "label": "custom thing", "vendor": "who", "pack_price": 9.91,
   "units_per_pack": 2, "packs": 7, "shipping": 8.99 }
 ```
 
-Form 3 is the escape hatch for anything not in the price book. `options` is a list so you can compare
+The last form is the escape hatch for anything not in the price book. `options` is a list so you can compare
 vendors in one run; one option is fine. `flat_costs` may be omitted.
 
 ## Examples
 
 - `examples/template.json` — blank to copy, shows all three item forms.
 - `examples/gang-sheet-vs-individual.json` — the routes comparison on a real 12-tee run.
-- `examples/concert-shirt-hindsight.json` — the first project's real numbers. The outsourced 5X print
-  is `0.00` because that cost was never recorded; **fill it in if you find the receipt.** The design
-  size in it is an assumption — correct it and the counterfactual gets accurate.
+- `examples/concert-shirt-hindsight.json` — the first project, priced two ways: the flat 2-pack price
+  that was actually used, against the real 3XL/5XL size cost. The outsourced 5X print is still `0.00`
+  because that cost was never recorded; **fill it in if you find the receipt.** The design size is an
+  assumption — correct it and the counterfactual sharpens.
 - `examples/two-vendor-comparison.json` — manual-entry shape demo. **Its prices are invented.**
 
 ## What it does not do
 
 - Buy anything, or set a final price. It gives you the floor. The floor is not the price.
-- Read Jiffy's cart-tiered pricing. Receipts only, by hand.
+- Price a blank style that is not yet in `refresh_prices.py`. Add its catalog number and URL to
+  `JIFFY_PRODUCTS` and re-run the fetcher.
 - Track sales. That is a separate, unbuilt thing — the measurement surface for the $1,000.
 
 ---

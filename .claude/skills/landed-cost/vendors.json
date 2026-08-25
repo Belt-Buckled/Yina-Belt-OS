@@ -1,8 +1,7 @@
 {
   "_comment": "Price book for the landed-cost skill. Refreshed by the lookup procedure in SKILL.md. Every entry carries source_url and fetched date. Never hand-edit a price without updating fetched.",
-  "refreshed": "2026-08-23",
+  "refreshed": "2026-08-25",
   "staleness_warn_days": 30,
-
   "vendors": {
     "ninja_transfers": {
       "name": "Ninja Transfers",
@@ -11,16 +10,15 @@
         "https://ninjatransfers.com/pages/how-much-does-dtf-printing-cost",
         "https://ninjatransfers.com/products/premium-dtf-gang-sheets"
       ],
-      "fetched": "2026-08-23",
+      "fetched": "2026-08-25",
       "notes": "Free shipping advertised at 24hr. No minimums, no setup or art fees.",
-
       "gang_sheets": [
         {
           "sku": "gang_22x24",
           "label": "DTF gang sheet 22\" x 24\"",
           "width_in": 22,
           "height_in": 24,
-          "price": 35.00,
+          "price": 35.0,
           "fits_note": "~30 small designs or ~4 large",
           "fetched": "2026-08-23"
         },
@@ -29,7 +27,7 @@
           "label": "DTF gang sheet 22\" x 120\"",
           "width_in": 22,
           "height_in": 120,
-          "price": 92.00,
+          "price": 92.0,
           "fits_note": "~150 small designs or ~20 large",
           "fetched": "2026-08-23"
         },
@@ -38,38 +36,2079 @@
           "label": "DTF gang sheet, large",
           "width_in": 22,
           "height_in": 240,
-          "price": 150.00,
+          "price": 150.0,
           "fits_note": "~300 small designs or ~40 large. Dimensions inferred from the quoted per-sq-in rate, NOT confirmed on a product page.",
           "confidence": "low",
           "fetched": "2026-08-23"
         }
       ],
-
       "individual_transfers": {
         "_comment": "Pre-printed single transfers. Priced by size, discounted by order quantity. Far more expensive per sq in than a gang sheet.",
         "sizes": [
-          { "label": "2x2", "width_in": 2, "height_in": 2, "price_1_14": 2.00, "price_250_plus": 0.70 },
-          { "label": "5x5", "width_in": 5, "height_in": 5, "price_1_14": 4.00, "price_250_plus": 1.40 },
-          { "label": "11x11", "width_in": 11, "height_in": 11, "price_1_14": 10.00, "price_250_plus": 3.50 }
+          {
+            "label": "2x2",
+            "width_in": 2,
+            "height_in": 2,
+            "price_1_14": 2.0,
+            "price_250_plus": 0.7
+          },
+          {
+            "label": "5x5",
+            "width_in": 5,
+            "height_in": 5,
+            "price_1_14": 4.0,
+            "price_250_plus": 1.4
+          },
+          {
+            "label": "11x11",
+            "width_in": 11,
+            "height_in": 11,
+            "price_1_14": 10.0,
+            "price_250_plus": 3.5
+          }
         ],
         "quantity_tiers": [
-          { "min": 1, "max": 14, "discount": 0.00 },
-          { "min": 15, "max": 49, "discount": 0.20 },
-          { "min": 50, "max": 99, "discount": 0.30 },
-          { "min": 100, "max": 249, "discount": 0.40 },
-          { "min": 250, "max": null, "discount": 0.50 }
+          {
+            "min": 1,
+            "max": 14,
+            "discount": 0.0
+          },
+          {
+            "min": 15,
+            "max": 49,
+            "discount": 0.2
+          },
+          {
+            "min": 50,
+            "max": 99,
+            "discount": 0.3
+          },
+          {
+            "min": 100,
+            "max": 249,
+            "discount": 0.4
+          },
+          {
+            "min": 250,
+            "max": null,
+            "discount": 0.5
+          }
         ],
         "CONFLICT": "Ninja's tier table says 250+ is 50% off, but their cost page quotes 2x2 dropping $2.00 -> $0.70, which is 65% off. The two published sources disagree. The calculator uses the tier table (the more conservative number, producing a HIGHER cost estimate and therefore a safer price floor). Verify against a real cart before trusting deep-tier quotes.",
         "fetched": "2026-08-23"
-      }
+      },
+      "blank_catalog": [
+        {
+          "handle": "spilled-martini-ready-to-press-dtf-transfer",
+          "label": "Spilled Martini Ready-to-Press DTF Transfer",
+          "price_min": 2.99,
+          "price_max": 5.99,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "summer-clothesline-ready-to-press-dtf-transfer",
+          "label": "Summer Clothesline Ready-to-Press DTF Transfer",
+          "price_min": 2.99,
+          "price_max": 5.99,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "oversized-spider-ready-to-press-dtf-transfer",
+          "label": "Oversized Spider Ready-to-Press DTF Transfer",
+          "price_min": 2.99,
+          "price_max": 5.99,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "wine-requirement-chart-ready-to-press-dtf-transfer",
+          "label": "Wine Requirement Chart Ready-to-Press DTF Transfer",
+          "price_min": 2.99,
+          "price_max": 5.99,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "ninja-news-ready-to-press-dtf-transfer",
+          "label": "Halftone Ninja News Ready-to-Press DTF Transfer",
+          "price_min": 2.99,
+          "price_max": 5.99,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "faux-lace-collar-ready-to-press-dtf-transfer",
+          "label": "Faux Lace Collar Ready-to-Press DTF Transfer",
+          "price_min": 2.99,
+          "price_max": 5.99,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "gone-fishing-camo-patch-style-ready-to-press-dtf-transfer",
+          "label": "Gone Fishing Camo Patch-Style Ready-to-Press DTF Transfer",
+          "price_min": 2.99,
+          "price_max": 5.99,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "port-co-pc61y",
+          "label": "Port & Co PC61Y Youth Essential Tee",
+          "price_min": 3.15,
+          "price_max": 3.55,
+          "variants": 130,
+          "in_stock": 129
+        },
+        {
+          "handle": "port-co-pc61",
+          "label": "Port & Co PC61 Essential Tee",
+          "price_min": 3.23,
+          "price_max": 4.78,
+          "variants": 250,
+          "in_stock": 248
+        },
+        {
+          "handle": "jerzees-363m",
+          "label": "Jerzees 363M Classics Unisex Cotton T-Shirt",
+          "price_min": 3.33,
+          "price_max": 7.97,
+          "variants": 250,
+          "in_stock": 246
+        },
+        {
+          "handle": "port-authority-cp90",
+          "label": "Port Authority CP90 Knit Cap",
+          "price_min": 3.39,
+          "price_max": 3.55,
+          "variants": 27,
+          "in_stock": 27
+        },
+        {
+          "handle": "port-co-pc55",
+          "label": "Port & Co PC55 Core Blend Tee",
+          "price_min": 3.39,
+          "price_max": 5.94,
+          "variants": 250,
+          "in_stock": 250
+        },
+        {
+          "handle": "port-authority-cp91",
+          "label": "Port Authority CP91 Beanie Cap",
+          "price_min": 3.55,
+          "price_max": 3.55,
+          "variants": 11,
+          "in_stock": 11
+        },
+        {
+          "handle": "port-authority-c910",
+          "label": "Port Authority C910 R-Tek Stretch Fleece Headband",
+          "price_min": 3.55,
+          "price_max": 3.55,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "jerzees-570mr",
+          "label": "JERZEES 570MR Premium Cotton T-Shirt",
+          "price_min": 3.92,
+          "price_max": 3.92,
+          "variants": 124,
+          "in_stock": 120
+        },
+        {
+          "handle": "port-authority-c900",
+          "label": "Port Authority C900 R-Tek Stretch Fleece Beanie",
+          "price_min": 3.92,
+          "price_max": 3.92,
+          "variants": 7,
+          "in_stock": 7
+        },
+        {
+          "handle": "liberty-bags-lb3000",
+          "label": "Liberty Bags LB3000 ReusableShopping Bag",
+          "price_min": 4.18,
+          "price_max": 4.18,
+          "variants": 6,
+          "in_stock": 1
+        },
+        {
+          "handle": "gildan-h300",
+          "label": "Gildan H300 Hammer Adult T-Shirt with Pocket",
+          "price_min": 4.73,
+          "price_max": 17.6,
+          "variants": 64,
+          "in_stock": 4
+        },
+        {
+          "handle": "anvil-6752",
+          "label": "Anvil 6752 Adult Triblend V-Neck T-Shirt",
+          "price_min": 4.88,
+          "price_max": 12.73,
+          "variants": 33,
+          "in_stock": 1
+        },
+        {
+          "handle": "rabbit-skins-1003",
+          "label": "Rabbit Skins 1003 Infant Contrast Trim Terry Bib",
+          "price_min": 4.92,
+          "price_max": 5.11,
+          "variants": 4,
+          "in_stock": 4
+        },
+        {
+          "handle": "liberty-bags-psb810",
+          "label": "Liberty Bags PSB810 Sublimation Small Tote",
+          "price_min": 4.99,
+          "price_max": 4.99,
+          "variants": 1,
+          "in_stock": 1
+        },
+        {
+          "handle": "port-authority-c800",
+          "label": "Port Authority C800 Fine Twill Cap",
+          "price_min": 4.99,
+          "price_max": 4.99,
+          "variants": 6,
+          "in_stock": 6
+        },
+        {
+          "handle": "port-authority-cp85",
+          "label": "Port Authority CP85 Cotton Twill Sandwich Bill Cap",
+          "price_min": 4.99,
+          "price_max": 4.99,
+          "variants": 7,
+          "in_stock": 7
+        },
+        {
+          "handle": "port-authority-cp86",
+          "label": "Port Authority CP86 Five-Panel Twill Cap",
+          "price_min": 4.99,
+          "price_max": 4.99,
+          "variants": 8,
+          "in_stock": 8
+        },
+        {
+          "handle": "oad-oad100",
+          "label": "OAD OAD100 Promotional Shopper Tote",
+          "price_min": 5.04,
+          "price_max": 5.04,
+          "variants": 6,
+          "in_stock": 1
+        },
+        {
+          "handle": "district-dt104",
+          "label": "District DT104 Perfect Weight Tee",
+          "price_min": 5.2,
+          "price_max": 7.65,
+          "variants": 250,
+          "in_stock": 227
+        },
+        {
+          "handle": "district-dt184",
+          "label": "District DT184 Perfect Weight CVC Tee",
+          "price_min": 5.31,
+          "price_max": 12.18,
+          "variants": 208,
+          "in_stock": 199
+        },
+        {
+          "handle": "rabbit-skins-3323",
+          "label": "Rabbit Skins 3323 Toddler Fine Jersey Tank",
+          "price_min": 5.36,
+          "price_max": 5.36,
+          "variants": 40,
+          "in_stock": 13
+        },
+        {
+          "handle": "port-authority-btu",
+          "label": "Port Authority BTU Unstructured Brushed Twill Cap",
+          "price_min": 5.54,
+          "price_max": 5.54,
+          "variants": 4,
+          "in_stock": 4
+        },
+        {
+          "handle": "alternative-5064bp",
+          "label": "Alternative 5064BP Ladies' Backstage T-Shirt",
+          "price_min": 5.6,
+          "price_max": 13.87,
+          "variants": 54,
+          "in_stock": 2
+        },
+        {
+          "handle": "port-co-pc61ls",
+          "label": "Port & Co PC61LS Long Sleeve Essential Tee",
+          "price_min": 5.6,
+          "price_max": 12.32,
+          "variants": 182,
+          "in_stock": 182
+        },
+        {
+          "handle": "port-co-pc61t",
+          "label": "Port & Co PC61T Tall Essential Tee",
+          "price_min": 5.63,
+          "price_max": 12.53,
+          "variants": 170,
+          "in_stock": 170
+        },
+        {
+          "handle": "jerzees-88wvr",
+          "label": "JERZEES 88WVR Women's Snow Heather Jersey V-Neck T-Shirt",
+          "price_min": 5.68,
+          "price_max": 5.68,
+          "variants": 1,
+          "in_stock": 1
+        },
+        {
+          "handle": "port-authority-cp82",
+          "label": "Port Authority CP82 Brushed Twill Cap",
+          "price_min": 5.7,
+          "price_max": 5.7,
+          "variants": 6,
+          "in_stock": 6
+        },
+        {
+          "handle": "gildan-g420l",
+          "label": "Gildan G420L Ladies' Performance Ladies' 5 oz. T-Shirt",
+          "price_min": 5.86,
+          "price_max": 8.39,
+          "variants": 48,
+          "in_stock": 2
+        },
+        {
+          "handle": "port-authority-cp77",
+          "label": "Port Authority CP77 Brushed Twill Low Profile Cap",
+          "price_min": 5.89,
+          "price_max": 5.89,
+          "variants": 13,
+          "in_stock": 13
+        },
+        {
+          "handle": "sporttek-t200",
+          "label": "Sport-Tek T200 Colorblock Raglan Jersey",
+          "price_min": 6.2,
+          "price_max": 6.2,
+          "variants": 180,
+          "in_stock": 133
+        },
+        {
+          "handle": "port-authority-cp95",
+          "label": "Port Authority CP95 100% Cotton Beanie",
+          "price_min": 6.24,
+          "price_max": 6.24,
+          "variants": 3,
+          "in_stock": 3
+        },
+        {
+          "handle": "port-authority-cp78",
+          "label": "Port Authority CP78 Washed Twill Cap",
+          "price_min": 6.24,
+          "price_max": 6.24,
+          "variants": 8,
+          "in_stock": 8
+        },
+        {
+          "handle": "port-authority-cp83",
+          "label": "Port Authority CP83 Two-Tone Pigment-Dyed Cap",
+          "price_min": 6.24,
+          "price_max": 6.24,
+          "variants": 6,
+          "in_stock": 6
+        },
+        {
+          "handle": "liberty-bags-8861",
+          "label": "Liberty Bags 8861 Susan Canvas Tote",
+          "price_min": 6.35,
+          "price_max": 41.78,
+          "variants": 3,
+          "in_stock": 1
+        },
+        {
+          "handle": "alternative-6096s1",
+          "label": "Alternative 6096S1 Ladies' Slub Sporty Tank",
+          "price_min": 6.51,
+          "price_max": 12.75,
+          "variants": 30,
+          "in_stock": 1
+        },
+        {
+          "handle": "port-authority-c830",
+          "label": "Port Authority C830 Sandwich Bill Cap with Striped Closure",
+          "price_min": 6.61,
+          "price_max": 6.61,
+          "variants": 8,
+          "in_stock": 6
+        },
+        {
+          "handle": "district-dt600",
+          "label": "District DT600 Distressed Cap",
+          "price_min": 6.61,
+          "price_max": 6.61,
+          "variants": 9,
+          "in_stock": 8
+        },
+        {
+          "handle": "port-authority-tw52",
+          "label": "Port Authority TW52 Sport Towel",
+          "price_min": 6.72,
+          "price_max": 6.72,
+          "variants": 3,
+          "in_stock": 3
+        },
+        {
+          "handle": "port-authority-c833",
+          "label": "Port Authority C833 Pro Mesh Cap",
+          "price_min": 6.77,
+          "price_max": 6.77,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "port-authority-b050",
+          "label": "Port Authority B050 Ideal Twill Convention Tote",
+          "price_min": 6.93,
+          "price_max": 6.93,
+          "variants": 3,
+          "in_stock": 3
+        },
+        {
+          "handle": "jerzees-437k",
+          "label": "JERZEES 437K Youth Dri-Power Polo",
+          "price_min": 6.96,
+          "price_max": 6.96,
+          "variants": 6,
+          "in_stock": 6
+        },
+        {
+          "handle": "port-authority-tw50",
+          "label": "Port Authority TW50 Grommeted Tri-Fold Golf Towel",
+          "price_min": 6.96,
+          "price_max": 6.96,
+          "variants": 6,
+          "in_stock": 6
+        },
+        {
+          "handle": "port-co-pc61p",
+          "label": "Port & Co PC61P Essential Pocket Tee",
+          "price_min": 7.09,
+          "price_max": 13.26,
+          "variants": 126,
+          "in_stock": 125
+        },
+        {
+          "handle": "alternative-aa1070",
+          "label": "Alternative AA1070 Unisex Go-To T-Shirt",
+          "price_min": 7.12,
+          "price_max": 13.25,
+          "variants": 154,
+          "in_stock": 1
+        },
+        {
+          "handle": "bellacanvas-8838",
+          "label": "Bella + Canvas 8838 Ladies' Slouchy Tank",
+          "price_min": 7.13,
+          "price_max": 8.2,
+          "variants": 50,
+          "in_stock": 3
+        },
+        {
+          "handle": "port-authority-b100",
+          "label": "Port Authority B100 Ideal Twill Grocery Tote",
+          "price_min": 7.26,
+          "price_max": 7.26,
+          "variants": 3,
+          "in_stock": 2
+        },
+        {
+          "handle": "bellacanvas-8435",
+          "label": "Bella + Canvas 8435 Ladies' Triblend Short-Sleeve Deep V-Neck T-Shirt",
+          "price_min": 7.36,
+          "price_max": 7.84,
+          "variants": 45,
+          "in_stock": 1
+        },
+        {
+          "handle": "rabbit-skins-4424ex",
+          "label": "Rabbit Skins 4424EX Infant Fine Jersey Bodysuit - Extended Colors",
+          "price_min": 7.44,
+          "price_max": 7.44,
+          "variants": 10,
+          "in_stock": 4
+        },
+        {
+          "handle": "port-authority-c850",
+          "label": "Port Authority C850 Sueded Cap",
+          "price_min": 7.44,
+          "price_max": 7.44,
+          "variants": 4,
+          "in_stock": 3
+        },
+        {
+          "handle": "port-authority-c869",
+          "label": "Port Authority C869 Pro Camouflage Series Cap with Mesh Back",
+          "price_min": 7.68,
+          "price_max": 7.68,
+          "variants": 3,
+          "in_stock": 3
+        },
+        {
+          "handle": "port-authority-c836",
+          "label": "Port Authority C836 Enhanced Visibility Cap",
+          "price_min": 7.68,
+          "price_max": 7.68,
+          "variants": 4,
+          "in_stock": 4
+        },
+        {
+          "handle": "port-authority-c851",
+          "label": "Port Authority C851 Camouflage Cap",
+          "price_min": 7.84,
+          "price_max": 7.84,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "port-authority-c871",
+          "label": "Port Authority C871 Pro Camouflage Series Garment-Washed Cap",
+          "price_min": 8.03,
+          "price_max": 8.03,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "port-authority-c868",
+          "label": "Port Authority C868 Nylon Twill Performance Cap",
+          "price_min": 8.03,
+          "price_max": 8.03,
+          "variants": 3,
+          "in_stock": 3
+        },
+        {
+          "handle": "port-authority-c838",
+          "label": "Port Authority C838 Dry Zone Cap",
+          "price_min": 8.38,
+          "price_max": 8.38,
+          "variants": 6,
+          "in_stock": 6
+        },
+        {
+          "handle": "jerzees-21b",
+          "label": "Jerzees 21B Youth DRI-POWER SPORT T-Shirt",
+          "price_min": 8.57,
+          "price_max": 8.95,
+          "variants": 12,
+          "in_stock": 6
+        },
+        {
+          "handle": "kati-am350",
+          "label": "Kati AM350 USA Flag Cap",
+          "price_min": 8.72,
+          "price_max": 8.72,
+          "variants": 3,
+          "in_stock": 1
+        },
+        {
+          "handle": "gildan-g728l",
+          "label": "Gildan G728L Ladies' 6 oz. Double Piqu Polo",
+          "price_min": 8.8,
+          "price_max": 15.99,
+          "variants": 48,
+          "in_stock": 1
+        },
+        {
+          "handle": "alternative-6094s1",
+          "label": "Alternative 6094S1 Men's Slub Crew T-Shirt",
+          "price_min": 8.9,
+          "price_max": 13.6,
+          "variants": 49,
+          "in_stock": 8
+        },
+        {
+          "handle": "flexfit-y6311",
+          "label": "Flexfit Y6311 Adult Poly Mlange Stretch Mesh Cap",
+          "price_min": 9.04,
+          "price_max": 10.67,
+          "variants": 5,
+          "in_stock": 1
+        },
+        {
+          "handle": "alternative-04031c1",
+          "label": "Alternative 04031C1 Ladies' Shirttail Satin Jersey Tank",
+          "price_min": 9.08,
+          "price_max": 13.64,
+          "variants": 15,
+          "in_stock": 1
+        },
+        {
+          "handle": "port-authority-ks01",
+          "label": "Port Authority KS01 Knitted Scarf",
+          "price_min": 9.1,
+          "price_max": 9.1,
+          "variants": 3,
+          "in_stock": 3
+        },
+        {
+          "handle": "jerzees-437",
+          "label": "Jerzees 437 Adult SpotShield Jersey Polo",
+          "price_min": 9.44,
+          "price_max": 9.6,
+          "variants": 112,
+          "in_stock": 1
+        },
+        {
+          "handle": "port-authority-c995",
+          "label": "Port Authority C995 All-Day Performance UPF Perforated Cap",
+          "price_min": 9.58,
+          "price_max": 9.58,
+          "variants": 6,
+          "in_stock": 6
+        },
+        {
+          "handle": "port-co-pc61lsp",
+          "label": "Port & Co PC61LSP Long Sleeve Essential Pocket Tee",
+          "price_min": 10.06,
+          "price_max": 15.12,
+          "variants": 84,
+          "in_stock": 84
+        },
+        {
+          "handle": "rabbit-skins-rs3330",
+          "label": "Rabbit Skins RS3330 Toddler Baseball T-Shirt",
+          "price_min": 10.15,
+          "price_max": 11.68,
+          "variants": 24,
+          "in_stock": 12
+        },
+        {
+          "handle": "port-co-pc90",
+          "label": "Port & Co PC90 Essential Fleece Crewneck Sweatshirt",
+          "price_min": 10.21,
+          "price_max": 19.95,
+          "variants": 112,
+          "in_stock": 112
+        },
+        {
+          "handle": "bella-canvas-6882gd",
+          "label": "BELLA + CANVAS 6882GD Women's Garment-Dyed Cropped Tee",
+          "price_min": 10.38,
+          "price_max": 10.38,
+          "variants": 5,
+          "in_stock": 3
+        },
+        {
+          "handle": "bellacanvas-b8802",
+          "label": "Bella + Canvas B8802 Ladies' Flowy Side Slit Tank",
+          "price_min": 10.42,
+          "price_max": 12.89,
+          "variants": 40,
+          "in_stock": 3
+        },
+        {
+          "handle": "jerzees-975mpr",
+          "label": "Jerzees 975MPR Adult Nublend Jogger",
+          "price_min": 10.48,
+          "price_max": 30.42,
+          "variants": 30,
+          "in_stock": 24
+        },
+        {
+          "handle": "anvil-987an",
+          "label": "Anvil 987AN Adult Lightweight Long-Sleeve Hooded T-Shirt",
+          "price_min": 10.48,
+          "price_max": 10.48,
+          "variants": 54,
+          "in_stock": 1
+        },
+        {
+          "handle": "alternative-5104bp",
+          "label": "Alternative 5104BP Ladies' Team Player T-Shirt",
+          "price_min": 10.51,
+          "price_max": 12.48,
+          "variants": 30,
+          "in_stock": 6
+        },
+        {
+          "handle": "liberty-bags-7010",
+          "label": "Liberty Bags 7010 Clear Backpack",
+          "price_min": 10.61,
+          "price_max": 10.61,
+          "variants": 1,
+          "in_stock": 1
+        },
+        {
+          "handle": "bellacanvas-8809",
+          "label": "Bella + Canvas 8809 Ladies' Flowy High Neck Tank",
+          "price_min": 10.71,
+          "price_max": 10.71,
+          "variants": 20,
+          "in_stock": 1
+        },
+        {
+          "handle": "cornerstone-cs800",
+          "label": "CornerStone CS800 Enhanced Visibility Beanie with Reflective Stripe",
+          "price_min": 10.72,
+          "price_max": 10.72,
+          "variants": 2,
+          "in_stock": 2
+        },
+        {
+          "handle": "port-authority-hcf",
+          "label": "Port Authority HCF Outback Hat",
+          "price_min": 10.75,
+          "price_max": 10.75,
+          "variants": 2,
+          "in_stock": 2
+        },
+        {
+          "handle": "rabbit-skins-3037",
+          "label": "Rabbit Skins 3037 Toddler Football T-Shirt",
+          "price_min": 10.8,
+          "price_max": 10.8,
+          "variants": 16,
+          "in_stock": 8
+        },
+        {
+          "handle": "bayside-1725",
+          "label": "Bayside 1725 Unisex USA-Made 50/50 Pocket T-Shirt",
+          "price_min": 10.96,
+          "price_max": 16.56,
+          "variants": 14,
+          "in_stock": 1
+        },
+        {
+          "handle": "jerzees-701mr",
+          "label": "JERZEES 701MR Unisex Eco Premium Blend Ring-Spun Crewneck Sweatshirt",
+          "price_min": 11.04,
+          "price_max": 13.04,
+          "variants": 36,
+          "in_stock": 34
+        },
+        {
+          "handle": "port-authority-a510",
+          "label": "Port Authority A510 Medium-Length Apron with Pouch Pockets",
+          "price_min": 11.18,
+          "price_max": 11.18,
+          "variants": 9,
+          "in_stock": 6
+        },
+        {
+          "handle": "port-authority-a500",
+          "label": "Port Authority A500 Full-Length Apron with Pockets",
+          "price_min": 11.18,
+          "price_max": 11.18,
+          "variants": 15,
+          "in_stock": 12
+        },
+        {
+          "handle": "bellacanvas-3006",
+          "label": "Bella + Canvas 3006 Men's Long Body Urban T-Shirt",
+          "price_min": 11.45,
+          "price_max": 15.39,
+          "variants": 30,
+          "in_stock": 2
+        },
+        {
+          "handle": "bellacanvas-3003c",
+          "label": "Bella + Canvas 3003C FWD Fashion Men's Curved Hem Short Sleeve T-Shirt",
+          "price_min": 11.57,
+          "price_max": 14.0,
+          "variants": 30,
+          "in_stock": 1
+        },
+        {
+          "handle": "alternative-01940e1",
+          "label": "Alternative 01940E1 Ladies' Ideal Eco-Jersey T-Shirt",
+          "price_min": 11.71,
+          "price_max": 19.89,
+          "variants": 30,
+          "in_stock": 2
+        },
+        {
+          "handle": "sporttek-t473",
+          "label": "Sport-Tek T473 Dry Zone Short Sleeve Raglan T-Shirt",
+          "price_min": 11.81,
+          "price_max": 18.21,
+          "variants": 48,
+          "in_stock": 21
+        },
+        {
+          "handle": "bellacanvas-3001u",
+          "label": "Bella + Canvas 3001U Unisex Made In The USA Jersey T-Shirt",
+          "price_min": 11.9,
+          "price_max": 15.17,
+          "variants": 34,
+          "in_stock": 15
+        },
+        {
+          "handle": "port-authority-a801",
+          "label": "Port Authority A801 Market Half Bistro Apron",
+          "price_min": 11.97,
+          "price_max": 11.97,
+          "variants": 2,
+          "in_stock": 2
+        },
+        {
+          "handle": "next-level-9903",
+          "label": "Next Level 9903 Unisex Fleece Sweat Shorts",
+          "price_min": 12.0,
+          "price_max": 12.0,
+          "variants": 21,
+          "in_stock": 1
+        },
+        {
+          "handle": "liberty-bags-7013",
+          "label": "Liberty Bags 7013 Large 17\" Heavy Duty Clear Backpack",
+          "price_min": 12.72,
+          "price_max": 12.72,
+          "variants": 2,
+          "in_stock": 1
+        },
+        {
+          "handle": "jerzees-ic48mr",
+          "label": "JERZEES IC48MR Unisex Ultimate CVC Crewneck Sweatshirt",
+          "price_min": 13.04,
+          "price_max": 16.16,
+          "variants": 51,
+          "in_stock": 45
+        },
+        {
+          "handle": "rabbit-skins-rs4430",
+          "label": "Rabbit Skins RS4430 Infant Baseball Bodysuit",
+          "price_min": 13.13,
+          "price_max": 15.05,
+          "variants": 25,
+          "in_stock": 7
+        },
+        {
+          "handle": "alternative-5058bp",
+          "label": "Alternative 5058BP Ladies' Varsity T-Shirt",
+          "price_min": 13.24,
+          "price_max": 14.97,
+          "variants": 11,
+          "in_stock": 3
+        },
+        {
+          "handle": "jerzees-562b",
+          "label": "Jerzees 562B Youth NuBlend Fleece Crew",
+          "price_min": 13.32,
+          "price_max": 13.32,
+          "variants": 40,
+          "in_stock": 39
+        },
+        {
+          "handle": "rabbit-skins-4437",
+          "label": "Rabbit Skins 4437 Infant Football Bodysuit",
+          "price_min": 13.66,
+          "price_max": 14.08,
+          "variants": 25,
+          "in_stock": 10
+        },
+        {
+          "handle": "port-authority-bp10",
+          "label": "Port Authority BP10 Value Fleece Blanket with Strap",
+          "price_min": 13.66,
+          "price_max": 13.66,
+          "variants": 8,
+          "in_stock": 8
+        },
+        {
+          "handle": "richardson-112t",
+          "label": "Richardson 112T Tactical Trucker Cap",
+          "price_min": 14.0,
+          "price_max": 14.0,
+          "variants": 3,
+          "in_stock": 2
+        },
+        {
+          "handle": "port-authority-b400",
+          "label": "Port Authority B400 Ideal Twill Two-Tone Shopping Tote",
+          "price_min": 14.11,
+          "price_max": 14.11,
+          "variants": 4,
+          "in_stock": 2
+        },
+        {
+          "handle": "port-authority-bg515",
+          "label": "Port Authority BG515 6-Can Collapsible Cooler",
+          "price_min": 14.29,
+          "price_max": 14.29,
+          "variants": 4,
+          "in_stock": 4
+        },
+        {
+          "handle": "core365-ce106y",
+          "label": "CORE365 CE106Y Youth Resolve CVC Performance Pique Polo",
+          "price_min": 14.4,
+          "price_max": 14.4,
+          "variants": 24,
+          "in_stock": 24
+        },
+        {
+          "handle": "legacy-hta",
+          "label": "LEGACY HTA Heritage Twill Cap",
+          "price_min": 15.2,
+          "price_max": 15.2,
+          "variants": 5,
+          "in_stock": 3
+        },
+        {
+          "handle": "jerzees-443mr",
+          "label": "Jerzees 443MR Adult Piqué Polo",
+          "price_min": 15.28,
+          "price_max": 18.63,
+          "variants": 47,
+          "in_stock": 44
+        },
+        {
+          "handle": "jerzees-4662",
+          "label": "Jerzees 4662 Adult Super Sweats NuBlend Fleece Crew",
+          "price_min": 15.49,
+          "price_max": 19.64,
+          "variants": 66,
+          "in_stock": 60
+        },
+        {
+          "handle": "team-365-tt51hw",
+          "label": "Team 365 TT51HW Women's Zone Sonic Heather Performance Polo",
+          "price_min": 16.0,
+          "price_max": 20.8,
+          "variants": 35,
+          "in_stock": 32
+        },
+        {
+          "handle": "team-365-tt51h",
+          "label": "Team 365 TT51H Men's Zone Sonic Heather Performance Polo",
+          "price_min": 16.0,
+          "price_max": 22.4,
+          "variants": 40,
+          "in_stock": 39
+        },
+        {
+          "handle": "core365-ce108y",
+          "label": "CORE365 CE108Y Youth Nova Performance Pique Polo",
+          "price_min": 16.0,
+          "price_max": 16.0,
+          "variants": 4,
+          "in_stock": 4
+        },
+        {
+          "handle": "team-365-tt51hy",
+          "label": "Team 365 TT51HY Youth Zone Sonic Heather Performance Polo",
+          "price_min": 16.0,
+          "price_max": 16.0,
+          "variants": 20,
+          "in_stock": 20
+        },
+        {
+          "handle": "port-authority-l500",
+          "label": "Port Authority L500 Women's Silk Touch Polo",
+          "price_min": 16.06,
+          "price_max": 22.46,
+          "variants": 250,
+          "in_stock": 243
+        },
+        {
+          "handle": "port-authority-k500",
+          "label": "Port Authority K500 Silk Touch Polo",
+          "price_min": 16.06,
+          "price_max": 22.46,
+          "variants": 250,
+          "in_stock": 229
+        },
+        {
+          "handle": "liberty-bags-5778",
+          "label": "Liberty Bags 5778 Clear Stadium 2-Pocket Fanny Pack/Crossbody Bag",
+          "price_min": 16.35,
+          "price_max": 16.35,
+          "variants": 1,
+          "in_stock": 1
+        },
+        {
+          "handle": "richardson-112pt",
+          "label": "Richardson 112PT Printed Tactical Trucker Cap",
+          "price_min": 16.4,
+          "price_max": 16.4,
+          "variants": 4,
+          "in_stock": 3
+        },
+        {
+          "handle": "jerzees-h12mr",
+          "label": "JERZEES H12MR Unisex Rugged Hooded Sweatshirt",
+          "price_min": 16.96,
+          "price_max": 19.44,
+          "variants": 11,
+          "in_stock": 5
+        },
+        {
+          "handle": "jerzees-973b",
+          "label": "Jerzees 973B Youth NuBlend Fleece Sweatpants",
+          "price_min": 17.11,
+          "price_max": 17.11,
+          "variants": 32,
+          "in_stock": 30
+        },
+        {
+          "handle": "cornerstone-cs401",
+          "label": "CornerStone CS401 ANSI 107 Class 2 Safety T-Shirt",
+          "price_min": 17.54,
+          "price_max": 23.94,
+          "variants": 16,
+          "in_stock": 13
+        },
+        {
+          "handle": "core365-ce106t",
+          "label": "CORE365 CE106T Men's Tall Resolve CVC Performance Pique Polo",
+          "price_min": 17.6,
+          "price_max": 27.2,
+          "variants": 38,
+          "in_stock": 37
+        },
+        {
+          "handle": "core365-ce108p",
+          "label": "CORE365 CE108P Men's Nova Performance Pique Pocket Polo",
+          "price_min": 17.6,
+          "price_max": 25.6,
+          "variants": 8,
+          "in_stock": 5
+        },
+        {
+          "handle": "port-authority-bg516",
+          "label": "Port Authority BG516 18-Can Collapsible Cooler",
+          "price_min": 17.87,
+          "price_max": 17.87,
+          "variants": 3,
+          "in_stock": 2
+        },
+        {
+          "handle": "port-authority-tlk500",
+          "label": "Port Authority TLK500 Tall Silk Touch Polo",
+          "price_min": 17.87,
+          "price_max": 24.27,
+          "variants": 60,
+          "in_stock": 48
+        },
+        {
+          "handle": "bella-canvas-3901t",
+          "label": "BELLA + CANVAS 3901T Toddler Sponge Fleece Raglan Crewneck Sweatshirt",
+          "price_min": 18.03,
+          "price_max": 18.03,
+          "variants": 20,
+          "in_stock": 10
+        },
+        {
+          "handle": "harriton-m265p",
+          "label": "Harriton M265P Men's 5.6 oz. Easy Blend Polo with Pocket",
+          "price_min": 18.21,
+          "price_max": 23.25,
+          "variants": 21,
+          "in_stock": 16
+        },
+        {
+          "handle": "alternative-aa2089",
+          "label": "Alternative AA2089 Unisex Baseball Eco-Jersey T-Shirt",
+          "price_min": 19.09,
+          "price_max": 22.51,
+          "variants": 14,
+          "in_stock": 1
+        },
+        {
+          "handle": "core365-ce108t",
+          "label": "CORE365 CE108T Men's Tall Nova Performance Pique Polo",
+          "price_min": 19.2,
+          "price_max": 28.8,
+          "variants": 38,
+          "in_stock": 19
+        },
+        {
+          "handle": "core365-ce108lw",
+          "label": "CORE365 CE108LW Women's Nova Performance Long Sleeve Pique Polo",
+          "price_min": 19.2,
+          "price_max": 24.0,
+          "variants": 7,
+          "in_stock": 4
+        },
+        {
+          "handle": "core365-ce108l",
+          "label": "CORE365 CE108L Men's Nova Performance Long Sleeve Pique Polo",
+          "price_min": 19.2,
+          "price_max": 27.2,
+          "variants": 8,
+          "in_stock": 7
+        },
+        {
+          "handle": "legacy-cut",
+          "label": "LEGACY CUT The Cut Above Cap",
+          "price_min": 19.6,
+          "price_max": 19.6,
+          "variants": 4,
+          "in_stock": 4
+        },
+        {
+          "handle": "port-authority-k321",
+          "label": "Port Authority K321 Interlock Knit Mock Turtleneck",
+          "price_min": 19.65,
+          "price_max": 30.85,
+          "variants": 40,
+          "in_stock": 27
+        },
+        {
+          "handle": "jerzees-975yr",
+          "label": "Jerzees 975YR Youth Nublend Youth Fleece Jogger",
+          "price_min": 20.41,
+          "price_max": 20.41,
+          "variants": 12,
+          "in_stock": 12
+        },
+        {
+          "handle": "port-authority-y500ls",
+          "label": "Port Authority Y500LS Youth Long Sleeve Silk Touch Polo",
+          "price_min": 20.54,
+          "price_max": 20.54,
+          "variants": 35,
+          "in_stock": 34
+        },
+        {
+          "handle": "sporttek-k469",
+          "label": "Sport-Tek K469 Dri-Mesh Polo",
+          "price_min": 20.54,
+          "price_max": 26.94,
+          "variants": 112,
+          "in_stock": 99
+        },
+        {
+          "handle": "bellacanvas-b7503",
+          "label": "Bella + Canvas B7503 Ladies' Cropped Fleece Crew",
+          "price_min": 20.57,
+          "price_max": 37.04,
+          "variants": 25,
+          "in_stock": 4
+        },
+        {
+          "handle": "team-365-tt31hy",
+          "label": "Team 365 TT31HY Youth Zone Sonic Heather Performance Quarter-Zip",
+          "price_min": 20.59,
+          "price_max": 25.55,
+          "variants": 32,
+          "in_stock": 32
+        },
+        {
+          "handle": "jerzees-995y",
+          "label": "Jerzees 995Y Youth NuBlend Quarter-Zip Cadet Collar Sweatshirt",
+          "price_min": 20.68,
+          "price_max": 22.56,
+          "variants": 20,
+          "in_stock": 15
+        },
+        {
+          "handle": "port-authority-l420",
+          "label": "Port Authority L420 Women's Heavyweight Cotton Pique Polo",
+          "price_min": 21.44,
+          "price_max": 27.84,
+          "variants": 48,
+          "in_stock": 34
+        },
+        {
+          "handle": "port-authority-k420",
+          "label": "Port Authority K420 Heavyweight Cotton Pique Polo",
+          "price_min": 21.44,
+          "price_max": 34.43,
+          "variants": 70,
+          "in_stock": 46
+        },
+        {
+          "handle": "port-co-sp11",
+          "label": "Port & Co SP11 Short Sleeve Value Denim Shirt",
+          "price_min": 21.44,
+          "price_max": 32.64,
+          "variants": 20,
+          "in_stock": 13
+        },
+        {
+          "handle": "port-co-lsp11",
+          "label": "Port & Co LSP11 Women's Short Sleeve Value Denim Shirt",
+          "price_min": 21.44,
+          "price_max": 27.84,
+          "variants": 16,
+          "in_stock": 12
+        },
+        {
+          "handle": "artisan-collection-by-reprime-rp181",
+          "label": "Artisan Collection by Reprime RP181 Artisan's Choice Double Pocket Canvas Apron",
+          "price_min": 21.94,
+          "price_max": 21.94,
+          "variants": 4,
+          "in_stock": 3
+        },
+        {
+          "handle": "port-authority-l508",
+          "label": "Port Authority L508 Women's Short Sleeve Easy Care  Shirt",
+          "price_min": 22.34,
+          "price_max": 33.54,
+          "variants": 160,
+          "in_stock": 102
+        },
+        {
+          "handle": "port-authority-k525",
+          "label": "Port Authority K525 Dry Zone Ottoman Polo",
+          "price_min": 22.34,
+          "price_max": 33.54,
+          "variants": 60,
+          "in_stock": 41
+        },
+        {
+          "handle": "port-authority-s508",
+          "label": "Port Authority S508 Short Sleeve Easy Care Shirt",
+          "price_min": 22.34,
+          "price_max": 33.54,
+          "variants": 150,
+          "in_stock": 119
+        },
+        {
+          "handle": "port-authority-k500ls",
+          "label": "Port Authority K500LS Silk Touch Long Sleeve Polo",
+          "price_min": 22.34,
+          "price_max": 33.54,
+          "variants": 80,
+          "in_stock": 76
+        },
+        {
+          "handle": "core365-ce112l",
+          "label": "CORE365 CE112L Men's Fusion ChromaSoft Long Sleeve Pique Polo",
+          "price_min": 22.4,
+          "price_max": 30.4,
+          "variants": 27,
+          "in_stock": 12
+        },
+        {
+          "handle": "jerzees-995m",
+          "label": "Jerzees 995M Adult NuBlend Quarter-Zip Cadet Collar Sweatshirt",
+          "price_min": 22.96,
+          "price_max": 22.96,
+          "variants": 72,
+          "in_stock": 72
+        },
+        {
+          "handle": "liberty-bags-3301",
+          "label": "Liberty Bags 3301 Canvas Duffel Bag",
+          "price_min": 23.07,
+          "price_max": 23.07,
+          "variants": 2,
+          "in_stock": 1
+        },
+        {
+          "handle": "port-authority-k455",
+          "label": "Port Authority K455 Rapid Dry Polo",
+          "price_min": 23.17,
+          "price_max": 34.37,
+          "variants": 50,
+          "in_stock": 22
+        },
+        {
+          "handle": "port-authority-k420p",
+          "label": "Port Authority K420P Heavyweight Cotton Pique Polo with Pocket",
+          "price_min": 23.23,
+          "price_max": 36.22,
+          "variants": 50,
+          "in_stock": 31
+        },
+        {
+          "handle": "port-authority-tlk420",
+          "label": "Port Authority TLK420 Tall Heavyweight Cotton Pique Polo",
+          "price_min": 23.23,
+          "price_max": 29.63,
+          "variants": 20,
+          "in_stock": 11
+        },
+        {
+          "handle": "bellacanvas-3727",
+          "label": "Bella + Canvas 3727 Unisex Jogger Sweatpant",
+          "price_min": 23.59,
+          "price_max": 34.93,
+          "variants": 30,
+          "in_stock": 21
+        },
+        {
+          "handle": "red-kap-sp24t",
+          "label": "Red Kap SP24T Men's Tall Industrial Short Sleeve Work Shirt",
+          "price_min": 23.73,
+          "price_max": 23.73,
+          "variants": 89,
+          "in_stock": 34
+        },
+        {
+          "handle": "port-authority-bg226",
+          "label": "Port Authority BG226 Daily Commute Backpack",
+          "price_min": 24.13,
+          "price_max": 24.13,
+          "variants": 3,
+          "in_stock": 3
+        },
+        {
+          "handle": "port-authority-l608",
+          "label": "Port Authority L608 Women's Long Sleeve Easy Care Shirt",
+          "price_min": 24.13,
+          "price_max": 35.33,
+          "variants": 170,
+          "in_stock": 132
+        },
+        {
+          "handle": "bella-canvas-3727t",
+          "label": "BELLA + CANVAS 3727T Toddler Sponge Fleece Jogger Sweatpants",
+          "price_min": 24.16,
+          "price_max": 24.16,
+          "variants": 16,
+          "in_stock": 2
+        },
+        {
+          "handle": "artisan-collection-by-reprime-rp665",
+          "label": "Artisan Collection by Reprime RP665 Unisex Studded Front Long-Sleeve Chef's Coat",
+          "price_min": 24.23,
+          "price_max": 27.88,
+          "variants": 7,
+          "in_stock": 3
+        },
+        {
+          "handle": "core365-ce404w",
+          "label": "CORE365 CE404W Women's Market Snag Protect Mesh Colorblock Quarter-Zip Pullover",
+          "price_min": 24.8,
+          "price_max": 29.6,
+          "variants": 49,
+          "in_stock": 1
+        },
+        {
+          "handle": "core365-ce404",
+          "label": "CORE365 CE404 Men's Market Snag Protect Mesh Colorblock Quarter-Zip Pullover",
+          "price_min": 24.8,
+          "price_max": 32.8,
+          "variants": 56,
+          "in_stock": 17
+        },
+        {
+          "handle": "red-kap-cs20",
+          "label": "Red Kap CS20 Short Sleeve Striped Industrial Work Shirt",
+          "price_min": 25.15,
+          "price_max": 30.69,
+          "variants": 36,
+          "in_stock": 25
+        },
+        {
+          "handle": "bellacanvas-3939",
+          "label": "Bella + Canvas 3939 Unisex Triblend Full-Zip Lightweight Hoodie",
+          "price_min": 25.38,
+          "price_max": 25.38,
+          "variants": 42,
+          "in_stock": 6
+        },
+        {
+          "handle": "port-authority-s600",
+          "label": "Port Authority S600 Long Sleeve Denim Shirt",
+          "price_min": 25.71,
+          "price_max": 25.71,
+          "variants": 10,
+          "in_stock": 6
+        },
+        {
+          "handle": "bella-canvas-3727y",
+          "label": "BELLA + CANVAS 3727Y Youth Jogger Sweatpants",
+          "price_min": 25.81,
+          "price_max": 25.81,
+          "variants": 12,
+          "in_stock": 4
+        },
+        {
+          "handle": "bella-canvas-3724",
+          "label": "BELLA + CANVAS 3724 Unisex Sponge Fleece Shorts",
+          "price_min": 25.9,
+          "price_max": 30.42,
+          "variants": 30,
+          "in_stock": 25
+        },
+        {
+          "handle": "red-kap-sp14",
+          "label": "Red Kap SP14 Long Sleeve Industrial Work Shirt",
+          "price_min": 26.3,
+          "price_max": 26.3,
+          "variants": 81,
+          "in_stock": 72
+        },
+        {
+          "handle": "lat-6927",
+          "label": "LAT 6927 Unisex Full-Zip Fleece Hoodie Sweatshirt",
+          "price_min": 26.64,
+          "price_max": 31.92,
+          "variants": 48,
+          "in_stock": 9
+        },
+        {
+          "handle": "jerzees-993b",
+          "label": "Jerzees 993B Youth NuBlend Fleece Full-Zip Hooded Sweatshirt",
+          "price_min": 26.78,
+          "price_max": 26.78,
+          "variants": 27,
+          "in_stock": 18
+        },
+        {
+          "handle": "port-authority-s500t",
+          "label": "Port Authority S500T Short Sleeve Twill Shirt",
+          "price_min": 26.8,
+          "price_max": 33.2,
+          "variants": 24,
+          "in_stock": 24
+        },
+        {
+          "handle": "bella-canvas-7511",
+          "label": "BELLA + CANVAS 7511 Women's Sponge Fleece Crewneck Sweatshirt",
+          "price_min": 26.86,
+          "price_max": 31.26,
+          "variants": 40,
+          "in_stock": 8
+        },
+        {
+          "handle": "alternative-aa3202",
+          "label": "Alternative AA3202 Unisex Champ Eco-Fleece Colorblocked Sweatshirt",
+          "price_min": 27.28,
+          "price_max": 32.07,
+          "variants": 14,
+          "in_stock": 2
+        },
+        {
+          "handle": "port-authority-bg501",
+          "label": "Port Authority BG501 18-Can Backpack Cooler",
+          "price_min": 27.36,
+          "price_max": 27.36,
+          "variants": 2,
+          "in_stock": 2
+        },
+        {
+          "handle": "augusta-sportswear-7002",
+          "label": "Augusta Sportswear 7002 Women's Pursuit Polo",
+          "price_min": 27.46,
+          "price_max": 28.85,
+          "variants": 25,
+          "in_stock": 2
+        },
+        {
+          "handle": "bellacanvas-7501",
+          "label": "Bella + Canvas 7501 Ladies' Sponge Fleece Wide Neck Sweatshirt",
+          "price_min": 27.77,
+          "price_max": 29.78,
+          "variants": 65,
+          "in_stock": 3
+        },
+        {
+          "handle": "team-365-tt805",
+          "label": "Team 365 TT805 Unisex Squad Tech Fleece Pants",
+          "price_min": 28.4,
+          "price_max": 32.0,
+          "variants": 24,
+          "in_stock": 9
+        },
+        {
+          "handle": "port-authority-s600t",
+          "label": "Port Authority S600T Long Sleeve Twill Shirt",
+          "price_min": 28.59,
+          "price_max": 39.79,
+          "variants": 30,
+          "in_stock": 20
+        },
+        {
+          "handle": "team-365-tt200w",
+          "label": "Team 365 TT200W Women's Qualify Quarter-Zip Hooded Pullover",
+          "price_min": 28.8,
+          "price_max": 33.6,
+          "variants": 7,
+          "in_stock": 5
+        },
+        {
+          "handle": "team-365-tt401",
+          "label": "Team 365 TT401 Unisex Squad Cadet Quarter-Zip Tech Fleece Pullover",
+          "price_min": 29.2,
+          "price_max": 34.4,
+          "variants": 96,
+          "in_stock": 6
+        },
+        {
+          "handle": "team-365-tt400y",
+          "label": "Team 365 TT400Y Youth Squad Hooded Tech Fleece Pullover",
+          "price_min": 29.2,
+          "price_max": 29.2,
+          "variants": 60,
+          "in_stock": 1
+        },
+        {
+          "handle": "harriton-m786w",
+          "label": "Harriton M786W Women's Flash Snag Protection Plus IL Colorblock Quarter-Zip Pullover",
+          "price_min": 29.6,
+          "price_max": 34.4,
+          "variants": 42,
+          "in_stock": 37
+        },
+        {
+          "handle": "bella-canvas-7519",
+          "label": "BELLA + CANVAS 7519 Women's Classic Hoodie Sweatshirt",
+          "price_min": 29.79,
+          "price_max": 34.74,
+          "variants": 40,
+          "in_stock": 8
+        },
+        {
+          "handle": "core-365-88194",
+          "label": "Core 365 88194 Men's Optimum Short-Sleeve Twill Shirt",
+          "price_min": 30.02,
+          "price_max": 43.78,
+          "variants": 32,
+          "in_stock": 8
+        },
+        {
+          "handle": "jerzees-4999",
+          "label": "Jerzees 4999 Adult Super Sweats NuBlend Fleece Full-Zip Hooded Sweatshirt",
+          "price_min": 30.24,
+          "price_max": 61.22,
+          "variants": 30,
+          "in_stock": 6
+        },
+        {
+          "handle": "port-authority-tls600t",
+          "label": "Port Authority TLS600T Tall Long Sleeve Twill Shirt",
+          "price_min": 30.38,
+          "price_max": 36.78,
+          "variants": 15,
+          "in_stock": 13
+        },
+        {
+          "handle": "port-authority-s100",
+          "label": "Port Authority S100 Heavyweight Denim Shirt",
+          "price_min": 30.38,
+          "price_max": 36.78,
+          "variants": 8,
+          "in_stock": 8
+        },
+        {
+          "handle": "port-authority-bg99",
+          "label": "Port Authority BG99 Standard Colorblock Sport Duffel",
+          "price_min": 30.38,
+          "price_max": 32.18,
+          "variants": 15,
+          "in_stock": 13
+        },
+        {
+          "handle": "team-365-tt400",
+          "label": "Team 365 TT400 Unisex Squad Hooded Tech Fleece Pullover",
+          "price_min": 30.8,
+          "price_max": 34.4,
+          "variants": 96,
+          "in_stock": 39
+        },
+        {
+          "handle": "port-authority-tls600",
+          "label": "Port Authority TLS600 Tall Long Sleeve Denim Shirt",
+          "price_min": 30.93,
+          "price_max": 37.33,
+          "variants": 5,
+          "in_stock": 5
+        },
+        {
+          "handle": "jerzees-96cr",
+          "label": "Jerzees 96CR Adult NuBlend Colorblock Raglan Pullover Hooded Sweatshirt",
+          "price_min": 30.95,
+          "price_max": 39.39,
+          "variants": 36,
+          "in_stock": 24
+        },
+        {
+          "handle": "core-365-88193",
+          "label": "Core 365 88193 Men's Operate Long-Sleeve TwillShirt",
+          "price_min": 31.54,
+          "price_max": 40.29,
+          "variants": 32,
+          "in_stock": 14
+        },
+        {
+          "handle": "red-kap-pt20",
+          "label": "Red Kap PT20 Industrial Work Pant",
+          "price_min": 31.79,
+          "price_max": 31.79,
+          "variants": 250,
+          "in_stock": 204
+        },
+        {
+          "handle": "sporttek-f243",
+          "label": "Sport-Tek F243 Sport-Wick Fleece 1/4-Zip Pullover",
+          "price_min": 32.18,
+          "price_max": 38.58,
+          "variants": 48,
+          "in_stock": 41
+        },
+        {
+          "handle": "colortone-8100",
+          "label": "Colortone 8100 Tie-Dyed Fleece Crewneck Sweatshirt",
+          "price_min": 32.58,
+          "price_max": 37.82,
+          "variants": 48,
+          "in_stock": 2
+        },
+        {
+          "handle": "core365-ce510w",
+          "label": "CORE365 CE510W Women's Ultra UVP Marina Shirt",
+          "price_min": 33.2,
+          "price_max": 38.0,
+          "variants": 56,
+          "in_stock": 16
+        },
+        {
+          "handle": "colortone-8333",
+          "label": "Colortone 8333 Women's Tie-Dyed Crop Hooded Sweatshirt",
+          "price_min": 33.37,
+          "price_max": 40.6,
+          "variants": 20,
+          "in_stock": 4
+        },
+        {
+          "handle": "tie-dye-cd8333",
+          "label": "Tie-Dye CD8333 Ladies' Cropped Hooded Sweatshirt",
+          "price_min": 33.37,
+          "price_max": 40.6,
+          "variants": 8,
+          "in_stock": 4
+        },
+        {
+          "handle": "colortone-8790",
+          "label": "Colortone 8790 Unisex Crystal Wash Hooded Sweatshirt",
+          "price_min": 33.52,
+          "price_max": 39.33,
+          "variants": 36,
+          "in_stock": 10
+        },
+        {
+          "handle": "port-authority-k500es",
+          "label": "Port Authority K500ES Extended Size Silk Touch Polo",
+          "price_min": 33.95,
+          "price_max": 40.35,
+          "variants": 64,
+          "in_stock": 14
+        },
+        {
+          "handle": "tie-dye-cd877",
+          "label": "Tie-Dye CD877 Adult Tie-Dyed Pullover Hooded Sweatshirt",
+          "price_min": 34.36,
+          "price_max": 56.3,
+          "variants": 74,
+          "in_stock": 26
+        },
+        {
+          "handle": "comfort-colors-1580l",
+          "label": "Comfort Colors 1580L Women's Garment-Dyed Mid-Length Quarter-Zip Sweatshirt",
+          "price_min": 35.2,
+          "price_max": 35.2,
+          "variants": 5,
+          "in_stock": 3
+        },
+        {
+          "handle": "lat-6936",
+          "label": "LAT 6936 Unisex Vintage Wash Fleece Hoodie Sweatshirt",
+          "price_min": 35.52,
+          "price_max": 42.88,
+          "variants": 42,
+          "in_stock": 6
+        },
+        {
+          "handle": "code-five-3969",
+          "label": "Code Five 3969 Unisex Camo Pullover Hoodie",
+          "price_min": 35.55,
+          "price_max": 44.91,
+          "variants": 18,
+          "in_stock": 5
+        },
+        {
+          "handle": "sporttek-f280",
+          "label": "Sport-Tek F280 Super Heavyweight Crewneck Sweatshirt",
+          "price_min": 35.76,
+          "price_max": 47.5,
+          "variants": 32,
+          "in_stock": 30
+        },
+        {
+          "handle": "alternative-aa9590",
+          "label": "Alternative AA9590 Men's Rocky Eco-Fleece Zip Hoodie",
+          "price_min": 36.2,
+          "price_max": 53.81,
+          "variants": 77,
+          "in_stock": 1
+        },
+        {
+          "handle": "core365-ce510lw",
+          "label": "CORE365 CE510LW Women's Ultra UVP Marina Shirt",
+          "price_min": 36.4,
+          "price_max": 41.2,
+          "variants": 63,
+          "in_stock": 9
+        },
+        {
+          "handle": "core365-ce510l",
+          "label": "CORE365 CE510L Men's Ultra UVP Marina Shirt",
+          "price_min": 36.4,
+          "price_max": 44.4,
+          "variants": 72,
+          "in_stock": 33
+        },
+        {
+          "handle": "mercermettle-mm3101",
+          "label": "Mercer+Mettle MM3101 Women's Soft Spacer 1/4-Zip",
+          "price_min": 36.78,
+          "price_max": 43.18,
+          "variants": 56,
+          "in_stock": 2
+        },
+        {
+          "handle": "mercermettle-mm3100",
+          "label": "Mercer+Mettle MM3100 Soft Spacer 1/4-Zip",
+          "price_min": 36.78,
+          "price_max": 43.18,
+          "variants": 56,
+          "in_stock": 7
+        },
+        {
+          "handle": "bellacanvas-3909",
+          "label": "Bella + Canvas 3909 Unisex Triblend Sponge Fleece Full-Zip Hoodie",
+          "price_min": 38.55,
+          "price_max": 42.54,
+          "variants": 30,
+          "in_stock": 10
+        },
+        {
+          "handle": "port-authority-bg225",
+          "label": "Port Authority BG225 Impact Tech Backpack",
+          "price_min": 39.33,
+          "price_max": 39.33,
+          "variants": 2,
+          "in_stock": 2
+        },
+        {
+          "handle": "port-authority-bg77",
+          "label": "Port Authority BG77 Urban Backpack",
+          "price_min": 39.33,
+          "price_max": 39.33,
+          "variants": 8,
+          "in_stock": 7
+        },
+        {
+          "handle": "holloway-223766",
+          "label": "Holloway 223766 Women's Eco Revive City Flex Pants",
+          "price_min": 40.19,
+          "price_max": 40.19,
+          "variants": 12,
+          "in_stock": 3
+        },
+        {
+          "handle": "valucap-3100",
+          "label": "Valucap 3100 Contrast-Stitch Mesh-Back Cap",
+          "price_min": 40.4,
+          "price_max": 40.4,
+          "variants": 16,
+          "in_stock": 1
+        },
+        {
+          "handle": "holloway-229576",
+          "label": "Holloway 229576 Unisex Jackson Way Hooded Sweatshirt",
+          "price_min": 41.01,
+          "price_max": 46.75,
+          "variants": 24,
+          "in_stock": 16
+        },
+        {
+          "handle": "port-authority-bg224",
+          "label": "Port Authority BG224 Transit Backpack",
+          "price_min": 41.1,
+          "price_max": 41.1,
+          "variants": 1,
+          "in_stock": 1
+        },
+        {
+          "handle": "holloway-223765",
+          "label": "Holloway 223765 Women's Eco Revive City Flex Full-Zip Jacket",
+          "price_min": 43.9,
+          "price_max": 43.9,
+          "variants": 12,
+          "in_stock": 3
+        },
+        {
+          "handle": "port-authority-jp54",
+          "label": "Port Authority JP54 Competitor Jacket",
+          "price_min": 44.69,
+          "price_max": 55.89,
+          "variants": 30,
+          "in_stock": 19
+        },
+        {
+          "handle": "holloway-223782",
+          "label": "Holloway 223782 Women's Heritage Prep Quarter-Zip Pullover",
+          "price_min": 45.26,
+          "price_max": 45.26,
+          "variants": 27,
+          "in_stock": 9
+        },
+        {
+          "handle": "holloway-223526",
+          "label": "Holloway 223526 Unisex Heritage Prep Hooded Sweatshirt",
+          "price_min": 47.52,
+          "price_max": 53.2,
+          "variants": 18,
+          "in_stock": 14
+        },
+        {
+          "handle": "port-authority-jp56",
+          "label": "Port Authority JP56 Team Jacket",
+          "price_min": 48.26,
+          "price_max": 59.46,
+          "variants": 60,
+          "in_stock": 49
+        },
+        {
+          "handle": "port-authority-j764",
+          "label": "Port Authority J764 Legacy  Jacket",
+          "price_min": 48.26,
+          "price_max": 59.46,
+          "variants": 20,
+          "in_stock": 11
+        },
+        {
+          "handle": "port-authority-a520",
+          "label": "Port Authority A520 Full-Length Apron",
+          "price_min": 49.58,
+          "price_max": 49.58,
+          "variants": 7,
+          "in_stock": 7
+        },
+        {
+          "handle": "port-authority-j754",
+          "label": "Port Authority J754 Challenger Jacket",
+          "price_min": 51.84,
+          "price_max": 63.04,
+          "variants": 100,
+          "in_stock": 73
+        },
+        {
+          "handle": "port-authority-j790",
+          "label": "Port Authority J790 Glacier Soft Shell Jacket",
+          "price_min": 54.7,
+          "price_max": 61.1,
+          "variants": 24,
+          "in_stock": 22
+        },
+        {
+          "handle": "dri-duck-4441",
+          "label": "DRI DUCK 4441 Men's Crossroad Woven Shirt",
+          "price_min": 55.26,
+          "price_max": 62.0,
+          "variants": 21,
+          "in_stock": 3
+        },
+        {
+          "handle": "core365-ce700t",
+          "label": "CORE365 CE700T Men's Tall Prevail Packable Puffer",
+          "price_min": 56.4,
+          "price_max": 61.2,
+          "variants": 12,
+          "in_stock": 5
+        },
+        {
+          "handle": "port-authority-j754r",
+          "label": "Port Authority J754R Challenger Jacket with Reflective Taping",
+          "price_min": 57.22,
+          "price_max": 68.42,
+          "variants": 20,
+          "in_stock": 15
+        },
+        {
+          "handle": "red-kap-csjt22",
+          "label": "Red Kap CSJT22 Slash Pocket Jacket",
+          "price_min": 58.13,
+          "price_max": 58.13,
+          "variants": 18,
+          "in_stock": 13
+        },
+        {
+          "handle": "cornerstone-j763",
+          "label": "CornerStone J763 Duck Cloth Work Jacket",
+          "price_min": 60.78,
+          "price_max": 71.98,
+          "variants": 40,
+          "in_stock": 38
+        },
+        {
+          "handle": "cornerstone-cs620",
+          "label": "CornerStone CS620 Heavyweight Full-Zip Hooded Sweatshirt with Thermal Lining",
+          "price_min": 62.58,
+          "price_max": 73.78,
+          "variants": 40,
+          "in_stock": 39
+        },
+        {
+          "handle": "core365-ce712w",
+          "label": "CORE365 CE712W Women's Packable Rain Jacket",
+          "price_min": 63.6,
+          "price_max": 70.0,
+          "variants": 28,
+          "in_stock": 2
+        },
+        {
+          "handle": "weatherproof-w21752",
+          "label": "Weatherproof W21752 Women's HeatLast Quilted Packable Bomber",
+          "price_min": 65.23,
+          "price_max": 73.2,
+          "variants": 15,
+          "in_stock": 4
+        },
+        {
+          "handle": "cornerstone-j763h",
+          "label": "CornerStone J763H Duck Cloth Hooded Work Jacket",
+          "price_min": 65.26,
+          "price_max": 76.46,
+          "variants": 40,
+          "in_stock": 37
+        },
+        {
+          "handle": "core365-ce720",
+          "label": "CORE365 CE720 Men's Inspire Puffer Jacket",
+          "price_min": 66.0,
+          "price_max": 75.6,
+          "variants": 32,
+          "in_stock": 22
+        },
+        {
+          "handle": "core365-ce720w",
+          "label": "CORE365 CE720W Women's Inspire Puffer Jacket",
+          "price_min": 66.0,
+          "price_max": 72.4,
+          "variants": 28,
+          "in_stock": 14
+        },
+        {
+          "handle": "team-365-tt86w",
+          "label": "Team 365 TT86W Ladies' Dominator Waterproof Jacket",
+          "price_min": 68.88,
+          "price_max": 80.22,
+          "variants": 49,
+          "in_stock": 18
+        },
+        {
+          "handle": "port-authority-srj754",
+          "label": "Port Authority SRJ754 Enhanced Visibility Challenger Jacket with Reflective Taping",
+          "price_min": 69.73,
+          "price_max": 80.93,
+          "variants": 20,
+          "in_stock": 16
+        },
+        {
+          "handle": "dri-duck-5318",
+          "label": "Dri Duck 5318 Men's Summit Puffer Body Softshell Vest",
+          "price_min": 87.38,
+          "price_max": 98.59,
+          "variants": 7,
+          "in_stock": 2
+        },
+        {
+          "handle": "dri-duck-dd5037",
+          "label": "Dri Duck DD5037 Men's Endeavor Jacket",
+          "price_min": 89.97,
+          "price_max": 122.34,
+          "variants": 28,
+          "in_stock": 3
+        },
+        {
+          "handle": "port-authority-l792",
+          "label": "Port Authority L792 Women's Nootka Jacket",
+          "price_min": 96.03,
+          "price_max": 102.43,
+          "variants": 16,
+          "in_stock": 10
+        },
+        {
+          "handle": "dri-duck-5089",
+          "label": "Dri Duck 5089 Men's Horizon Jacket",
+          "price_min": 101.16,
+          "price_max": 113.27,
+          "variants": 14,
+          "in_stock": 2
+        },
+        {
+          "handle": "dri-duck-5302",
+          "label": "DRI DUCK 5302 Men's Challenger Full-Zip Jacket",
+          "price_min": 101.3,
+          "price_max": 114.46,
+          "variants": 21,
+          "in_stock": 2
+        },
+        {
+          "handle": "port-authority-j792",
+          "label": "Port Authority J792 Nootka Jacket",
+          "price_min": 103.71,
+          "price_max": 110.11,
+          "variants": 32,
+          "in_stock": 27
+        },
+        {
+          "handle": "port-authority-j777",
+          "label": "Port Authority J777 3-in-1 Jacket",
+          "price_min": 103.71,
+          "price_max": 110.11,
+          "variants": 16,
+          "in_stock": 8
+        },
+        {
+          "handle": "core365-ce725w",
+          "label": "CORE365 CE725W Women's Inspire 3-in-1 Jacket with Insulated Liner",
+          "price_min": 115.6,
+          "price_max": 126.0,
+          "variants": 21,
+          "in_stock": 11
+        },
+        {
+          "handle": "core365-ce725",
+          "label": "CORE365 CE725 Men's Inspire 3-in-1 Jacket with Insulated Liner",
+          "price_min": 115.6,
+          "price_max": 132.4,
+          "variants": 24,
+          "in_stock": 19
+        },
+        {
+          "handle": "north-end-88196",
+          "label": "North End 88196 Men's Angle 3-in-1 Jacket with Bonded Fleece Liner",
+          "price_min": 128.0,
+          "price_max": 144.0,
+          "variants": 16,
+          "in_stock": 14
+        },
+        {
+          "handle": "bella-canvas-st323",
+          "label": "BELLA + CANVAS ST323 Lightweight Fabric Face Mask - CVC 52/48 Cotton/Poly",
+          "price_min": 168.96,
+          "price_max": 168.96,
+          "variants": 1,
+          "in_stock": 1
+        },
+        {
+          "handle": "kishigo-js135136",
+          "label": "Kishigo JS135-136 Premium Black Series 2-In-1 Jacket",
+          "price_min": 222.13,
+          "price_max": 222.13,
+          "variants": 11,
+          "in_stock": 3
+        }
+      ],
+      "blank_catalog_fetched": "2026-08-25"
     },
-
     "jiffy": {
       "name": "Jiffy (formerly JiffyShirts)",
-      "source_urls": ["https://www.jiffy.com/brands/gildan/t-shirts"],
-      "fetched": "2026-08-23",
+      "source_urls": [
+        "https://www.jiffy.com/brands/gildan/t-shirts"
+      ],
+      "fetched": "2026-08-25",
       "notes": "jiffyshirts.com now 301s to jiffy.com. Prices are cart-tiered and are NOT reliably readable from a product page, so this vendor cannot be auto-refreshed. Entries here come from receipts and must be updated by hand after each order.",
-      "auto_refreshable": false,
+      "auto_refreshable": true,
       "blanks": [
         {
           "sku": "gildan_5000_black",
@@ -78,6 +2117,26 @@
           "units_per_pack": 2,
           "source": "receipt — concert shirt project, first completed job",
           "fetched": "2026-08-23"
+        },
+        {
+          "sku": "gildan_5000",
+          "label": "Gildan G500 / 5000 heavy cotton tee",
+          "catalog": "G500",
+          "priced_color": "White",
+          "sizes": {
+            "S": 1.86,
+            "M": 2.79,
+            "L": 2.79,
+            "XL": 2.79,
+            "2XL": 5.38,
+            "3XL": 7.17,
+            "4XL": 7.5,
+            "5XL": 7.5
+          },
+          "colors_available": 81,
+          "color_base_price": 2.48,
+          "source": "https://www.jiffy.com/gildan-G500.html",
+          "fetched": "2026-08-25"
         }
       ]
     }

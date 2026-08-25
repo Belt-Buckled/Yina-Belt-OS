@@ -514,3 +514,49 @@ standing caveat that 2.5x does not pay for labor separately.
 **Owner:** Yina Belt.
 
 > *Adapted from The Three Ms of AI™. © 2026 Nate Herk. All rights reserved.*
+
+---
+
+## 2026-08-25 — Both lookup gaps closed; blank pricing is size-aware
+
+**Decision:** Replaced the WebFetch-and-hope lookup with `refresh_prices.py`, a deterministic fetcher
+that reads **structured data** from both vendors. Jiffy is now auto-refreshable, reversing the caveat
+recorded on 2026-08-23. Blank costs are now priced **per size**.
+
+**Gap 1 — Jiffy, closed.** The earlier conclusion that Jiffy could not be auto-refreshed was wrong. It
+was a limitation of the fetching tool, not the site. With an ordinary user agent, `jiffy.com` product
+pages return 200 and embed the full size/price grid in `data-size` / `data-amount` attributes.
+Jiffy's robots.txt disallows `/api`, `/cart`, `/checkout` and `/account`; product pages are permitted
+and are the only thing touched.
+
+**Bonus find:** Ninja Transfers runs on Shopify and publishes a standard `products.json`. That is a
+public structured endpoint, far more reliable than parsing marketing pages, and it indexes 250 blank
+products with per-variant prices and stock. Ninja sells blanks as well as transfers, so single-shipment
+sourcing is now comparable in one run.
+
+**The finding that matters — blank cost is not flat across sizes.** Live from Jiffy, Gildan G500:
+S $1.86 · M/L/XL $2.79 · 2XL $5.38 · **3XL $7.17** · **4XL/5XL $7.50**. A 5XL costs **four times**
+what a small costs. The concert shirt was a 3X and a 5X, the two most expensive rows on the board.
+Quoting one flat price per shirt regardless of size silently destroys margin on exactly the orders
+that feel like wins. Projects can now be priced by real size mix via
+`{"sku": "gildan_5000", "sizes": {"3XL": 1, "5XL": 1}}`.
+
+**Gap 2 — outsourced 5X print, reduced but NOT closed.** That receipt still does not exist and no
+lookup can recover it. What changed is that it matters less: the size-cost finding explains a large
+share of the $100 without it. Re-run through the calculator, that job's floor was **$59/unit even with
+the outsourced print counted as $0**. The true floor was higher. The gap is now a known unknown with a
+bounded effect rather than an unexplained hole. The example file still carries the `0.00` and says so.
+
+**Anti-fabrication guarantees in the fetcher:**
+- A failed fetch leaves the entry untouched with its original date, and reports the failure.
+- A page that fetches but parses empty refuses to update that SKU and says the layout changed, rather
+  than writing a wrong number.
+- Non-zero exit on any problem, so it fails loudly.
+- Output shows only what moved. Prices that held collapse to one line. Signal over noise.
+
+**Unchanged:** 2.5x multiplier, 10% waste, small-run warning under 6 units, L2 autonomy, and the
+standing caveat that 2.5x does not pay for labor separately.
+
+**Owner:** Yina Belt.
+
+> *Adapted from The Three Ms of AI™. © 2026 Nate Herk. All rights reserved.*
