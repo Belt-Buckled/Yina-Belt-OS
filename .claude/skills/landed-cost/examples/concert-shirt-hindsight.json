@@ -1,0 +1,32 @@
+{
+  "project": "Concert shirt (hindsight — the $100 loss, re-run through the calculator)",
+  "quantity": 2,
+  "waste_allowance": 0.10,
+  "multiplier": 2.5,
+  "options": [
+    {
+      "name": "What actually happened",
+      "items": [
+        {
+          "label": "Gildan 5000 black blanks",
+          "vendor": "Jiffy",
+          "pack_price": 9.91,
+          "units_per_pack": 2,
+          "packs": 1,
+          "shipping": 0.00
+        },
+        {
+          "label": "DTF transfers (front + back)",
+          "vendor": "Ninja Transfers",
+          "pack_price": 32.63,
+          "units_per_pack": 2,
+          "packs": 1,
+          "shipping": 0.00
+        }
+      ],
+      "flat_costs": [
+        { "label": "outsourced 5X print", "vendor": "print vendor", "amount": 0.00 }
+      ]
+    }
+  ]
+}

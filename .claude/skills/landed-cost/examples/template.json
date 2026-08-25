@@ -1,0 +1,24 @@
+{
+  "project": "PROJECT NAME",
+  "quantity": 0,
+  "waste_allowance": 0.10,
+  "multiplier": 2.5,
+  "options": [
+    {
+      "name": "OPTION NAME (e.g. Jiffy blanks + Ninja transfers)",
+      "items": [
+        {
+          "label": "what it is",
+          "vendor": "who sells it",
+          "pack_price": 0.00,
+          "units_per_pack": 1,
+          "packs": 1,
+          "shipping": 0.00
+        }
+      ],
+      "flat_costs": [
+        { "label": "one-off cost, e.g. outsourced print", "vendor": "who", "amount": 0.00 }
+      ]
+    }
+  ]
+}

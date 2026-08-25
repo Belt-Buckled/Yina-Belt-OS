@@ -411,3 +411,54 @@ children.
 [campaign folder](https://drive.google.com/drive/folders/1EB0Y_bhB82YtsZzLoB1VNTmWbiVWC4t0).
 
 **Owner:** Yina Belt.
+
+---
+
+## 2026-08-23 — Landed cost calculator scoped and built (`/level-up` run 1)
+
+**Decision:** Build a deterministic landed cost calculator as the first `/level-up` artifact. Standing
+defaults: **2.5x multiplier** on landed cost as the price floor, **10% flat waste allowance** for
+misprints. Shipped as `.claude/skills/landed-cost/` at **autonomy level L1 (Suggested)** — it computes
+and ranks, Yina supplies every price and picks the vendor.
+
+**Why:** Sourcing is the highest-frequency manual task on record and is named in `about-me.md` as what
+eats the week — the vendor comparison gets re-run from scratch on every project. It is also the direct
+fix for the known systems failure: the first real project netted a $100 loss because cost was never
+settled before the quote. Sourcing and pricing are the same problem, and landed cost per unit is the
+number that closes both.
+
+**Method spec (3Ms Phase 2):**
+- **Constraint:** bottleneck, not growth lever. Pricing is what breaks first at volume.
+- **EAD:** Eliminate — no, quoting without cost is what caused the loss. Automate — yes, ~90%
+  deterministic arithmetic, near-zero AI. Delegate — no, solo operator and the vendor judgment stays
+  with Yina.
+- **Process map:** Trigger = new project or quote request. Sources = live vendor lookups (Ninja
+  Transfers, Jiffy, Gildan), entered by hand. Transformations = pack price → per unit → + allocated
+  shipping → + outsourced flats → + 10% waste → x2.5. Decision point = which option wins, and whether
+  the floor is askable. Destination = the customer quote, plus cost-of-goods for the sales tracker.
+- **Autonomy:** L1. No lookups, no vendor choice, no final price. Given the wound is a pricing wound,
+  a model must not guess at the cost basis.
+- **KPI:** bucket = less cost. Metric = gross margin per unit at or above 60% (what 2.5x delivers).
+  Secondary = under 5 minutes from new project to quotable number.
+
+**Recorded caveat:** 2.5x does not pay for labor separately. It covers materials, shipping and
+misprints and leaves a margin; press time lives inside that margin, not on top of it. Fine on a
+twelve-unit run, thin on a two-piece custom job. The calculator emits a small-run warning under 6
+units. What would change the multiplier: a run of jobs where the margin does not survive contact with
+actual hours, or a shift to explicit hourly pricing via `multiplier: 1.0` plus a labor flat cost.
+
+**Alternatives considered:** 3x multiplier (rejected as too high for a market still unproven with
+strangers); per-project spoilage entry instead of a flat 10% (rejected as friction on small runs);
+building the sales tracker instead (see below).
+
+**Contradiction surfaced and left standing:** `priorities.md` and `connections.md` both name revenue
+tracking as the highest-leverage gap, and it is. It was not chosen here because it is not an
+automation — it is five columns and roughly twenty minutes of setup. It stays Day 2 work, not a
+`/level-up` artifact.
+
+**Bike Method:** Phase 1. Run manually on at least three real projects, and hand-check the arithmetic
+at least once, before considering any advance in autonomy.
+
+**Owner:** Yina Belt.
+
+> *Adapted from The Three Ms of AI™. © 2026 Nate Herk. All rights reserved.*
