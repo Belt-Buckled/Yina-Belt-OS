@@ -411,3 +411,152 @@ children.
 [campaign folder](https://drive.google.com/drive/folders/1EB0Y_bhB82YtsZzLoB1VNTmWbiVWC4t0).
 
 **Owner:** Yina Belt.
+
+---
+
+## 2026-08-23 — Landed cost calculator scoped and built (`/level-up` run 1)
+
+**Decision:** Build a deterministic landed cost calculator as the first `/level-up` artifact. Standing
+defaults: **2.5x multiplier** on landed cost as the price floor, **10% flat waste allowance** for
+misprints. Shipped as `.claude/skills/landed-cost/` at **autonomy level L1 (Suggested)** — it computes
+and ranks, Yina supplies every price and picks the vendor.
+
+**Why:** Sourcing is the highest-frequency manual task on record and is named in `about-me.md` as what
+eats the week — the vendor comparison gets re-run from scratch on every project. It is also the direct
+fix for the known systems failure: the first real project netted a $100 loss because cost was never
+settled before the quote. Sourcing and pricing are the same problem, and landed cost per unit is the
+number that closes both.
+
+**Method spec (3Ms Phase 2):**
+- **Constraint:** bottleneck, not growth lever. Pricing is what breaks first at volume.
+- **EAD:** Eliminate — no, quoting without cost is what caused the loss. Automate — yes, ~90%
+  deterministic arithmetic, near-zero AI. Delegate — no, solo operator and the vendor judgment stays
+  with Yina.
+- **Process map:** Trigger = new project or quote request. Sources = live vendor lookups (Ninja
+  Transfers, Jiffy, Gildan), entered by hand. Transformations = pack price → per unit → + allocated
+  shipping → + outsourced flats → + 10% waste → x2.5. Decision point = which option wins, and whether
+  the floor is askable. Destination = the customer quote, plus cost-of-goods for the sales tracker.
+- **Autonomy:** L1. No lookups, no vendor choice, no final price. Given the wound is a pricing wound,
+  a model must not guess at the cost basis.
+- **KPI:** bucket = less cost. Metric = gross margin per unit at or above 60% (what 2.5x delivers).
+  Secondary = under 5 minutes from new project to quotable number.
+
+**Recorded caveat:** 2.5x does not pay for labor separately. It covers materials, shipping and
+misprints and leaves a margin; press time lives inside that margin, not on top of it. Fine on a
+twelve-unit run, thin on a two-piece custom job. The calculator emits a small-run warning under 6
+units. What would change the multiplier: a run of jobs where the margin does not survive contact with
+actual hours, or a shift to explicit hourly pricing via `multiplier: 1.0` plus a labor flat cost.
+
+**Alternatives considered:** 3x multiplier (rejected as too high for a market still unproven with
+strangers); per-project spoilage entry instead of a flat 10% (rejected as friction on small runs);
+building the sales tracker instead (see below).
+
+**Contradiction surfaced and left standing:** `priorities.md` and `connections.md` both name revenue
+tracking as the highest-leverage gap, and it is. It was not chosen here because it is not an
+automation — it is five columns and roughly twenty minutes of setup. It stays Day 2 work, not a
+`/level-up` artifact.
+
+**Bike Method:** Phase 1. Run manually on at least three real projects, and hand-check the arithmetic
+at least once, before considering any advance in autonomy.
+
+**Owner:** Yina Belt.
+
+> *Adapted from The Three Ms of AI™. © 2026 Nate Herk. All rights reserved.*
+
+---
+
+## 2026-08-23 — Landed cost calculator revised: live lookups added, autonomy raised to L2
+
+**Decision:** Supersedes the autonomy call in the entry above. The calculator now does vendor price
+lookups instead of requiring every price to be typed in. Architecture split in two: an **AI-assisted
+lookup layer** that fetches live vendor prices into a cached price book (`vendors.json`), and a
+**deterministic math layer** (`landed_cost.py`) that reads the book and computes with no network and
+no AI. Autonomy moves **L1 → L2** for lookups only. The arithmetic stays deterministic and vendor
+selection stays with Yina.
+
+**Why the reversal:** the original L1 build required manual price entry, which did not remove the
+drudgery — it relocated it. The lookup *is* the time sink named in `about-me.md`. Scoping it out made
+the artifact miss its own target. Yina called this immediately.
+
+**What the lookup found, which manual comparison never would have:** Ninja Transfers prices DTF by
+area with quantity tiers, and gang sheets are dramatically cheaper per design than individual
+transfers. A $35.00 22"x24" gang sheet fits ~16 5"x5" designs at **$2.92/design**, against **$4.00**
+each for individual 5"x5" transfers. For scale: the concert shirt used **$32.63 of transfers for two
+shirts**; a $35.00 gang sheet costs about the same and fits roughly thirty small designs. Gang sheet
+selection is now the single largest saving the tool surfaces, and it is a pricing insight the
+business did not previously have.
+
+**Guardrails, because a wrong fetched price in a quote is the $100 loss with extra steps:**
+- Every price carries `source_url` and a `fetched` date. Every report line prints its provenance.
+- Prices older than 30 days trigger a loud staleness warning at the top of the report.
+  `--check-prices` reports staleness on its own.
+- A failed fetch leaves the old price with its old date and says so. Fabricating a number to fill a
+  gap is prohibited.
+- Conflicting sources are both recorded and flagged, never averaged or silently resolved. The
+  calculator takes the more conservative number, producing a higher cost and a safer floor.
+- Gang sheet fit uses conservative grid packing, so the tool overestimates cost rather than under.
+
+**Recorded caveat — Jiffy cannot be auto-refreshed.** `jiffyshirts.com` 301s to `jiffy.com`, old
+product URLs return 410, category pages exceed the fetcher's header limit, and pricing is cart-tiered
+so no stable page price exists. Jiffy entries are marked `auto_refreshable: false` and are seeded from
+receipts — currently the $9.91 two-pack of Gildan 5000 blacks from the concert shirt job. These must
+be updated by hand after each order. This is a real gap, not a solved problem.
+
+**Recorded caveat — Ninja's own sources disagree.** Their tier table says 250+ is 50% off; their cost
+page implies ~65%. Both are recorded in the price book with a CONFLICT note. Verify against a real
+cart before trusting any deep-tier quote.
+
+**Unchanged:** 2.5x multiplier, 10% waste allowance, the small-run warning under 6 units, and the
+standing caveat that 2.5x does not pay for labor separately.
+
+**Bike Method:** still Phase 1. Review every refreshed price before quoting from it.
+
+**Owner:** Yina Belt.
+
+> *Adapted from The Three Ms of AI™. © 2026 Nate Herk. All rights reserved.*
+
+---
+
+## 2026-08-25 — Both lookup gaps closed; blank pricing is size-aware
+
+**Decision:** Replaced the WebFetch-and-hope lookup with `refresh_prices.py`, a deterministic fetcher
+that reads **structured data** from both vendors. Jiffy is now auto-refreshable, reversing the caveat
+recorded on 2026-08-23. Blank costs are now priced **per size**.
+
+**Gap 1 — Jiffy, closed.** The earlier conclusion that Jiffy could not be auto-refreshed was wrong. It
+was a limitation of the fetching tool, not the site. With an ordinary user agent, `jiffy.com` product
+pages return 200 and embed the full size/price grid in `data-size` / `data-amount` attributes.
+Jiffy's robots.txt disallows `/api`, `/cart`, `/checkout` and `/account`; product pages are permitted
+and are the only thing touched.
+
+**Bonus find:** Ninja Transfers runs on Shopify and publishes a standard `products.json`. That is a
+public structured endpoint, far more reliable than parsing marketing pages, and it indexes 250 blank
+products with per-variant prices and stock. Ninja sells blanks as well as transfers, so single-shipment
+sourcing is now comparable in one run.
+
+**The finding that matters — blank cost is not flat across sizes.** Live from Jiffy, Gildan G500:
+S $1.86 · M/L/XL $2.79 · 2XL $5.38 · **3XL $7.17** · **4XL/5XL $7.50**. A 5XL costs **four times**
+what a small costs. The concert shirt was a 3X and a 5X, the two most expensive rows on the board.
+Quoting one flat price per shirt regardless of size silently destroys margin on exactly the orders
+that feel like wins. Projects can now be priced by real size mix via
+`{"sku": "gildan_5000", "sizes": {"3XL": 1, "5XL": 1}}`.
+
+**Gap 2 — outsourced 5X print, reduced but NOT closed.** That receipt still does not exist and no
+lookup can recover it. What changed is that it matters less: the size-cost finding explains a large
+share of the $100 without it. Re-run through the calculator, that job's floor was **$59/unit even with
+the outsourced print counted as $0**. The true floor was higher. The gap is now a known unknown with a
+bounded effect rather than an unexplained hole. The example file still carries the `0.00` and says so.
+
+**Anti-fabrication guarantees in the fetcher:**
+- A failed fetch leaves the entry untouched with its original date, and reports the failure.
+- A page that fetches but parses empty refuses to update that SKU and says the layout changed, rather
+  than writing a wrong number.
+- Non-zero exit on any problem, so it fails loudly.
+- Output shows only what moved. Prices that held collapse to one line. Signal over noise.
+
+**Unchanged:** 2.5x multiplier, 10% waste, small-run warning under 6 units, L2 autonomy, and the
+standing caveat that 2.5x does not pay for labor separately.
+
+**Owner:** Yina Belt.
+
+> *Adapted from The Three Ms of AI™. © 2026 Nate Herk. All rights reserved.*

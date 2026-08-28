@@ -1,0 +1,24 @@
+{
+  "project": "EXAMPLE — 12 kids' tees, two sourcing options (PRICES ARE MADE UP — shape demo only)",
+  "quantity": 12,
+  "waste_allowance": 0.10,
+  "multiplier": 2.5,
+  "options": [
+    {
+      "name": "Jiffy blanks + Ninja transfers",
+      "items": [
+        { "label": "Gildan 5000 blanks", "vendor": "Jiffy", "pack_price": 9.91, "units_per_pack": 2, "packs": 7, "shipping": 8.99 },
+        { "label": "DTF transfer sheet", "vendor": "Ninja Transfers", "pack_price": 32.63, "units_per_pack": 6, "packs": 2, "shipping": 0.00 }
+      ],
+      "flat_costs": []
+    },
+    {
+      "name": "Ninja blanks + Ninja transfers (one shipment)",
+      "items": [
+        { "label": "Gildan 5000 blanks", "vendor": "Ninja Transfers", "pack_price": 6.25, "units_per_pack": 1, "packs": 12, "shipping": 0.00 },
+        { "label": "DTF transfer sheet", "vendor": "Ninja Transfers", "pack_price": 32.63, "units_per_pack": 6, "packs": 2, "shipping": 0.00 }
+      ],
+      "flat_costs": []
+    }
+  ]
+}

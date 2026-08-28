@@ -1,0 +1,35 @@
+{
+  "project": "PROJECT NAME",
+  "quantity": 0,
+  "waste_allowance": 0.1,
+  "multiplier": 2.5,
+  "design": {
+    "width_in": 0,
+    "height_in": 0,
+    "count": 0
+  },
+  "_forms": "Line items take three forms. (1) book SKU: {\"sku\":\"gildan_5000_black\",\"packs\":6,\"shipping\":8.99}. (2) individual transfers: {\"transfer_size\":\"5x5\",\"quantity\":12}. (3) manual, for anything not in the price book: {\"label\":..,\"vendor\":..,\"pack_price\":0.00,\"units_per_pack\":1,\"packs\":1,\"shipping\":0.00}. Delete this key and the _design_note when you copy.",
+  "options": [
+    {
+      "name": "OPTION NAME",
+      "items": [
+        {
+          "sku": "gildan_5000_black",
+          "packs": 1,
+          "shipping": 0.0
+        },
+        {
+          "sku": "gang_22x24",
+          "packs": 1
+        }
+      ],
+      "flat_costs": [
+        {
+          "label": "one-off cost, e.g. outsourced print",
+          "vendor": "who",
+          "amount": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "project": "12 kids' tees — gang sheet vs individual transfers",
+  "quantity": 12,
+  "waste_allowance": 0.10,
+  "multiplier": 2.5,
+  "design": { "width_in": 5, "height_in": 5, "count": 12 },
+  "options": [
+    {
+      "name": "Gang sheet route",
+      "items": [
+        { "sku": "gildan_5000_black", "packs": 6, "shipping": 8.99 },
+        { "sku": "gang_22x24", "packs": 1 }
+      ]
+    },
+    {
+      "name": "Individual transfers route",
+      "items": [
+        { "sku": "gildan_5000_black", "packs": 6, "shipping": 8.99 },
+        { "transfer_size": "5x5", "quantity": 12 }
+      ]
+    }
+  ]
+}

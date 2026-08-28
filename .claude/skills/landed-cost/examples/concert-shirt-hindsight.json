@@ -1,0 +1,28 @@
+{
+  "project": "Concert shirt — what it actually cost vs what the sizes really cost",
+  "_note": "The real job: 3X and 5X, front and back, one piece outsourced. The outsourced print cost was never recorded and is still 0.00 below. Fill it in if the receipt turns up.",
+  "quantity": 2,
+  "waste_allowance": 0.10,
+  "multiplier": 2.5,
+  "design": { "width_in": 11, "height_in": 11, "count": 4 },
+  "_design_note": "11x11 front print is an ASSUMPTION. 2 shirts x front+back = 4 transfers. Correct the dimensions and the counterfactual sharpens.",
+  "options": [
+    {
+      "name": "What actually happened (flat 2-pack price, size ignored)",
+      "items": [
+        { "label": "Gildan 5000 black 2-pack", "vendor": "Jiffy", "pack_price": 9.91, "units_per_pack": 2, "packs": 1 },
+        { "label": "DTF transfers", "vendor": "Ninja Transfers", "pack_price": 32.63, "units_per_pack": 2, "packs": 1 }
+      ],
+      "flat_costs": [
+        { "label": "outsourced 5X print — COST NEVER RECORDED", "vendor": "print vendor", "amount": 0.00 }
+      ]
+    },
+    {
+      "name": "Same job priced by actual size, gang sheet for transfers",
+      "items": [
+        { "sku": "gildan_5000", "sizes": { "3XL": 1, "5XL": 1 }, "shipping": 8.99 },
+        { "sku": "gang_22x24", "packs": 1 }
+      ]
+    }
+  ]
+}
