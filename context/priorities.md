@@ -58,25 +58,26 @@ start line makes the number honest. The tracker starts empty.
 Priority 2 has no measurement surface. Before the number can be hit it has to be countable: one sheet,
 five columns, date, item, channel, amount collected, cost of goods. That is Day 2 work.
 
-## Cadence conflict — opened 2026-08-29
+## Cadence — resolved 2026-08-29
 
-The Drive strategy Doc (`context/content-strategy.md`) sets a different cadence than priority 3.
+The earlier conflict with the Drive strategy doc is closed by the brand-architecture decision.
 
-| | This file | The strategy Doc |
+Days Like These is the umbrella lifestyle brand and the shop lives inside it. They are two plans, not
+one, so the two cadences are counting two different things:
+
+| | This file | `context/content-strategy.md` |
 |---|---|---|
+| Whose | The shop | The brand |
 | Volume | 3 posts/week, 38 across the window | 4 to 6 meaningful posts/week |
-| Measure | Posts published | Content function: reach, connection, series, proof-of-personality |
-| Purpose | Drive the $1,000 | Find the version that makes strangers care beyond one post |
+| Measure | Posts published | Function: reach, connection, series, proof-of-personality |
+| Serves | The $1,000 | Audience and opportunity |
 
-Not a rounding difference. 3/week is a floor chosen because it is survivable and countable. 4 to 6/week
-with a function mix is a testing plan. Both were written by Yina, eight days apart, and neither was
-retired.
+**Priority 3 is unchanged at 3x/week.** It is the shop's number and it is tied to the deadline. A single
+asset can serve both plans; when it does, count it in both. Do not add the two figures together and do
+not average them.
 
-They are also not automatically the same posts. A shop post and a lifestyle post can be the same asset,
-or they can be two jobs on one calendar. Which one it is has not been decided.
-
-**Do not silently adopt either number.** Priority 3 stands at 3x/week until Yina says otherwise, because
-it is the one tied to the $1,000 deadline. Flagged in `decisions/log.md`, 2026-08-29.
+**Open:** two plans is two plans. Before the brand cadence takes calendar space alongside this one, say
+what comes off. Recorded in `decisions/log.md`, 2026-08-29.
 
 ## Where the archive actually lives — 2026-08-29
 

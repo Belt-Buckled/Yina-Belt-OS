@@ -623,3 +623,82 @@ separate personal account the brand appears inside, or the replacement for the s
 other conflict above collapses once that one is answered.
 
 **Owner:** Yina Belt. **Status:** open.
+
+---
+
+## 2026-08-29 — RESOLVED: Days Like These is the umbrella. The shop lives inside it.
+
+**Supersedes the four open conflicts logged earlier today.** Conflicts 1, 2 and 3 collapse. Conflict 4
+changes shape and is still open, in a smaller and sharper form.
+
+**Decision:** Days Like These is the personality-led lifestyle brand. The shop is one thing that happens
+inside it, not a separate brand competing for the name.
+
+In Yina's words: the shop is part of what she does, and what she does is her lifestyle. So the lifestyle
+is the brand, and the shop is one of its surfaces.
+
+**Why:** the lifestyle account is the opportunity opener. It is deliberately broader than the shop so it
+can carry brand deals, affiliate, platform revenue and partnerships. The shop is one opportunity it
+showcases, and the strongest one, because it is already real and already sells.
+
+Pointing the account only at the shop would cap it at the shop. Pointing it at the person and putting
+the shop inside it keeps both.
+
+### What this means operationally
+
+**Two things to run, not one.**
+
+| | Days Like These, the brand | The shop |
+|---|---|---|
+| What it is | Yina as talent. Projects, hosting, life in progress, perspective. | Favors, decor, custom apparel. |
+| What it produces | Audience, trust, opportunity. | Revenue. |
+| Governing doc | `context/content-strategy.md` | `context/about-business.md`, `context/priorities.md` |
+| Goal | $15,000/month household, no deadline | **$1,000 gross by 2026-11-20** |
+
+They share a name and an audience. They do not share a plan. Each gets its own strategy and its own
+place on the calendar.
+
+**The existing personal TikTok becomes the Days Like These account.** It does not get abandoned and
+rebuilt. Yina renames the handle and keeps the account she already has.
+
+**The $1,000 by 2026-11-20 stands and is still considered feasible.** Nothing about this decision moves
+that number or that date.
+
+### Named tradeoff, accepted
+
+Two brands means two things to plan, strategize and manage at the same time. Yina heard that and took
+it. It is recorded here so it is not a surprise in six weeks.
+
+Per the capacity rule: before the second plan takes calendar space, say what comes off. That has not
+been answered yet and is the first thing to watch.
+
+### Still open — where the product enters the content
+
+Yina asked the right question and it did not get a full answer: Days Like These content is largely
+holiday and event shaped, so where does the product actually enter the frame?
+
+The working answer is that the shop gets incorporated inside the lifestyle content rather than
+announced next to it. The specific mechanics, which posts carry a CTA, how often, and what a shop post
+looks like inside a lifestyle feed, are not decided. Do not invent them. Bring it up before the first
+batch of posts goes out.
+
+### Conflict 4 changes shape — the handle
+
+The old collision was `@shopdayslikethese` versus `@daysliketheseshop`. This decision reframes it.
+
+If Days Like These is the umbrella lifestyle brand, the main handle probably should not contain the word
+"shop" at all. "Shop" describes the thing inside the brand, not the brand. The handle that carries the
+audience should read as the brand; a shop handle, if there is a separate one, is the one that gets the
+qualifier.
+
+`references/brand-days-like-these.md`, `context/brand-guidelines.md` and
+`context/campaign-aidens-fifth.md` all still carry a shop-qualified handle from the shop-first era.
+Aiden's Fifth ships Edition 001 with one of them. Unchanged until Yina picks.
+
+### The current priority, in her words
+
+Capture content about Days Like These and get it published. Christmas is the near tentpole. The archive
+is already uploaded and is the raw material. This is the work of the week.
+
+**Owner:** Yina Belt. **Status:** decided, with two follow-ons open (what comes off the plate; where the
+product enters the content) and the handle unresolved.

@@ -139,18 +139,28 @@ Do not turn every income idea into a public income challenge. Do not chase a nar
 Do not spend four hours editing every post. Do not make follower count the only scorecard. Do not let
 production turn real family events into production sets.
 
-## Unresolved — read before acting on this
+## Resolved 2026-08-29 — this strategy governs the brand
 
-This strategy and the rest of the OS describe two different businesses under one name. Neither has been
-retired. The conflicts are listed in `decisions/log.md` under 2026-08-29. The four that matter:
+The conflict this file originally carried is closed. **Days Like These is the umbrella lifestyle brand
+and this document governs it.** The shop lives inside the brand as one of the opportunities it
+showcases.
 
-1. **Audience.** The OS ICP is "moms of young kids." This doc says the account is explicitly not a mom
-   account. Both cannot be the same surface.
-2. **Goal.** The OS is $1,000 gross by 2026-11-20. This doc is $15,000/month household, no deadline, and
-   says not to force every post to monetize.
-3. **Cadence.** The OS commits to 3 posts per week measured by count. This doc says 4 to 6 per week
-   measured by function.
-4. **Name.** `@daysliketheseshop` sells favors, decor and apparel. This account is a person. If they
-   share a handle the shop CTA lands on lifestyle content and the lifestyle content carries a sales ask.
+That means this file is no longer quarantined. Its lanes, series, cadence, privacy rules and production
+boundaries are live for content work.
 
-Do not write customer-facing copy off this file until those are answered.
+**What it does not govern:** the shop's own plan. The $1,000 gross by 2026-11-20, the pricing, the
+listings and the customer messages still run off `context/about-business.md` and
+`context/priorities.md`. Those are unchanged by this decision.
+
+**Cadence, in practice.** This doc says 4 to 6 meaningful posts per week for the brand. `priorities.md`
+commits to 3 posts per week for the shop. They are not the same count of the same thing, and a single
+asset can serve both. Do not merge the numbers. Track shop posts against priority 3 and brand posts
+against the function mix above.
+
+**Still open, do not invent answers:**
+
+1. **Where the product enters the content.** Undecided. Which posts carry a CTA, how often, and what a
+   shop post looks like inside a lifestyle feed. Raise it before the first batch goes out.
+2. **What comes off the plate.** Two plans is two plans.
+3. **The handle.** If Days Like These is the umbrella, the main handle probably should not contain
+   "shop". See `decisions/log.md`, 2026-08-29.
