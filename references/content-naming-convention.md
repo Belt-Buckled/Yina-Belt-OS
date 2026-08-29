@@ -44,7 +44,8 @@ Keep this list short and add to it deliberately. One project equals one build or
 
 | Slug | What it covers | Side |
 |---|---|---|
-| `xmas-2023` | Original pajama party at the sister-in-law's apartment. Mostly photos. | Brand |
+| `xmas-2022` | 24–25 Dec 2022. The only Christmas footage actually in Drive. Eve into morning. | Brand |
+| `xmas-2023` | Claimed in the content strategy. **Not found in Drive.** | Brand |
 | `xmas-2024` | Photos plus some video. Crafting and behind-the-scenes. | Brand |
 | `xmas-2025` | Santa's Workshop theme and party. The strongest archive year. | Brand |
 | `xmas-2026` | The nostalgic 90s build, in progress. The tentpole. | Brand |
@@ -79,19 +80,23 @@ glance instead of a surprise in the edit.
 
 ## Rules
 
-1. **Capture date, not upload date.** Upload date is an accident of when the phone was near wifi. It
-   tells you nothing. Pull the real date from the file's EXIF or from what you remember of the event.
-2. **Never rename to a name you cannot reconstruct.** Every rename gets recorded in the index against
+1. **Capture date, not upload date.** Upload date is an accident of when the phone was near a computer.
+   Proven on the Phone Import dump: single upload bursts there mix material years apart. Read the real
+   date from EXIF.
+2. **Never sort or group by `IMG_####`.** The counter resets with a new phone. In Phone Import,
+   `IMG_2825` is February 2023 and `IMG_2261` is September 2025, because they came off different
+   devices. Filename order looks like chronological order and is not.
+3. **Never rename to a name you cannot reconstruct.** Every rename gets recorded in the index against
    its original filename. Nothing becomes unfindable mid-migration.
-3. **Do not encode status in the name.** Raw, in production, approved and published are *folders*, and
+4. **Do not encode status in the name.** Raw, in production, approved and published are *folders*, and
    Drive already has them at `03`, `04` and `05`. A file that gets edited keeps its identity; only its
    location changes.
-4. **Do not encode platform in the name.** One asset can go to more than one place. Platform belongs to
+5. **Do not encode platform in the name.** One asset can go to more than one place. Platform belongs to
    the published export, not the master.
-5. **Keep bursts together.** Twelve frames of the same moment share a subject and differ only in `nnn`.
-6. **`unsorted` is a queue, not a category.** Anything still called `unsorted` after it has been looked
+6. **Keep bursts together.** Twelve frames of the same moment share a subject and differ only in `nnn`.
+7. **`unsorted` is a queue, not a category.** Anything still called `unsorted` after it has been looked
    at once is a bug.
-7. **New project slugs go in the table above before they go on a file.** That is what stops this from
+8. **New project slugs go in the table above before they go on a file.** That is what stops this from
    drifting back into a pile.
 
 ## Where files live

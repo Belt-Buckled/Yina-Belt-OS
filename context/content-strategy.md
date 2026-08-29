@@ -110,6 +110,11 @@ Corrects the single-line "last year's Christmas party" the OS had been carrying.
 Working hook on record: "Our Christmas party somehow went from a crowded apartment pajama party to
 almost 100 RSVPs."
 
+**Unverified against Drive, 2026-08-29.** EXIF on the Phone Import dump found exactly one Christmas:
+**24–25 December 2022**. Nothing from December 2023, 2024 or 2025, and nothing from calendar 2024 at
+all. Either the later years have not been uploaded, or the four-year archive above is optimistic. Check
+before building "Christmas Story Begins" on it. Detail in `references/phone-import-index.md`.
+
 **Archive principle:** old footage is not judged on polish. Working footage is not automatically weak
 footage. Ask what story function a clip can serve before calling it unusable.
 
