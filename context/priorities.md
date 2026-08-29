@@ -13,8 +13,8 @@ not 39. Week 1 runs 2026-08-24 to 2026-08-30. Week 12 ends 2026-11-15.
    `references/brand-days-like-these.md`.
 2. **$1,000 in gross sales by 2026-11-20.** Gross, not profit. This is the number that decides whether
    the business is real. It cannot be measured today, because no sale gets recorded anywhere.
-3. **Post about the brand 3x per week, every week.** 39 posts across the window. Measured by posts
-   published, not by reach or follower count.
+3. **Post about the brand 3x per week, every week.** 38 posts across the window, per the math above.
+   Measured by posts published, not by reach or follower count. **See the cadence conflict below.**
 
 ## Why this order
 
@@ -22,9 +22,9 @@ One reel already produced unsolicited inbound from two platforms, with no brand 
 funnel. Posting is the only activity that has ever generated non-family interest, so priority 3 is the
 engine behind priority 2. Priority 1 unblocks both.
 
-## Content assets: the 39 posts are not starting from zero
+## Content assets: the 38 posts are not starting from zero
 
-Priority 3 needs 39 posts. There is already a back catalog and a forward calendar.
+Priority 3 needs 38 posts. There is already a back catalog and a forward calendar.
 
 **Already shot, sitting in the archive:**
 - Last year's Christmas party. Full crafting content from an event that already happened.
@@ -57,3 +57,35 @@ start line makes the number honest. The tracker starts empty.
 
 Priority 2 has no measurement surface. Before the number can be hit it has to be countable: one sheet,
 five columns, date, item, channel, amount collected, cost of goods. That is Day 2 work.
+
+## Cadence — resolved 2026-08-29
+
+The earlier conflict with the Drive strategy doc is closed by the brand-architecture decision.
+
+Days Like These is the umbrella lifestyle brand and the shop lives inside it. They are two plans, not
+one, so the two cadences are counting two different things:
+
+| | This file | `context/content-strategy.md` |
+|---|---|---|
+| Whose | The shop | The brand |
+| Volume | 3 posts/week, 38 across the window | 4 to 6 meaningful posts/week |
+| Measure | Posts published | Function: reach, connection, series, proof-of-personality |
+| Serves | The $1,000 | Audience and opportunity |
+
+**Priority 3 is unchanged at 3x/week.** It is the shop's number and it is tied to the deadline. A single
+asset can serve both plans; when it does, count it in both. Do not add the two figures together and do
+not average them.
+
+**Open:** two plans is two plans. Before the brand cadence takes calendar space alongside this one, say
+what comes off. Recorded in `decisions/log.md`, 2026-08-29.
+
+## Where the archive actually lives — 2026-08-29
+
+The back catalog above now has a location: the `Phone Import` folder in Drive, ~100+ raw photos and
+videos uploaded 2026-08-28. Some files date to December 2022.
+
+It is unsorted, unnamed and unindexed. The bottleneck this file already identified, editing and
+publishing what exists, has not moved. The pile just became reachable.
+
+The Christmas archive is also richer than this file recorded. Four years, not one. Detail in
+`context/content-strategy.md`.

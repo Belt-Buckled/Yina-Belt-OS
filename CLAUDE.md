@@ -66,6 +66,51 @@ a concert shirt for an artist she loved young, and a birthday shirt for her todd
 The brand is the thing she loved then and the thing her kid loves now, made by the same hands. Apparel,
 favors and decor are surfaces that feeling gets applied to. Evoke an era, do not reproduce its logos.
 
+## Brand architecture — decided 2026-08-29
+
+**Days Like These is the umbrella.** It is the personality-led lifestyle brand: Yina as talent,
+projects, hosting, life in progress, perspective. **The shop lives inside it**, as one of the
+opportunities it showcases, not as a separate brand competing for the name.
+
+Two things to run, sharing a name and an audience, not sharing a plan:
+
+- **The brand.** Governed by `context/content-strategy.md`. Goal is $15,000/month household, no deadline.
+- **The shop.** Governed by `context/about-business.md` and `context/priorities.md`. Goal is
+  **$1,000 gross by 2026-11-20**, unchanged and still live.
+
+The existing personal TikTok becomes the Days Like These account by renaming the handle. It is not
+abandoned and rebuilt.
+
+Full statement in `decisions/log.md`, 2026-08-29 ("Days Like These is the umbrella").
+
+**Three things still open. Do not invent answers to them:**
+
+1. **Where the product enters the content.** The shop gets incorporated inside lifestyle content rather
+   than announced beside it. Which posts carry a CTA, how often, and what a shop post looks like in a
+   lifestyle feed are undecided. Raise it before the first batch goes out.
+2. **What comes off the plate.** Two brands is two plans. The capacity rule applies: before the second
+   one takes calendar space, say what it displaces.
+3. **The handle.** If Days Like These is the umbrella, the main handle probably should not contain
+   "shop" at all. The files still carry `@shopdayslikethese`
+   (`references/brand-days-like-these.md`) and `@daysliketheseshop` (`context/brand-guidelines.md`,
+   `context/campaign-aidens-fifth.md`) from the shop-first era. Aiden's Fifth ships Edition 001 with one
+   of them.
+
+**Current priority, in Yina's words:** capture content about Days Like These and get it published.
+Christmas is the near tentpole. The archive is already uploaded.
+
+## Google Drive
+
+Connected over MCP as of 2026-08-29. Root folder "Yina Belt". Map, IDs and drift in
+`references/drive-map.md`.
+
+The 10-folder taxonomy is built and empty. The two real things in it are the strategy Doc and
+`Phone Import`, a ~100+ file raw phone dump from 2026-08-28 that is the content back catalog. Revenue is
+still not in Drive, so Domain 1 is still the gap.
+
+**Naming convention:** `references/content-naming-convention.md`. Apply it to every asset before filing.
+**Phone Import index and labelling worksheet:** `references/phone-import-index.md`.
+
 ## Voice
 
 Match the register in `references/voice.md`. Casual but professional. Short sentences. No em dashes. Bullet points over paragraphs. Don't fake my voice on external content (listings, captions, posts, customer messages) without showing me a draft first.

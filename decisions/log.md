@@ -560,3 +560,145 @@ standing caveat that 2.5x does not pay for labor separately.
 **Owner:** Yina Belt.
 
 > *Adapted from The Three Ms of AI™. © 2026 Nate Herk. All rights reserved.*
+
+---
+
+## 2026-08-29 — Drive sync: four conflicts opened, no decisions made
+
+**This is not a decision entry.** Nothing was decided. It is logged here so the conflicts cannot be
+mistaken for settled, and so whoever answers them has the full statement of what disagrees.
+
+**What happened:** the AIOS read the Google Drive folder "Yina Belt" for the first time. Two things
+existed that the OS did not know about. One of them contradicts the OS.
+
+**Synced in:**
+- `context/content-strategy.md`, mirroring the Doc "Days Like These - Content & Brand Strategy"
+  (created 2026-08-27, owner `yina.j.belt@gmail.com`).
+- `references/drive-map.md`, the folder map, IDs and structural drift.
+- `connections.md`, Domain 7 moved to connected over MCP.
+
+### Conflict 1 — the audience
+
+The OS says the ICP is moms of young kids who buy custom apparel for their kids and for themselves. One
+buyer, multiple occasions. The strategy Doc says the account is explicitly **not** a mom account, and
+that children are not the center and appear without faces.
+
+Both can be true of two different surfaces. They cannot be true of one.
+
+### Conflict 2 — the goal
+
+$1,000 gross by 2026-11-20, hard deadline, the test of whether a stranger buys. Against $15,000/month
+household income, no deadline, "do not force every post to monetize," follower count is not the scorecard.
+
+The second goal is roughly 15x the first, on an open timeline, with a slower monetization posture. If the
+lifestyle strategy governs the content, priority 2 loses its engine, because priority 3 is the only
+activity that has ever produced non-family interest.
+
+### Conflict 3 — the cadence
+
+3 posts/week measured by count, against 4 to 6/week measured by function. Detail in
+`context/priorities.md`. Priority 3 stands at 3x/week until Yina says otherwise.
+
+### Conflict 4 — the name and the handle
+
+Two collisions, one nested inside the other.
+
+**Outer:** "Days Like These" now names both a shop selling favors, decor and apparel, and a
+personality-led lifestyle account whose product is the creator's point of view. One handle cannot carry
+"DM to order your occasion" and "I want to see what she does next" without one diluting the other.
+
+**Inner, and this one predates the Drive sync:** the handle itself is recorded two ways in this repo.
+`references/brand-days-like-these.md` says **DECIDED: `@shopdayslikethese`**, identical across Instagram,
+Facebook and Etsy. `context/brand-guidelines.md` and `context/campaign-aidens-fifth.md` both say
+`@daysliketheseshop`. Aiden's Fifth is Edition 001 and ships with a handle that may be the wrong one.
+This needs an answer before anything customer-facing goes out, and it is cheap to answer now and
+expensive to answer after the first post.
+
+**Capacity note.** The lifestyle strategy is not a smaller version of the current plan. It is a second
+plan, with its own lanes, series, cadence and privacy rules. Before it goes on the calendar alongside the
+$1,000 push, something comes off. That is a call for Yina, not for the OS to assume.
+
+**What would resolve this:** one answer to whether the lifestyle account is the brand's account, a
+separate personal account the brand appears inside, or the replacement for the shop-first plan. Every
+other conflict above collapses once that one is answered.
+
+**Owner:** Yina Belt. **Status:** open.
+
+---
+
+## 2026-08-29 — RESOLVED: Days Like These is the umbrella. The shop lives inside it.
+
+**Supersedes the four open conflicts logged earlier today.** Conflicts 1, 2 and 3 collapse. Conflict 4
+changes shape and is still open, in a smaller and sharper form.
+
+**Decision:** Days Like These is the personality-led lifestyle brand. The shop is one thing that happens
+inside it, not a separate brand competing for the name.
+
+In Yina's words: the shop is part of what she does, and what she does is her lifestyle. So the lifestyle
+is the brand, and the shop is one of its surfaces.
+
+**Why:** the lifestyle account is the opportunity opener. It is deliberately broader than the shop so it
+can carry brand deals, affiliate, platform revenue and partnerships. The shop is one opportunity it
+showcases, and the strongest one, because it is already real and already sells.
+
+Pointing the account only at the shop would cap it at the shop. Pointing it at the person and putting
+the shop inside it keeps both.
+
+### What this means operationally
+
+**Two things to run, not one.**
+
+| | Days Like These, the brand | The shop |
+|---|---|---|
+| What it is | Yina as talent. Projects, hosting, life in progress, perspective. | Favors, decor, custom apparel. |
+| What it produces | Audience, trust, opportunity. | Revenue. |
+| Governing doc | `context/content-strategy.md` | `context/about-business.md`, `context/priorities.md` |
+| Goal | $15,000/month household, no deadline | **$1,000 gross by 2026-11-20** |
+
+They share a name and an audience. They do not share a plan. Each gets its own strategy and its own
+place on the calendar.
+
+**The existing personal TikTok becomes the Days Like These account.** It does not get abandoned and
+rebuilt. Yina renames the handle and keeps the account she already has.
+
+**The $1,000 by 2026-11-20 stands and is still considered feasible.** Nothing about this decision moves
+that number or that date.
+
+### Named tradeoff, accepted
+
+Two brands means two things to plan, strategize and manage at the same time. Yina heard that and took
+it. It is recorded here so it is not a surprise in six weeks.
+
+Per the capacity rule: before the second plan takes calendar space, say what comes off. That has not
+been answered yet and is the first thing to watch.
+
+### Still open — where the product enters the content
+
+Yina asked the right question and it did not get a full answer: Days Like These content is largely
+holiday and event shaped, so where does the product actually enter the frame?
+
+The working answer is that the shop gets incorporated inside the lifestyle content rather than
+announced next to it. The specific mechanics, which posts carry a CTA, how often, and what a shop post
+looks like inside a lifestyle feed, are not decided. Do not invent them. Bring it up before the first
+batch of posts goes out.
+
+### Conflict 4 changes shape — the handle
+
+The old collision was `@shopdayslikethese` versus `@daysliketheseshop`. This decision reframes it.
+
+If Days Like These is the umbrella lifestyle brand, the main handle probably should not contain the word
+"shop" at all. "Shop" describes the thing inside the brand, not the brand. The handle that carries the
+audience should read as the brand; a shop handle, if there is a separate one, is the one that gets the
+qualifier.
+
+`references/brand-days-like-these.md`, `context/brand-guidelines.md` and
+`context/campaign-aidens-fifth.md` all still carry a shop-qualified handle from the shop-first era.
+Aiden's Fifth ships Edition 001 with one of them. Unchanged until Yina picks.
+
+### The current priority, in her words
+
+Capture content about Days Like These and get it published. Christmas is the near tentpole. The archive
+is already uploaded and is the raw material. This is the work of the week.
+
+**Owner:** Yina Belt. **Status:** decided, with two follow-ons open (what comes off the plate; where the
+product enters the content) and the handle unresolved.
