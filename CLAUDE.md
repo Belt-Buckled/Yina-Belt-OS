@@ -66,6 +66,33 @@ a concert shirt for an artist she loved young, and a birthday shirt for her todd
 The brand is the thing she loved then and the thing her kid loves now, made by the same hands. Apparel,
 favors and decor are surfaces that feeling gets applied to. Evoke an era, do not reproduce its logos.
 
+## Open conflict — read before customer-facing work
+
+Synced from Drive 2026-08-29. A content strategy Doc dated 2026-08-27 describes **Days Like These as a
+personality-led lifestyle account**, explicitly not a mom account, aiming at $15,000/month household
+income at 4 to 6 posts per week. The rest of this OS describes a shop selling favors, decor and apparel
+to moms of young kids, aiming at $1,000 gross by 2026-11-20 at 3 posts per week.
+
+Both were written by Yina, eight days apart. Neither was retired. Full statement in `decisions/log.md`
+under 2026-08-29, mirror in `context/content-strategy.md`.
+
+**Until Yina answers it:** the $1,000 plan governs. Do not blend the two. Do not write listings, captions
+or customer messages off the lifestyle strategy. Surface the conflict when it becomes load-bearing rather
+than picking a side quietly.
+
+**Also unresolved and cheaper to fix:** the handle is `@shopdayslikethese` in
+`references/brand-days-like-these.md` and `@daysliketheseshop` in `context/brand-guidelines.md` and
+`context/campaign-aidens-fifth.md`. Aiden's Fifth ships Edition 001 with one of them.
+
+## Google Drive
+
+Connected over MCP as of 2026-08-29. Root folder "Yina Belt". Map, IDs and drift in
+`references/drive-map.md`.
+
+The 10-folder taxonomy is built and empty. The two real things in it are the strategy Doc and
+`Phone Import`, a ~100+ file raw phone dump from 2026-08-28 that is the content back catalog arriving
+with no index and no naming convention. Revenue is still not in Drive, so Domain 1 is still the gap.
+
 ## Voice
 
 Match the register in `references/voice.md`. Casual but professional. Short sentences. No em dashes. Bullet points over paragraphs. Don't fake my voice on external content (listings, captions, posts, customer messages) without showing me a draft first.

@@ -560,3 +560,66 @@ standing caveat that 2.5x does not pay for labor separately.
 **Owner:** Yina Belt.
 
 > *Adapted from The Three Ms of AI™. © 2026 Nate Herk. All rights reserved.*
+
+---
+
+## 2026-08-29 — Drive sync: four conflicts opened, no decisions made
+
+**This is not a decision entry.** Nothing was decided. It is logged here so the conflicts cannot be
+mistaken for settled, and so whoever answers them has the full statement of what disagrees.
+
+**What happened:** the AIOS read the Google Drive folder "Yina Belt" for the first time. Two things
+existed that the OS did not know about. One of them contradicts the OS.
+
+**Synced in:**
+- `context/content-strategy.md`, mirroring the Doc "Days Like These - Content & Brand Strategy"
+  (created 2026-08-27, owner `yina.j.belt@gmail.com`).
+- `references/drive-map.md`, the folder map, IDs and structural drift.
+- `connections.md`, Domain 7 moved to connected over MCP.
+
+### Conflict 1 — the audience
+
+The OS says the ICP is moms of young kids who buy custom apparel for their kids and for themselves. One
+buyer, multiple occasions. The strategy Doc says the account is explicitly **not** a mom account, and
+that children are not the center and appear without faces.
+
+Both can be true of two different surfaces. They cannot be true of one.
+
+### Conflict 2 — the goal
+
+$1,000 gross by 2026-11-20, hard deadline, the test of whether a stranger buys. Against $15,000/month
+household income, no deadline, "do not force every post to monetize," follower count is not the scorecard.
+
+The second goal is roughly 15x the first, on an open timeline, with a slower monetization posture. If the
+lifestyle strategy governs the content, priority 2 loses its engine, because priority 3 is the only
+activity that has ever produced non-family interest.
+
+### Conflict 3 — the cadence
+
+3 posts/week measured by count, against 4 to 6/week measured by function. Detail in
+`context/priorities.md`. Priority 3 stands at 3x/week until Yina says otherwise.
+
+### Conflict 4 — the name and the handle
+
+Two collisions, one nested inside the other.
+
+**Outer:** "Days Like These" now names both a shop selling favors, decor and apparel, and a
+personality-led lifestyle account whose product is the creator's point of view. One handle cannot carry
+"DM to order your occasion" and "I want to see what she does next" without one diluting the other.
+
+**Inner, and this one predates the Drive sync:** the handle itself is recorded two ways in this repo.
+`references/brand-days-like-these.md` says **DECIDED: `@shopdayslikethese`**, identical across Instagram,
+Facebook and Etsy. `context/brand-guidelines.md` and `context/campaign-aidens-fifth.md` both say
+`@daysliketheseshop`. Aiden's Fifth is Edition 001 and ships with a handle that may be the wrong one.
+This needs an answer before anything customer-facing goes out, and it is cheap to answer now and
+expensive to answer after the first post.
+
+**Capacity note.** The lifestyle strategy is not a smaller version of the current plan. It is a second
+plan, with its own lanes, series, cadence and privacy rules. Before it goes on the calendar alongside the
+$1,000 push, something comes off. That is a call for Yina, not for the OS to assume.
+
+**What would resolve this:** one answer to whether the lifestyle account is the brand's account, a
+separate personal account the brand appears inside, or the replacement for the shop-first plan. Every
+other conflict above collapses once that one is answered.
+
+**Owner:** Yina Belt. **Status:** open.
